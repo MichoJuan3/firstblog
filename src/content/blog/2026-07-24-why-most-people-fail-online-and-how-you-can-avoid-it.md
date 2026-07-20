@@ -1,4 +1,4 @@
----1. 
+--- 
 title: "Why Most People Fail Online (And How You Can Avoid It)"
 description: "The internet has democratized opportunity like never before. Anyone with a laptop and an internet connection can start a business, build an audience,..."
 pubDate: "2026-07-24"

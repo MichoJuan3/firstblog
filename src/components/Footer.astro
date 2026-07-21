@@ -4,6 +4,11 @@ const today = new Date();
 
 <footer>
 	&copy; {today.getFullYear()} Jean Paul Michel. All rights reserved.
+	<div class="legal-links">
+		<a href="/privacy-policy">Privacy Policy</a>
+		<a href="/terms">Terms</a>
+		<a href="/affiliate-disclosure">Affiliate Disclosure</a>
+	</div>
 	<div class="social-links">
 		<a href="https://m.webtoo.ls/@astro" target="_blank">
 			<span class="sr-only">Follow Astro on Mastodon</span>
@@ -46,6 +51,21 @@ const today = new Date();
 		color: rgb(var(--gray));
 		text-align: center;
 	}
+	.legal-links {
+		display: flex;
+		justify-content: center;
+		gap: 1em;
+		margin-top: 0.75em;
+	}
+	.legal-links a {
+		text-decoration: none;
+		color: rgb(var(--gray));
+		font-size: 0.85em;
+	}
+	.legal-links a:hover {
+		color: rgb(var(--gray-dark));
+		text-decoration: underline;
+	}
 	.social-links {
 		display: flex;
 		justify-content: center;
@@ -59,4 +79,4 @@ const today = new Date();
 	.social-links a:hover {
 		color: rgb(var(--gray-dark));
 	}
-</style>
+</style>s

@@ -40,6 +40,11 @@
           "name": "heroImage",
           "type": "image",
           "isPreviewImage": true
+        },
+        {
+          "title": "category",
+          "name": "category",
+          "type": "categories"
         }
       ]
     }

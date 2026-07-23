@@ -1,5 +1,14 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.custom.scripts": [
+    {
+      "id": "push-git",
+      "title": "Push on GitHub",
+      "script": "./scripts/git-push.ps1",
+      "command": "powershell",
+      "type": "content"
+    }
+  ],
   "frontMatter.framework.id": "astro",
   "frontMatter.preview.host": "http://localhost:4321",
   "frontMatter.content.publicFolder": "public",

@@ -3,7 +3,7 @@ title: 7 Online Income Systems You Can Start With Little or No Money
 description: The internet has democratized earning opportunities in ways that were unimaginable just a decade ago. Today, anyone with a computer and internet...
 pubDate: 2026-07-14
 category: Online Income Systems
-heroImage: "/images/7-income-systems.jpg"
+heroImage: "./7-income-systems.jpg"
 ---
 
 The internet has democratized earning opportunities in ways that were unimaginable just a decade ago. Today, anyone with a computer and internet connection can build genuine income streams without significant upfront investment. Whether you're looking to supplement your current income or build something more substantial, these seven systems offer practical starting points that won't drain your bank account.

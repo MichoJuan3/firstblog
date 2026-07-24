@@ -12,8 +12,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 ---
 
-<!-- Favicon -->
-<link rel="icon" type="image/png" href="/favicon.png" />
+<!-- Favicon & Sitemap -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="icon" href="/favicon.ico" />
 <link rel="sitemap" href="/sitemap-index.xml" />
 <link

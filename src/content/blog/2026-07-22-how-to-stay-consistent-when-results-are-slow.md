@@ -1,7 +1,9 @@
 ---
 title: "How to Stay Consistent When Results Are Slow"
-description: "We've all been there. You've been showing up every day, putting in the work, staying disciplined—and yet, the scale won't budge. The follower count..."
-pubDate: "2026-07-22"
+description: "Discover practical strategies to maintain momentum and stay consistent even when progress feels slow."
+pubDate: 2026-07-22
+heroImage: "./stay-consistent-slow-results.webp"
+heroImageAlt: "Illustration of a person climbing a winding mountain path, representing consistency and slow progress"
 category: "Skills For Growth"
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: "The Financial Freedom Mindset: How Successful Online Entrepreneurs Think"
-description: "Discover the core mindset shifts and habits that help successful online entrepreneurs build lasting financial freedom."
+title: Online Entrepreneurs Financial Mindset
+description: Discover the core mindset shifts and habits that help successful online entrepreneurs build lasting financial freedom.
 pubDate: 2026-07-23
-heroImage: "./financial-freedom-mindset-entrepreneurs.webp"
-heroImageAlt: "Illustration of an entrepreneur in a sunlit home office looking at growth charts, representing the financial freedom mindset"
-category: "Skills For Growth"
+heroImage: "./Online Entrepreneurs Financial Mindset_compressed.webp"
+heroImageAlt: Illustration of an entrepreneur in a sunlit home office looking at growth charts, representing the financial freedom mindset
+category: Skills For Growth
 ---
 
 *Want to know the real secret behind successful online entrepreneurs? It's not their tools, their network, or even their skills. It's how they think.*

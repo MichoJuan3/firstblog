@@ -1,8 +1,9 @@
 ---
-title: "The 8 Dropshipping Mistakes That Are Secretly Draining Your Profits (And How to Fix Them)"
-description: "So you've launched your dropshipping store, the orders are starting to trickle in, but somehow the profits just aren't there. Sound familiar? You're..."
-pubDate: "2026-07-20"
-category: "Selling Without Inventory"
+title: "8-costly-dropshipping-mistakes-&-how-to-fix-them"
+description: So you've launched your dropshipping store, the orders are starting to trickle in, but somehow the profits just aren't there. Sound familiar? You're...
+pubDate: 2026-07-20
+heroImage: "./8-costly-dropshipping-mistakes-&-how-to-fix-them_compressed.webp"
+category: Selling Without Inventory
 ---
 
 # 

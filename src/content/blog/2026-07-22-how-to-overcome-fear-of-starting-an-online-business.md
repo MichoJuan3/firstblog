@@ -1,7 +1,9 @@
 ---
-title: "How to Overcome Fear of Starting an Online Business"
-description: "That gnawing feeling in your stomach when you think about launching your online business you're not alone in feeling it. The idea of putting yourself..."
-pubDate: "2026-07-22"
+title: "How to Overcome Fear of Starting an Online Business?"
+description: "Learn actionable strategies to overcome fear and start your online business journey today."
+pubDate: 2026-07-24
+heroImage: "./overcome-fear-online-business.webp"
+heroImageAlt: "Illustration of a person looking at a sunrise with a laptop, representing overcoming fear of starting an online business"
 category: "Skills For Growth"
 ---
 

@@ -1,8 +1,9 @@
 ---
-title: "Time Management for Online Entrepreneurs With Limited Resources"
-description: "Starting an online business with limited time, money, or team support means traditional productivity advice often misses the mark. You can't just..."
-pubDate: "2026-07-23"
-category: "Skills For Growth"
+title: Efficient Time Management with Low Resources
+description: Starting an online business with limited time, money, or team support means traditional productivity advice often misses the mark. You can't just...
+pubDate: 2026-07-23
+heroImage: "./Efficient Time Management with Low Resources_compressed.webp"
+category: Skills For Growth
 ---
 
 Starting an online business with limited time, money, or team support means traditional productivity advice often misses the mark. You can't just "hire it out" or "invest in premium tools" when resources are tight. What you need are strategies that multiply your effectiveness without multiplying your expenses.

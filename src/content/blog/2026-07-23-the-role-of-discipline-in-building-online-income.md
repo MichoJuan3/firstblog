@@ -22,7 +22,7 @@ Traditional jobs come with built-in accountability structures. Show up late, and
 
 Online income has none of that. You're the employee, the manager, and the person who decides whether your performance is acceptable. And here's what I've learned: most of us are terrible bosses to ourselves.
 
-## Why Most People Fail (And It's Not What You Think)
+## It’s not what you might assume, but here’s the reason most people fail.)
 
 Look at the numbers. The vast majority of blogs never make it past ten posts. Most YouTube channels are abandoned within three months. Online stores launch with enthusiasm and close quietly a few months later.
 

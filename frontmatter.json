@@ -23,8 +23,8 @@
     {
       "name": "default",
       "pageBundle": false,
-      "previewPath": "'blog'",
-      "filePrefix": null,
+"previewPath": "blog",      
+"filePrefix": null,
       "clearEmpty": true,
       "fields": [
         {

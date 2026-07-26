@@ -1,8 +1,14 @@
 ---
 title: "How to Create High-Converting Product Pages That Sell"
-description: "Your product page is where browsing turns into buying. It's the digital equivalent of a skilled salesperson—except it needs to work 24/7, handle..."
-pubDate: "2026-07-18"
-category: "Selling Without Inventory"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "How to Create High-Converting Product Pages That Sell"
 ---
 
 Your product page is where browsing turns into buying. It's the digital equivalent of a skilled salesperson—except it needs to work 24/7, handle thousands of visitors simultaneously, and close sales without ever speaking a word.

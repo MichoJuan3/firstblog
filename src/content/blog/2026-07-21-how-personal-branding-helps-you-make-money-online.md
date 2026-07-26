@@ -1,8 +1,14 @@
 ---
 title: "How Personal Branding Helps You Make Money Online"
-description: "Discover why building your personal brand is the smartest investment you can make in your online business If you've been trying to make money online,..."
-pubDate: "2026-07-21"
-category: "Skills For Growth"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "How Personal Branding Helps You Make Money Online"
 ---
 
 *Discover why building your personal brand is the smartest investment you can make in your online business*

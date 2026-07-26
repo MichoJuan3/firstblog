@@ -1,8 +1,14 @@
 ---
 title: "Scaling Your Online Income Without Burning Out"
-description: "Building sustainable online income is about working smarter, not just harder. The promise of financial freedom through online business is real, but..."
-pubDate: "2026-07-22"
-category: "Skills For Growth"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "Scaling Your Online Income Without Burning Out"
 ---
 
 Building sustainable online income is about working smarter, not just harder. The promise of financial freedom through online business is real, but only if you approach it strategically. Too many entrepreneurs build impressive revenue streams only to find themselves exhausted, overwhelmed, and questioning whether it was all worth it.

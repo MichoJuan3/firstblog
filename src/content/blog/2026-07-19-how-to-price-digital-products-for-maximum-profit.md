@@ -1,8 +1,14 @@
 ---
 title: "How to Price Digital Products for Maximum Profit"
-description: "Pricing your digital product might be the most important business decision you'll make. Set it too low, and you'll struggle to cover costs while..."
-pubDate: "2026-07-19"
-category: "Selling Without Inventory"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "How to Price Digital Products for Maximum Profit"
 ---
 
 Pricing your digital product might be the most important business decision you'll make. Set it too low, and you'll struggle to cover costs while attracting bargain hunters who don't value your work. Set it too high without proper positioning, and you'll hear crickets at checkout.

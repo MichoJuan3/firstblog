@@ -1,8 +1,14 @@
 ---
 title: "High-Income Digital Skills You Can Learn in 90 Days"
-description: "1. Social Media Marketing &amp; Management Income Potential: $3,000$10,000+ per month What You'll Learn: Content strategy and calendar planning..."
-pubDate: "2026-07-21"
-category: "Skills For Growth"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "High-Income Digital Skills You Can Learn in 90 Days"
 ---
 
 ## 1. Social Media Marketing &amp; Management

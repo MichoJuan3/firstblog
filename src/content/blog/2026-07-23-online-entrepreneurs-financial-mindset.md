@@ -1,10 +1,14 @@
 ---
-title: Online Entrepreneurs Financial Mindset
-description: Discover the core mindset shifts and habits that help successful online entrepreneurs build lasting financial freedom.
-pubDate: 2026-07-23
-heroImage: "./Online Entrepreneurs Financial Mindset_compressed.webp"
-heroImageAlt: Illustration of an entrepreneur in a sunlit home office looking at growth charts, representing the financial freedom mindset
-category: Skills For Growth
+title: "Online Entrepreneurs Financial Mindset"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "Online Entrepreneurs Financial Mindset"
 ---
 
 *Want to know the real secret behind successful online entrepreneurs? It's not their tools, their network, or even their skills. It's how they think.*

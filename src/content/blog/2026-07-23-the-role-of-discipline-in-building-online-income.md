@@ -1,9 +1,14 @@
 ---
 title: "The Role of Discipline in Building Online Income"
-description: "Why selfcontrol matters more than talent when earning money online Let me tell you something nobody talks about when they're selling you their..."
-pubDate: "2026-07-23"
-category: "Skills For Growth"
-heroImage: "./Discipline-in-Building-Online-Income.jpg"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "The Role of Discipline in Building Online Income"
 ---
 
 *Why self-control matters more than talent when earning money online*

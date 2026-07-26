@@ -1,10 +1,14 @@
 ---
 title: "How to Overcome Fear of Starting an Online Business?"
-description: "Learn actionable strategies to overcome fear and start your online business journey today."
-pubDate: 2026-07-24
-heroImage: "./overcome-fear-online-business.webp"
-heroImageAlt: "Illustration of a person looking at a sunrise with a laptop, representing overcoming fear of starting an online business"
-category: "Skills For Growth"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "How to Overcome Fear of Starting an Online Business?"
 ---
 
 That gnawing feeling in your stomach when you think about launching your online business - you're not alone in feeling it. The idea of putting yourself out there, investing time and money, and potentially failing can be paralyzing. But here's the truth: fear is often just unfamiliarity wearing a scary mask.

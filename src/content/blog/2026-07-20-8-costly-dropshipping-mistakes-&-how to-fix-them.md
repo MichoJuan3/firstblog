@@ -1,9 +1,14 @@
 ---
 title: "8 Costly Dropshipping Mistakes & How to Fix Them"
-description: So you've launched your dropshipping store, the orders are starting to trickle in, but somehow the profits just aren't there. Sound familiar? You're...
-pubDate: 2026-07-20
-heroImage: "./8-costly-dropshipping-mistakes-&-how-to-fix-them_compressed.webp"
-category: Selling Without Inventory
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "8 Costly Dropshipping Mistakes & How to Fix Them"
 ---
 
 # 

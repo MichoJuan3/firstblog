@@ -1,9 +1,14 @@
 ---
 title: "7 Online Income Systems You Can Start for Free"
-description: "Discover 7 proven online income systems you can start today with zero upfront investment."
-pubDate: "2026-07-22"
-heroImage: "./7 Online Income Systems You Can Start for Free_compressed.webp"
-category: Skills For Growth
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "7 Online Income Systems You Can Start for Free"
 ---
 
 One of the biggest misconceptions about starting a business is that you need thousands of dollars in capital to get off the ground. The reality of the digital age is very different: **you don't need money to start; you need a system.**

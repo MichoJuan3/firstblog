@@ -1,10 +1,14 @@
 ---
 title: "How to Stay Consistent When Results Are Slow"
-description: "Discover practical strategies to maintain momentum and stay consistent even when progress feels slow."
-pubDate: 2026-07-22
-heroImage: "./stay-consistent-slow-results.webp"
-heroImageAlt: "Illustration of a person climbing a winding mountain path, representing consistency and slow progress"
-category: "Skills For Growth"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "How to Stay Consistent When Results Are Slow"
 ---
 
 # 

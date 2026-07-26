@@ -1,8 +1,14 @@
 ---
 title: "How to Build an Email List That Makes Money on Autopilot"
-description: "Building a profitable email list requires strategic planning and consistent execution. When done correctly, your email list becomes a powerful asset..."
-pubDate: "2026-07-16"
-category: "Online Income Systems"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "How to Build an Email List That Makes Money on Autopilot"
 ---
 
 Building a profitable email list requires strategic planning and consistent execution. When done correctly, your email list becomes a powerful asset that generates revenue around the clock, even while you sleep. This comprehensive guide will walk you through everything you need to know to create an email list that works for you on autopilot.

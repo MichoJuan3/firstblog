@@ -1,8 +1,14 @@
 ---
 title: "Selling Without inventory"
-description: "What is PrintonDemand? PrintonDemand POD is a business model where products are only manufactured after a customer places an order. Instead of..."
-pubDate: "2026-07-17"
-category: "Selling Without Inventory"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "Selling Without inventory"
 ---
 
 ## What is Print-on-Demand?

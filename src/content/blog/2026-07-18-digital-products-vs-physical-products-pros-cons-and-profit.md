@@ -1,8 +1,14 @@
 ---
 title: "Digital Products vs Physical Products: Pros, Cons, and Profit"
-description: "Digital Products Pros Digital products offer significant advantages in today's connected economy. Once created, they can be sold infinitely without..."
-pubDate: "2026-07-18"
-category: "Selling Without Inventory"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "Digital Products vs Physical Products: Pros, Cons, and Profit"
 ---
 
 ## Digital Products

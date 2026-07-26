@@ -1,8 +1,14 @@
 ---
 title: "Common Mistakes Beginners Make When Trying to Make Money Online"
-description: "The dream of making money online is more accessible than ever before. With just a laptop and an internet connection, countless opportunities await...."
-pubDate: "2026-07-15"
-category: "Online Income Systems"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "Common Mistakes Beginners Make When Trying to Make Money Online"
 ---
 
 The dream of making   money online is more accessible than ever before. With just a laptop and an internet connection, countless opportunities await. However, the path to online success is littered with common pitfalls that trip up beginners time and time again. Understanding these mistakes can save you months of frustration and help you build a sustainable online income faster.

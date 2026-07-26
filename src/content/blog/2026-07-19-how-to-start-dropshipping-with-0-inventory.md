@@ -1,8 +1,14 @@
 ---
 title: "How to Start Dropshipping With $0 Inventory"
-description: "Dropshipping is a business model where you sell products without holding any inventory. When a customer orders from your store, you purchase the item..."
-pubDate: "2026-07-19"
-category: "Selling Without Inventory"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "How to Start Dropshipping With $0 Inventory"
 ---
 
 Dropshipping is a business model where you sell products without holding any inventory. When a customer orders from your store, you purchase the item from a third-party supplier who ships it directly to the customer. Here's exactly how to get started, step by step.

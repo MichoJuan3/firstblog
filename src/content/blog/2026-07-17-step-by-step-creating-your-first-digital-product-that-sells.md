@@ -1,8 +1,14 @@
 ---
 title: "Step by Step: Creating Your First Digital Product That Sells"
-description: "Creating a digital product can be one of the most rewarding ventures, whether you are looking to generate passive income, share your expertise, or..."
-pubDate: "2026-07-17"
-category: "Online Income Systems"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "Step by Step: Creating Your First Digital Product That Sells"
 ---
 
 Creating a digital product can be one of the most rewarding ventures, whether you are looking to generate passive income, share your expertise, or build a business. Here is a practical guide to help you launch your first successful digital product.

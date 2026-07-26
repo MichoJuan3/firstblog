@@ -1,8 +1,14 @@
 ---
 title: "How Automation Tools Help You Earn While You Sleep"
-description: "The concept of earning money while you sleep has evolved from fantasy to reality, thanks to modern automation tools and AI technology. These systems..."
-pubDate: "2026-07-15"
-category: "Online Income Systems"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "How Automation Tools Help You Earn While You Sleep"
 ---
 
 The concept of earning money while you sleep has evolved from fantasy to reality, thanks to modern automation tools and AI technology. These systems handle repetitive tasks, manage customer interactions, and generate revenue with minimal ongoing input after the initial setup.

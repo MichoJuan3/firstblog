@@ -1,8 +1,14 @@
 ---
 title: "From Side Hustle to Full-Time Online Income: A Realistic Roadmap"
-description: "Making the leap from a side hustle to full time online income is one of the most exciting and nerve wracking transitions you can make. I've watched..."
-pubDate: "2026-07-15"
-category: "Online Income Systems"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "From Side Hustle to Full-Time Online Income: A Realistic Roadmap"
 ---
 
 Making the leap from a side hustle to full time online income is one of the most exciting and nerve wracking transitions you can make. I've watched countless people navigate this journey, and while everyone's path is different, there are clear patterns that separate those who succeed from those who struggle.

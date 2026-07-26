@@ -1,8 +1,14 @@
 ---
 title: "Free vs Paid Learning: What Actually Gets Results"
-description: "You're scrolling through your feed when another ad pops up: 'Master Python in 30 Days Only $499' Meanwhile, your bookmark folder overflows with free..."
-pubDate: "2026-07-21"
-category: "Skills For Growth"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "Free vs Paid Learning: What Actually Gets Results"
 ---
 
 You're scrolling through your feed when another ad pops up: "Master Python in 30 Days Only $499!" Meanwhile, your bookmark folder overflows with free courses you swore you'd finish. Sound familiar?

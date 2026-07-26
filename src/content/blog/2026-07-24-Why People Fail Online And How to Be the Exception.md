@@ -1,9 +1,14 @@
---- 
+---
 title: "Why People Fail Online And How to Be the Exception"
-description: "The internet has democratized opportunity like never before. Anyone with a laptop and an internet connection can start a business, build an audience,..."
-pubDate: "2026-07-24"
-category: "Skills For Growth"
-heroImage: "./Why People Fail Online And How to Be the Exception_compressed.webp"
+description: "Description de l'article"
+pubDate: 2026-07-15
+author: "Jean Paul Michel"
+tags:
+  - "General"
+draft: false
+coverImage:
+  src: "/images/default.jpg"
+  alt: "Why People Fail Online And How to Be the Exception"
 ---
 
 The internet has democratized opportunity like never before. Anyone with a laptop and an internet connection can start a business, build an audience, or create a revenue stream. Yet despite this accessibility, the harsh reality is that most people who venture online never achieve their goals.

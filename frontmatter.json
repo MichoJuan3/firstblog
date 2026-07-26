@@ -12,6 +12,7 @@
   "frontMatter.framework.id": "astro",
   "frontMatter.preview.host": "http://localhost:4321",
   "frontMatter.content.publicFolder": "public",
+  "frontMatter.media.folder": "src/assets/images",
   "frontMatter.content.pageFolders": [
     {
       "title": "blog",
@@ -45,15 +46,44 @@
           "isPublishDate": true
         },
         {
-          "title": "Content preview",
-          "name": "heroImage",
-          "type": "image",
-          "isPreviewImage": true
+          "title": "Author",
+          "name": "author",
+          "type": "string",
+          "default": "Jean Paul Michel"
         },
         {
-          "title": "category",
+          "title": "Cover Image",
+          "name": "coverImage",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "Image File",
+              "name": "src",
+              "type": "image",
+              "isPreviewImage": true
+            },
+            {
+              "title": "Alt Text",
+              "name": "alt",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Category",
           "name": "category",
           "type": "categories"
+        },
+        {
+          "title": "Draft",
+          "name": "draft",
+          "type": "boolean",
+          "default": false
         }
       ]
     }

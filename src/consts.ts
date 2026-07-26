@@ -1,5 +1,7 @@
-// Place any global data in this file.
-// You can import this data from anywhere in your site by using the `import` keyword.
+// Placez ici toutes les données globales du site.
+// Vous pouvez importer ces valeurs partout sur votre site via l'instruction `import`.
 
 export const SITE_TITLE = 'Blog Techwemate';
-export const SITE_DESCRIPTION = 'Discover the latest news, tutorials, and practical guides on tech, web development, and digital tools on Blog Techwemate.';
+export const SITE_DESCRIPTION = 'Tutorials and practical guides on tech, web development, and digital tools on Blog Techwemate.';
+export const SITE_URL = 'https://blog.techwemate.com';
+export const DEFAULT_AUTHOR = 'Jean Paul Michel';

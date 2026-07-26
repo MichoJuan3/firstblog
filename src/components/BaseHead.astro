@@ -1,7 +1,6 @@
 ---
 import '../styles/global.css';
-import { SITE_TITLE } from '../consts';
-
+import { SITE_TITLE } from '../consts.ts';
 interface Props {
   title: string;
   description: string;
@@ -13,7 +12,7 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 ---
 
 <!-- Favicon & Sitemap -->
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=3" />
 <link rel="icon" href="/favicon.ico" />
 <link rel="sitemap" href="/sitemap-index.xml" />
 <link

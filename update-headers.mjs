@@ -38,7 +38,7 @@ async function updateHeaders() {
         const description = descMatch ? descMatch[1] : "Blog post description";
         const pubDate = dateMatch ? dateMatch[1].trim() : "2026-07-15";
         const author = authorMatch ? authorMatch[1] : "Jean Paul Michel";
-        const imgSrc = srcMatch ? `/images/${path.basename(srcMatch[1])}` : "/images/default.jpg";
+        const imgSrc = srcMatch ? `/images/${path.basename(srcMatch[1])}` : "/images/default.webp";
         // Keep markdown body without old front matter
         // Safely strip the old front matter and keep the body intact
 const markdownBody = content.trimStart().replace(/^---[\s\S]*?---\r?\n?/, '');

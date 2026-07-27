@@ -33,7 +33,7 @@ One significant advantage introduced in early 2025 is that Gumroad now handles a
 
 Gumroad shines in its simplicity. The platform includes built-in email marketing tools, allowing you to build and nurture your subscriber list without third-party services. You can set up affiliate programs to let others promote your products for commission, and the membership feature enables recurring revenue through subscription content.
 
-The weekly payout schedule ensures you receive your earnings every Friday, providing consistent cash flow. The onboarding process is remarkably straightforwardâ€”upload your product, set your price, and share your link.
+The weekly payout schedule ensures you receive your earnings every Friday, providing consistent cash flow. The onboarding process is remarkably straightforward—upload your product, set your price, and share your link.
 
 ### Limitations to Consider
 
@@ -77,7 +77,7 @@ Payhip positions itself as a middle ground between simplicity and features, offe
 
 ### Pricing and Fees
 
-Payhip offers three tiers to accommodate different business stages. The Free plan charges a 5% transaction fee with no monthly costâ€”higher than Gumroad's 10% but with more features included. The Plus plan costs $29 monthly and reduces the transaction fee to 2%, while the Pro plan at $99 monthly eliminates transaction fees entirely.
+Payhip offers three tiers to accommodate different business stages. The Free plan charges a 5% transaction fee with no monthly cost—higher than Gumroad's 10% but with more features included. The Plus plan costs $29 monthly and reduces the transaction fee to 2%, while the Pro plan at $99 monthly eliminates transaction fees entirely.
 
 Regardless of your plan, standard payment processor fees of approximately 2.9% still apply. The platform also handles EU and UK VAT automatically, simplifying international compliance.
 

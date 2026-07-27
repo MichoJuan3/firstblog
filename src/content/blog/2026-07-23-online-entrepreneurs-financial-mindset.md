@@ -77,7 +77,7 @@ Notice what's missing from that list? Formal certifications.
 
 The crucial difference: **they learn to DO, not to have learned.** Education is a tool for building something, not a badge to display on LinkedIn.
 
-This often means unconventional pathsâ€”YouTube tutorials, online courses, mentorship programs, and above all, learning by actually doing the thing.
+This often means unconventional paths—YouTube tutorials, online courses, mentorship programs, and above all, learning by actually doing the thing.
 
 **Your action step:** Pick one skill that would directly impact your business. Spend the next 30 days becoming dangerous at it.
 
@@ -85,7 +85,7 @@ This often means unconventional pathsâ€”YouTube tutorials, online courses, 
 
 Here's a paradox that confused me for years: **the people who achieve financial freedom often aren't primarily motivated by money.**
 
-They're driven by freedom, impact, creativity, or solving fascinating problems. Money becomes the scorecard and the fuelâ€”but it's not the destination.
+They're driven by freedom, impact, creativity, or solving fascinating problems. Money becomes the scorecard and the fuel—but it's not the destination.
 
 This mindset shift is incredibly powerful because it redirects all your energy toward **creating genuine value** rather than desperately chasing dollars.
 
@@ -111,7 +111,7 @@ This thinking makes them **ruthlessly protective of their time**. They're comfor
 
 ## 6. They Build Before They Need To
 
-Here's a pattern I've noticed: Most people wait until they're desperateâ€”broke, burned out, or laid offâ€”before attempting entrepreneurship.
+Here's a pattern I've noticed: Most people wait until they're desperate—broke, burned out, or laid off—before attempting entrepreneurship.
 
 Successful online entrepreneurs? **They build while they still have stability.**
 
@@ -151,7 +151,7 @@ This long-term orientation helps them weather the inevitable valleys, plateaus, 
 
 ## 8. They Hunt for Asymmetric Opportunities
 
-Perhaps most importantly, successful entrepreneurs develop **a sharp eye for asymmetric risk-reward scenarios**â€”situations where the potential upside dramatically exceeds the downside.
+Perhaps most importantly, successful entrepreneurs develop **a sharp eye for asymmetric risk-reward scenarios**—situations where the potential upside dramatically exceeds the downside.
 
 Examples:
 
@@ -195,7 +195,7 @@ So here's my challenge to you: Pick one mindset shift from this article. Just on
 
 Notice what changes. Notice what new opportunities become visible. Notice how different your decisions feel.
 
-Because here's what I've learned: **the right mindset doesn't just help you build wealthâ€”it transforms the entire journey.**
+Because here's what I've learned: **the right mindset doesn't just help you build wealth—it transforms the entire journey.**
 
 And that transformation? That's where real freedom lives.
 

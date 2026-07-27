@@ -313,6 +313,6 @@ Consider these factors when selecting your traffic strategy:
 
 ## Final Thoughts
 
-The best passive income strategy often combines multiple traffic sources. Start with one free and one paid source, master them, then expand. Remember that "passive" income still requires upfront workâ€”the passivity comes after you've built the systems.
+The best passive income strategy often combines multiple traffic sources. Start with one free and one paid source, master them, then expand. Remember that "passive" income still requires upfront work—the passivity comes after you've built the systems.
 
 Track your metrics religiously: cost per click, conversion rate, customer lifetime value, and ROI. Let data guide your decisions, not emotions or trends. The traffic source that works best is the one that profitably brings you customers, regardless of what's currently trendy.

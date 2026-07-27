@@ -67,7 +67,7 @@ Amazon publicly shares massive amounts of sales data that most people ignore. He
 
 ### The Best Sellers Page
 
-Navigate to Amazon's Best Sellers section and explore different categories. Don't just look at the top 10â€”dig deeper into subcategories where competition might be lower. Look for products that:
+Navigate to Amazon's Best Sellers section and explore different categories. Don't just look at the top 10—dig deeper into subcategories where competition might be lower. Look for products that:
 
 - Have consistent sales (not just one-time viral hits)
 
@@ -153,7 +153,7 @@ Now that you know where to look, here's what to look for. Winning products typic
 
 **High Perceived Value, Low Cost**: You should be able to sell it for at least 3x what it costs you. A $5 product that solves a real problem can easily sell for $20-30.
 
-**Solves a Specific Problem**: The best products address a clear pain point. People don't just want itâ€”they need it to solve something frustrating in their daily lives.
+**Solves a Specific Problem**: The best products address a clear pain point. People don't just want it—they need it to solve something frustrating in their daily lives.
 
 **Impulse Buy Friendly**: Products under $50 are easier to sell because people don't overthink the purchase. The lower the price, the less friction in the buying decision.
 
@@ -179,7 +179,7 @@ Finding a potential winner is just the first step. Here's how to validate it bef
 
 ## Putting It All Together
 
-Product research isn't a one-time activityâ€”it's an ongoing process. Set aside time each week to browse these free resources. Keep a spreadsheet of promising products with notes on why they caught your attention.
+Product research isn't a one-time activity—it's an ongoing process. Set aside time each week to browse these free resources. Keep a spreadsheet of promising products with notes on why they caught your attention.
 
 The most successful sellers don't just find one winning product; they develop a system for consistently identifying opportunities. By combining multiple free research methods, you'll start seeing patterns and developing instincts for what works.
 
@@ -201,6 +201,6 @@ Ready to start? Here's what to do in the next seven days:
 
 - **Day 7**: Compile your research and pick your top 3 products to investigate further
 
-The product that launches your successful ecommerce business is out there. You just need to do the work to find it. And as you can see, that work doesn't require expensive toolsâ€”just time, curiosity, and strategic thinking.
+The product that launches your successful ecommerce business is out there. You just need to do the work to find it. And as you can see, that work doesn't require expensive tools—just time, curiosity, and strategic thinking.
 
 Now stop reading and start researching. Your winning product is waiting to be discovered.

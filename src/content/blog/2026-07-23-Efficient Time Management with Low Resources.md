@@ -17,7 +17,7 @@ If you're bootstrapping your way to success, this guide will show you how to mak
 
 ## The Reality Check: Why Standard Advice Doesn't Work
 
-Most time management content assumes you have resources to throw at problems. But when you're a solopreneur or small team working with constraints, you need a different playbook entirely. You're not just managing timeâ€”you're managing energy, attention, and limited capital simultaneously.
+Most time management content assumes you have resources to throw at problems. But when you're a solopreneur or small team working with constraints, you need a different playbook entirely. You're not just managing time—you're managing energy, attention, and limited capital simultaneously.
 
 The good news? Constraints breed creativity. Some of the most successful online businesses were built by entrepreneurs who learned to do more with less.
 
@@ -25,7 +25,7 @@ The good news? Constraints breed creativity. Some of the most successful online 
 
 ### 1. Revenue-Generating Activities Come First
 
-Not all tasks are created equal. Ruthlessly prioritize activities that directly generate revenue over busywork that merely feels productive. That means product development, direct selling, and customer retention should dominate your calendarâ€”not endless social media tweaking or logo redesigns.
+Not all tasks are created equal. Ruthlessly prioritize activities that directly generate revenue over busywork that merely feels productive. That means product development, direct selling, and customer retention should dominate your calendar—not endless social media tweaking or logo redesigns.
 
 ### 2. Automate Everything Possible
 
@@ -37,7 +37,7 @@ Perfectionism is expensive. It costs time you don't have and delays revenue you 
 
 ## The Brutal Time Audit: Where Your Hours Really Go
 
-Before you can optimize your time, you need to know where it's actually going. Track everything you do for three full business days. Be honestâ€”include the email checking, the social media scrolling, the "quick tasks" that eat up hours.
+Before you can optimize your time, you need to know where it's actually going. Track everything you do for three full business days. Be honest—include the email checking, the social media scrolling, the "quick tasks" that eat up hours.
 
 Then categorize each activity:
 
@@ -95,17 +95,17 @@ Double down on that vital 20%. Everything else should be minimized, systematized
 
 ## Manage Energy, Not Just Time
 
-With limited resources, you can't afford burnout. Your energy is as valuable as your timeâ€”perhaps more so.
+With limited resources, you can't afford burnout. Your energy is as valuable as your time—perhaps more so.
 
 Structure your day around your natural rhythms:
 
-- **Peak Energy Hours**: Reserve these for your most cognitively demanding workâ€”strategy, creation, complex problem-solving
+- **Peak Energy Hours**: Reserve these for your most cognitively demanding work—strategy, creation, complex problem-solving
 
 - **Medium Energy**: Handle routine client work, communications, and standard tasks
 
 - **Low Energy**: Tackle administrative work, scheduling, and simple organizational tasks
 
-This isn't indulgentâ€”it's strategic resource allocation when you're your own most valuable asset.
+This isn't indulgent—it's strategic resource allocation when you're your own most valuable asset.
 
 Also, build in real recovery time. Working 80-hour weeks might feel necessary, but diminishing returns set in fast. You'll accomplish more working focused 40-50 hour weeks than grinding yourself into exhaustion.
 
@@ -139,7 +139,7 @@ Consider implementing:
 
 - **Email Batching**: Check and respond to email 2-3 times daily instead of constantly
 
-These boundaries aren't selfish or unprofessionalâ€”they're necessary for sustainable growth. Communicate them clearly, and most clients will respect them.
+These boundaries aren't selfish or unprofessional—they're necessary for sustainable growth. Communicate them clearly, and most clients will respect them.
 
 ## Embrace the Trade-offs
 
@@ -149,11 +149,11 @@ Can't afford a virtual assistant yet? Then your social media might not be as act
 
 Acknowledging these trade-offs explicitly helps you stop feeling guilty about what you're not doing. Instead, you can focus your energy on what you can control and execute exceptionally.
 
-Every successful entrepreneur started with constraints. The ones who made it weren't necessarily more talentedâ€”they were more strategic about where they invested their limited resources.
+Every successful entrepreneur started with constraints. The ones who made it weren't necessarily more talented—they were more strategic about where they invested their limited resources.
 
 ## Your Action Plan: Starting Today
 
-Time management for resource-constrained entrepreneurs isn't about doing moreâ€”it's about doing what matters most.
+Time management for resource-constrained entrepreneurs isn't about doing more—it's about doing what matters most.
 
 Start here:
 
@@ -165,8 +165,8 @@ Start here:
 
 - **Ongoing**: Build one documented process per week
 
-Remember, you're not building someone else's businessâ€”you're building yours. That means your time management strategy should reflect your goals, your constraints, and your definition of success.
+Remember, you're not building someone else's business—you're building yours. That means your time management strategy should reflect your goals, your constraints, and your definition of success.
 
-The most valuable resource you have isn't time or moneyâ€”it's your ability to make strategic decisions about both. Master that, and you'll build something sustainable, profitable, and aligned with the life you actually want to live.
+The most valuable resource you have isn't time or money—it's your ability to make strategic decisions about both. Master that, and you'll build something sustainable, profitable, and aligned with the life you actually want to live.
 
-*What's your biggest time management challenge as an online entrepreneur? Share in the comments belowâ€”I'd love to hear what's working (or not working) for you.*
+*What's your biggest time management challenge as an online entrepreneur? Share in the comments below—I'd love to hear what's working (or not working) for you.*

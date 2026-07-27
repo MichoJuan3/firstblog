@@ -11,7 +11,7 @@ coverImage:
   alt: "What Is Dropshipping?"
 ---
 
-Dropshipping is a retail business model where you sell products without holding any inventory. Here's how it works: when a customer orders from your online store, you purchase the item from a third-party supplier who then ships it directly to the customer. You never physically handle the product â€” you're essentially the middleman connecting customers with suppliers.
+Dropshipping is a retail business model where you sell products without holding any inventory. Here's how it works: when a customer orders from your online store, you purchase the item from a third-party supplier who then ships it directly to the customer. You never physically handle the product — you're essentially the middleman connecting customers with suppliers.
 
 **The basic flow:** A customer buys a product from your store for $50 â†’ you purchase it from your supplier for $30 â†’ the supplier ships directly to the customer â†’ you keep the $20 difference as profit.
 
@@ -31,7 +31,7 @@ Understanding the mechanics helps clarify why this model is so accessible to beg
 
 - **You keep the margin** between what the customer paid and what you paid the supplier.
 
-Because you never touch the product, your main job is marketing, customer service, and store management â€” not logistics.
+Because you never touch the product, your main job is marketing, customer service, and store management — not logistics.
 
 ## Why People Are Drawn to This Model
 
@@ -55,7 +55,7 @@ Dropshipping is definitely still viable, but the landscape has changed significa
 
 - **Building genuine brands** with strong value propositions, not just reselling generic products
 
-- **Better customer service and faster shipping** â€” many successful dropshippers now use US-based or regional suppliers instead of relying solely on AliExpress
+- **Better customer service and faster shipping** — many successful dropshippers now use US-based or regional suppliers instead of relying solely on AliExpress
 
 - **Content marketing and organic traffic** to reduce reliance on expensive paid ads
 

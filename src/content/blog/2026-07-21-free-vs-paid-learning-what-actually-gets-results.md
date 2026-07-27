@@ -7,7 +7,7 @@ tags:
   - "General"
 draft: false
 coverImage:
-  src: "/images/default.jpg"
+  src: "./Free vs Paid Learning What Actually Gets Results_compressed.webp"
   alt: "Free vs Paid Learning: What Actually Gets Results"
 ---
 
@@ -39,7 +39,7 @@ Free learning deserves credit where it's due. It's unmatched for exploration and
 
 - Already have strong self-discipline and internal motivation
 
-I've learned countless valuable skills from free resources—enough to know which areas warranted deeper investment. Free courses removed the financial barrier that would have kept me from exploring new interests entirely.
+I've learned countless valuable skills from free resourcesâ€”enough to know which areas warranted deeper investment. Free courses removed the financial barrier that would have kept me from exploring new interests entirely.
 
 ## The Hidden Costs of "Free"
 
@@ -85,7 +85,7 @@ Here's what matters more than whether you pay: the learning environment's struct
 
 **Structure beats price every time.** Courses with clear learning paths, deadlines, and incremental milestones keep learners moving forward. Even expensive courses struggle without structure, while well-designed free courses with accountability mechanisms can achieve solid results.
 
-**Application drives everything.** When you can immediately apply lessons to real problems your actual job, a side project, a specific challenge—motivation stays high and knowledge sticks. Theoretical learning without application fades quickly.
+**Application drives everything.** When you can immediately apply lessons to real problems your actual job, a side project, a specific challengeâ€”motivation stays high and knowledge sticks. Theoretical learning without application fades quickly.
 
 **Support amplifies success.** Access to instructors, mentors, or engaged peer communities dramatically improves outcomes. Learning is inherently social, and isolation kills motivation.
 
@@ -107,7 +107,7 @@ The real question isn't "Should I pay for learning?"
 
 It's "What level of commitment does my goal require?"
 
-Casual exploration works brilliantly with free resources. Career transformation typically requires investment—not just money, but your enrollment in structured environments that keep you accountable when motivation fades.
+Casual exploration works brilliantly with free resources. Career transformation typically requires investmentâ€”not just money, but your enrollment in structured environments that keep you accountable when motivation fades.
 
 Be honest about which category your goal falls into. If you're serious about results, choose the environment most likely to get you there, regardless of cost.
 

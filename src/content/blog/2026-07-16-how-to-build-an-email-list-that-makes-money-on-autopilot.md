@@ -7,7 +7,7 @@ tags:
   - "General"
 draft: false
 coverImage:
-  src: "/images/default.jpg"
+  src: "./How to Build an Email List That Makes Money on Autopilot_compressed.webp"
   alt: "How to Build an Email List That Makes Money on Autopilot"
 ---
 

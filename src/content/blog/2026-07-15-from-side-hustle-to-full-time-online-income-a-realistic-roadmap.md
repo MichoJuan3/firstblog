@@ -7,7 +7,7 @@ tags:
   - "General"
 draft: false
 coverImage:
-  src: "/images/default.jpg"
+  src: "./From Side Hustle to Full-Time Online Income_compressed.webp"
   alt: "From Side Hustle to Full-Time Online Income: A Realistic Roadmap"
 ---
 

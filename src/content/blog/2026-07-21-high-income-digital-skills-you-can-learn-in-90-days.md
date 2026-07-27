@@ -7,7 +7,7 @@ tags:
   - "General"
 draft: false
 coverImage:
-  src: "/images/default.jpg"
+  src: "./High-Income Digital Skills You Can Learn in 90 Days_compressed.webp"
   alt: "High-Income Digital Skills You Can Learn in 90 Days"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "General"
 draft: false
 coverImage:
-  src: "/images/default.jpg"
+  src: "./Common Mistakes Beginners Make_compressed.webp"
   alt: "Common Mistakes Beginners Make When Trying to Make Money Online"
 ---
 

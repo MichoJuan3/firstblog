@@ -7,7 +7,7 @@ tags:
   - "General"
 draft: false
 coverImage:
-  src: "/images/default.jpg"
+  src: "./7 Online Income Systems You Can Start for Free_compressed.webp"
   alt: "7 Online Income Systems You Can Start for Free"
 ---
 
@@ -31,7 +31,7 @@ Affiliate marketing involves promoting products or services from other companies
 
 ## 2. Freelance Skill-Based Services
 
-If you have a skill—such as writing, graphic design, web development, or translation—you can package it into a service immediately.
+If you have a skillâ€”such as writing, graphic design, web development, or translationâ€”you can package it into a service immediately.
 
 * **How it works:** Businesses and individuals constantly need specialized help and are willing to pay for expertise.
 * **How to start for $0:** Create profiles on platforms like Upwork, Fiverr, or Freelancer. Alternatively, reach out directly to potential clients on LinkedIn or via cold email.

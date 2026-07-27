@@ -7,7 +7,7 @@ tags:
   - "General"
 draft: false
 coverImage:
-  src: "/images/default.jpg"
+  src: "./Affiliate Marketing vs Digital Products Which Makes More Money_compressed.webp"
   alt: "Affiliate Marketing vs Digital Products Which Makes More Money?"
 ---
 

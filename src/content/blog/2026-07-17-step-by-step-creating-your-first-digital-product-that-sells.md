@@ -7,7 +7,7 @@ tags:
   - "General"
 draft: false
 coverImage:
-  src: "/images/default.jpg"
+  src: "./Step by Step Creating Your First Digital Product That Sells_compressed.webp"
   alt: "Step by Step: Creating Your First Digital Product That Sells"
 ---
 

@@ -7,7 +7,7 @@ tags:
   - "General"
 draft: false
 coverImage:
-  src: "/images/default.jpg"
+  src: "./Why People Fail Online And How to Be the Exception_compressed.webp"
   alt: "Why People Fail Online And How to Be the Exception"
 ---
 
@@ -29,7 +29,7 @@ Most successful online entrepreneurs spent 2-3 years building before seeing sign
 
 ### 2. They Chase Too Many Opportunities at Once
 
-The internet presents an overwhelming number of possibilities. Affiliate marketing, dropshipping, content creation, online courses, freelancing, print-on-demand—the options are endless. Many people try to do everything at once, spreading themselves impossibly thin.
+The internet presents an overwhelming number of possibilities. Affiliate marketing, dropshipping, content creation, online courses, freelancing, print-on-demandâ€”the options are endless. Many people try to do everything at once, spreading themselves impossibly thin.
 
 Without focus, you never develop deep expertise in any area. You're a perpetual beginner, constantly starting over instead of building momentum.
 
@@ -65,7 +65,7 @@ Many online entrepreneurs operate on gut feeling rather than data. They don't tr
 
 You can't improve what you don't measure.
 
-**How to avoid it:** Identify the key metrics for your specific venture and track them religiously. Website traffic, email open rates, conversion percentages, engagement rates—whatever matters for your model. Let data guide your decisions.
+**How to avoid it:** Identify the key metrics for your specific venture and track them religiously. Website traffic, email open rates, conversion percentages, engagement ratesâ€”whatever matters for your model. Let data guide your decisions.
 
 ### 7. They Work Alone
 

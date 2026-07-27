@@ -7,7 +7,7 @@ tags:
   - "General"
 draft: false
 coverImage:
-  src: "/images/default.jpg"
+  src: "./Selling Without Inventory_compressed.webp"
   alt: "Selling Without inventory"
 ---
 
@@ -23,7 +23,7 @@ The typical POD workflow follows these steps: You create a design and upload it 
 
 **Apparel**: T-shirts, hoodies, tank tops, leggings, and socks remain the most popular POD products due to universal demand and high profit margins.
 
-**Home Décor**: Items like canvas prints, posters, throw pillows, blankets, and wall tapestries appeal to customers looking to personalize their living spaces.
+**Home DÃ©cor**: Items like canvas prints, posters, throw pillows, blankets, and wall tapestries appeal to customers looking to personalize their living spaces.
 
 **Accessories**: Phone cases, tote bags, backpacks, hats, and mugs offer lower price points and impulse-buy potential.
 

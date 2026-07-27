@@ -7,7 +7,7 @@ tags:
   - "General"
 draft: false
 coverImage:
-  src: "/images/default.jpg"
+  src: "./overcome-fear-online-business.webp"
   alt: "How to Overcome Fear of Starting an Online Business?"
 ---
 

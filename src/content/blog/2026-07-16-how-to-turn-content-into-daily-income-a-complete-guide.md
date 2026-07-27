@@ -7,7 +7,7 @@ tags:
   - "General"
 draft: false
 coverImage:
-  src: "/images/default.jpg"
+  src: "./How to Turn Content Into Daily Income_compressed.webp"
   alt: "How to Turn Content Into Daily Income: A Complete Guide"
 ---
 

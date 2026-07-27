@@ -7,7 +7,7 @@ tags:
   - "General"
 draft: false
 coverImage:
-  src: "/images/default.jpg"
+  src: "./Scaling Your Online Income Without Burning Out_compressed.webp"
   alt: "Scaling Your Online Income Without Burning Out"
 ---
 

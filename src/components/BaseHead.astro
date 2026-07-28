@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import { SITE_TITLE } from '../consts.ts';
+import { Font } from 'astro:assets';
 interface Props {
   title: string;
   description: string;
@@ -10,6 +11,8 @@ interface Props {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 ---
+
+<Font cssVariable="--font-atkinson" preload />
 
 <!-- Favicon & Sitemap -->
 <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=3" />

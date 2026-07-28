@@ -41,7 +41,10 @@ export default defineConfig({
     '/blog/2026-07-23-online-entrepreneurs-financial-mindset/': '/blog/entrepreneurs-financial-mindset/',
     '/blog/2026-07-23-the-role-of-discipline-in-building-online-income/': '/blog/discipline-in-online-income/',
     '/blog/2026-07-24-Why People Fail Online And How to Be the Exception/': '/blog/why-people-fail-online/',
+    '/blog/2026-07-19-how-to-find-winning-products-without-paid-tools-a-complete-guide-for-aspiring-en/': '/blog/2026-07-19-find-winning-products-without-paid-tools/',
+    '/blog/2026-07-24-why-most-people-fail-online-and-how-you-can-avoid-it/': '/blog/2026-07-24-why-people-fail-online-and-how-to-be-the-exception/',  },
   },
+  
  fonts: [
     {
       provider: fontProviders.google(),

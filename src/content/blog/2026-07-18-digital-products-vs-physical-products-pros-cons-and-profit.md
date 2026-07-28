@@ -1,5 +1,6 @@
 ---
 title: "Digital Products vs Physical Products: Pros, Cons, and Profit"
+slug: "digital-vs-physical-products"
 description: "Digital products vs physical products: comparing profit margins, scalability, and overhead to help you choose the right business model."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"

@@ -1,5 +1,6 @@
 ---
 title: "Affiliate Marketing vs Digital Products Which Makes More Money?"
+slug: "affiliate-marketing-vs-digital-products"
 description: "Affiliate marketing vs digital products: a real income comparison to help you decide which online business model actually makes more money for beginners."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"

@@ -1,5 +1,6 @@
 ---
 title: "Selling Without inventory"
+slug: "selling-without-inventory"
 description: "Learn how print-on-demand lets you sell products without holding inventory, from how it works to launching your first design."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"

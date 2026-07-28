@@ -1,5 +1,6 @@
 ---
 title: "How to Build an Email List That Makes Money on Autopilot"
+slug: "build-email-list-that-makes-money"
 description: "A complete guide to building an email list that generates money on autopilot, starting with an irresistible lead magnet."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"

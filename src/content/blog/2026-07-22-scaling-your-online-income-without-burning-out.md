@@ -1,5 +1,6 @@
 ---
 title: "Scaling Your Online Income Without Burning Out"
+slug: "scaling-income-without-burnout"
 description: "How to scale your online income strategically without burning out, by building systems instead of just working more hours."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"

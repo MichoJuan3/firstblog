@@ -1,5 +1,6 @@
 ---
 title: "How to Price Digital Products for Maximum Profit"
+slug: "pricing-digital-products"
 description: "How to price digital products for maximum profit by balancing value, psychology, and strategy instead of guesswork."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"

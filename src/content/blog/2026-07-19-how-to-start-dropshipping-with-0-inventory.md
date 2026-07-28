@@ -1,5 +1,6 @@
 ---
 title: "How to Start Dropshipping With $0 Inventory"
+slug: "start-dropshipping-0-inventory"
 description: "A step-by-step guide to starting a dropshipping business with $0 in inventory, from choosing products to launching your store."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"

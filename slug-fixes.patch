@@ -1,0 +1,753 @@
+diff --git a/astro.config.mjs b/astro.config.mjs
+index 982145f..ffed5fe 100644
+--- a/astro.config.mjs
++++ b/astro.config.mjs
+@@ -11,6 +11,36 @@ export default defineConfig({
+   redirects: {
+     '/go/superfiliate': 'https://superfiliate.com/votre-lien-affilie',
+     '/go/outil-2': 'https://partnerstack.com/g/votre-lien-unique',
++    '/blog/2026-07-14-affiliate-marketing-vs-digital-products-which-makes-more-money/': '/blog/affiliate-marketing-vs-digital-products/',
++    '/blog/2026-07-15-common-mistakes-beginners-make-when-trying-to-make-money-online/': '/blog/common-mistakes-making-money-online/',
++    '/blog/2026-07-15-from-side-hustle-to-full-time-online-income-a-realistic-roadmap/': '/blog/side-hustle-to-full-time-income/',
++    '/blog/2026-07-15-how-automation-tools-help-you-earn-while-you-sleep/': '/blog/automation-tools-earn-while-you-sleep/',
++    '/blog/2026-07-16-how-digital-marketing-creates-financial-freedom-in-2026/': '/blog/digital-marketing-financial-freedom/',
++    '/blog/2026-07-16-how-to-build-an-email-list-that-makes-money-on-autopilot/': '/blog/build-email-list-that-makes-money/',
++    '/blog/2026-07-16-how-to-turn-content-into-daily-income-a-complete-guide/': '/blog/turn-content-into-daily-income/',
++    '/blog/2026-07-17-selling-without-inventory/': '/blog/selling-without-inventory/',
++    '/blog/2026-07-17-step-by-step-creating-your-first-digital-product-that-sells/': '/blog/creating-your-first-digital-product/',
++    '/blog/2026-07-17-the-best-traffic-sources-for-passive-online-income-free-paid/': '/blog/best-traffic-sources-passive-income/',
++    '/blog/2026-07-18-Best Platforms to Sell Digital Products in 2026/': '/blog/best-platforms-sell-digital-products/',
++    '/blog/2026-07-18-digital-products-vs-physical-products-pros-cons-and-profit/': '/blog/digital-vs-physical-products/',
++    '/blog/2026-07-18-how-to-create-high-converting-product-pages-that-sell/': '/blog/high-converting-product-pages/',
++    '/blog/2026-07-19-Find Winning Products Without Paid Tools/': '/blog/find-winning-products-free-tools/',
++    '/blog/2026-07-19-how-to-price-digital-products-for-maximum-profit/': '/blog/pricing-digital-products/',
++    '/blog/2026-07-19-how-to-start-dropshipping-with-0-inventory/': '/blog/start-dropshipping-0-inventory/',
++    '/blog/2026-07-20-8-costly-dropshipping-mistakes-&-how to-fix-them/': '/blog/dropshipping-mistakes-to-avoid/',
++    '/blog/2026-07-20-what-is-dropshipping/': '/blog/what-is-dropshipping/',
++    '/blog/2026-07-20-why-digital-products-are-the-fastest-way-to-financial-freedom/': '/blog/digital-products-financial-freedom/',
++    '/blog/2026-07-21-free-vs-paid-learning-what-actually-gets-results/': '/blog/free-vs-paid-learning/',
++    '/blog/2026-07-21-high-income-digital-skills-you-can-learn-in-90-days/': '/blog/high-income-skills-90-days/',
++    '/blog/2026-07-21-how-personal-branding-helps-you-make-money-online/': '/blog/personal-branding-make-money-online/',
++    '/blog/2026-07-22-7-online-income-systems-you-can-start-for-free/': '/blog/7-free-online-income-systems/',
++    '/blog/2026-07-22-how-to-overcome-fear-of-starting-an-online-business/': '/blog/overcome-fear-starting-online-business/',
++    '/blog/2026-07-22-how-to-stay-consistent-when-results-are-slow/': '/blog/stay-consistent-slow-results/',
++    '/blog/2026-07-22-scaling-your-online-income-without-burning-out/': '/blog/scaling-income-without-burnout/',
++    '/blog/2026-07-23-Efficient Time Management with Low Resources/': '/blog/time-management-low-resources/',
++    '/blog/2026-07-23-online-entrepreneurs-financial-mindset/': '/blog/entrepreneurs-financial-mindset/',
++    '/blog/2026-07-23-the-role-of-discipline-in-building-online-income/': '/blog/discipline-in-online-income/',
++    '/blog/2026-07-24-Why People Fail Online And How to Be the Exception/': '/blog/why-people-fail-online/',
+   },
+  fonts: [
+     {
+diff --git a/package-lock.json b/package-lock.json
+index 92b5108..6a066e9 100644
+--- a/package-lock.json
++++ b/package-lock.json
+@@ -77,9 +77,6 @@
+       "cpu": [
+         "arm64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "MIT",
+       "optional": true,
+       "os": [
+@@ -96,9 +93,6 @@
+       "cpu": [
+         "arm64"
+       ],
+-      "libc": [
+-        "musl"
+-      ],
+       "license": "MIT",
+       "optional": true,
+       "os": [
+@@ -115,9 +109,6 @@
+       "cpu": [
+         "x64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "MIT",
+       "optional": true,
+       "os": [
+@@ -134,9 +125,6 @@
+       "cpu": [
+         "x64"
+       ],
+-      "libc": [
+-        "musl"
+-      ],
+       "license": "MIT",
+       "optional": true,
+       "os": [
+@@ -422,9 +410,6 @@
+       "cpu": [
+         "arm64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "MIT",
+       "optional": true,
+       "os": [
+@@ -438,9 +423,6 @@
+       "cpu": [
+         "arm64"
+       ],
+-      "libc": [
+-        "musl"
+-      ],
+       "license": "MIT",
+       "optional": true,
+       "os": [
+@@ -454,9 +436,6 @@
+       "cpu": [
+         "x64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "MIT",
+       "optional": true,
+       "os": [
+@@ -470,9 +449,6 @@
+       "cpu": [
+         "x64"
+       ],
+-      "libc": [
+-        "musl"
+-      ],
+       "license": "MIT",
+       "optional": true,
+       "os": [
+@@ -1143,9 +1119,6 @@
+       "cpu": [
+         "arm"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "LGPL-3.0-or-later",
+       "optional": true,
+       "os": [
+@@ -1162,9 +1135,6 @@
+       "cpu": [
+         "arm64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "LGPL-3.0-or-later",
+       "optional": true,
+       "os": [
+@@ -1181,9 +1151,6 @@
+       "cpu": [
+         "ppc64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "LGPL-3.0-or-later",
+       "optional": true,
+       "os": [
+@@ -1200,9 +1167,6 @@
+       "cpu": [
+         "riscv64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "LGPL-3.0-or-later",
+       "optional": true,
+       "os": [
+@@ -1219,9 +1183,6 @@
+       "cpu": [
+         "s390x"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "LGPL-3.0-or-later",
+       "optional": true,
+       "os": [
+@@ -1238,9 +1199,6 @@
+       "cpu": [
+         "x64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "LGPL-3.0-or-later",
+       "optional": true,
+       "os": [
+@@ -1257,9 +1215,6 @@
+       "cpu": [
+         "arm64"
+       ],
+-      "libc": [
+-        "musl"
+-      ],
+       "license": "LGPL-3.0-or-later",
+       "optional": true,
+       "os": [
+@@ -1276,9 +1231,6 @@
+       "cpu": [
+         "x64"
+       ],
+-      "libc": [
+-        "musl"
+-      ],
+       "license": "LGPL-3.0-or-later",
+       "optional": true,
+       "os": [
+@@ -1295,9 +1247,6 @@
+       "cpu": [
+         "arm"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "Apache-2.0",
+       "optional": true,
+       "os": [
+@@ -1320,9 +1269,6 @@
+       "cpu": [
+         "arm64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "Apache-2.0",
+       "optional": true,
+       "os": [
+@@ -1345,9 +1291,6 @@
+       "cpu": [
+         "ppc64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "Apache-2.0",
+       "optional": true,
+       "os": [
+@@ -1370,9 +1313,6 @@
+       "cpu": [
+         "riscv64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "Apache-2.0",
+       "optional": true,
+       "os": [
+@@ -1395,9 +1335,6 @@
+       "cpu": [
+         "s390x"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "Apache-2.0",
+       "optional": true,
+       "os": [
+@@ -1420,9 +1357,6 @@
+       "cpu": [
+         "x64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "Apache-2.0",
+       "optional": true,
+       "os": [
+@@ -1445,9 +1379,6 @@
+       "cpu": [
+         "arm64"
+       ],
+-      "libc": [
+-        "musl"
+-      ],
+       "license": "Apache-2.0",
+       "optional": true,
+       "os": [
+@@ -1470,9 +1401,6 @@
+       "cpu": [
+         "x64"
+       ],
+-      "libc": [
+-        "musl"
+-      ],
+       "license": "Apache-2.0",
+       "optional": true,
+       "os": [
+@@ -1755,9 +1683,6 @@
+       "cpu": [
+         "arm64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "MIT",
+       "optional": true,
+       "os": [
+@@ -1774,9 +1699,6 @@
+       "cpu": [
+         "arm64"
+       ],
+-      "libc": [
+-        "musl"
+-      ],
+       "license": "MIT",
+       "optional": true,
+       "os": [
+@@ -1793,9 +1715,6 @@
+       "cpu": [
+         "ppc64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "MIT",
+       "optional": true,
+       "os": [
+@@ -1812,9 +1731,6 @@
+       "cpu": [
+         "s390x"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "MIT",
+       "optional": true,
+       "os": [
+@@ -1831,9 +1747,6 @@
+       "cpu": [
+         "x64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "MIT",
+       "optional": true,
+       "os": [
+@@ -1850,9 +1763,6 @@
+       "cpu": [
+         "x64"
+       ],
+-      "libc": [
+-        "musl"
+-      ],
+       "license": "MIT",
+       "optional": true,
+       "os": [
+@@ -3682,9 +3592,6 @@
+       "cpu": [
+         "arm64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "MPL-2.0",
+       "optional": true,
+       "os": [
+@@ -3705,9 +3612,6 @@
+       "cpu": [
+         "arm64"
+       ],
+-      "libc": [
+-        "musl"
+-      ],
+       "license": "MPL-2.0",
+       "optional": true,
+       "os": [
+@@ -3728,9 +3632,6 @@
+       "cpu": [
+         "x64"
+       ],
+-      "libc": [
+-        "glibc"
+-      ],
+       "license": "MPL-2.0",
+       "optional": true,
+       "os": [
+@@ -3751,9 +3652,6 @@
+       "cpu": [
+         "x64"
+       ],
+-      "libc": [
+-        "musl"
+-      ],
+       "license": "MPL-2.0",
+       "optional": true,
+       "os": [
+diff --git a/src/content.config.ts b/src/content.config.ts
+index 3cf8eca..6e4a068 100644
+--- a/src/content.config.ts
++++ b/src/content.config.ts
+@@ -12,6 +12,7 @@ const blog = defineCollection({
+       title: z
+         .string()
+         .max(70, { message: 'Le titre ne doit pas dépasser 70 caractères pour le SEO.' }),
++      slug: z.string().optional(),
+       description: z
+         .string()
+         .max(160, { message: 'La description ne doit pas dépasser 160 caractères pour le SEO.' }),
+diff --git a/src/content/blog/2026-07-14-affiliate-marketing-vs-digital-products-which-makes-more-money.md b/src/content/blog/2026-07-14-affiliate-marketing-vs-digital-products-which-makes-more-money.md
+index faf1e79..ae31446 100644
+--- a/src/content/blog/2026-07-14-affiliate-marketing-vs-digital-products-which-makes-more-money.md
++++ b/src/content/blog/2026-07-14-affiliate-marketing-vs-digital-products-which-makes-more-money.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "Affiliate Marketing vs Digital Products Which Makes More Money?"
++slug: "affiliate-marketing-vs-digital-products"
+ description: "Affiliate marketing vs digital products: a real income comparison to help you decide which online business model actually makes more money for beginners."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-15-common-mistakes-beginners-make-when-trying-to-make-money-online.md b/src/content/blog/2026-07-15-common-mistakes-beginners-make-when-trying-to-make-money-online.md
+index ce6ec17..55b2b7d 100644
+--- a/src/content/blog/2026-07-15-common-mistakes-beginners-make-when-trying-to-make-money-online.md
++++ b/src/content/blog/2026-07-15-common-mistakes-beginners-make-when-trying-to-make-money-online.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "Common Mistakes Beginners Make When Trying to Make Money Online"
++slug: "common-mistakes-making-money-online"
+ description: "Discover the most common mistakes beginners make when trying to make money online, from chasing quick riches to ignoring email marketing, and how to avoid them."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-15-from-side-hustle-to-full-time-online-income-a-realistic-roadmap.md b/src/content/blog/2026-07-15-from-side-hustle-to-full-time-online-income-a-realistic-roadmap.md
+index 265424f..fd909bf 100644
+--- a/src/content/blog/2026-07-15-from-side-hustle-to-full-time-online-income-a-realistic-roadmap.md
++++ b/src/content/blog/2026-07-15-from-side-hustle-to-full-time-online-income-a-realistic-roadmap.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "From Side Hustle to Full-Time Online Income: A Realistic Roadmap"
++slug: "side-hustle-to-full-time-income"
+ description: "A realistic, step-by-step roadmap for turning your side hustle into a full-time online income without quitting your job too soon."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-15-how-automation-tools-help-you-earn-while-you-sleep.md b/src/content/blog/2026-07-15-how-automation-tools-help-you-earn-while-you-sleep.md
+index 7810444..38ae90f 100644
+--- a/src/content/blog/2026-07-15-how-automation-tools-help-you-earn-while-you-sleep.md
++++ b/src/content/blog/2026-07-15-how-automation-tools-help-you-earn-while-you-sleep.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "How Automation Tools Help You Earn While You Sleep"
++slug: "automation-tools-earn-while-you-sleep"
+ description: "Discover how automation tools and AI let you earn passive income while you sleep, plus the most popular automated income streams to set up."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-16-how-digital-marketing-creates-financial-freedom-in-2026.md b/src/content/blog/2026-07-16-how-digital-marketing-creates-financial-freedom-in-2026.md
+index ff0ad2e..a969988 100644
+--- a/src/content/blog/2026-07-16-how-digital-marketing-creates-financial-freedom-in-2026.md
++++ b/src/content/blog/2026-07-16-how-digital-marketing-creates-financial-freedom-in-2026.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "How Digital Marketing Creates Financial Freedom in 2026"
++slug: "digital-marketing-financial-freedom"
+ description: "How digital marketing creates real financial freedom in 2026, from low barriers to entry to high-income skills like SEO and content creation."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-16-how-to-build-an-email-list-that-makes-money-on-autopilot.md b/src/content/blog/2026-07-16-how-to-build-an-email-list-that-makes-money-on-autopilot.md
+index 0cf0c29..aab6d00 100644
+--- a/src/content/blog/2026-07-16-how-to-build-an-email-list-that-makes-money-on-autopilot.md
++++ b/src/content/blog/2026-07-16-how-to-build-an-email-list-that-makes-money-on-autopilot.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "How to Build an Email List That Makes Money on Autopilot"
++slug: "build-email-list-that-makes-money"
+ description: "A complete guide to building an email list that generates money on autopilot, starting with an irresistible lead magnet."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-16-how-to-turn-content-into-daily-income-a-complete-guide.md b/src/content/blog/2026-07-16-how-to-turn-content-into-daily-income-a-complete-guide.md
+index 54f5141..120bc71 100644
+--- a/src/content/blog/2026-07-16-how-to-turn-content-into-daily-income-a-complete-guide.md
++++ b/src/content/blog/2026-07-16-how-to-turn-content-into-daily-income-a-complete-guide.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "How to Turn Content Into Daily Income: A Complete Guide"
++slug: "turn-content-into-daily-income"
+ description: "Turn blogs, Quora, and Pinterest content into a reliable source of daily income with these practical monetization strategies."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-17-selling-without-inventory.md b/src/content/blog/2026-07-17-selling-without-inventory.md
+index 2060461..d093627 100644
+--- a/src/content/blog/2026-07-17-selling-without-inventory.md
++++ b/src/content/blog/2026-07-17-selling-without-inventory.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "Selling Without inventory"
++slug: "selling-without-inventory"
+ description: "Learn how print-on-demand lets you sell products without holding inventory, from how it works to launching your first design."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-17-step-by-step-creating-your-first-digital-product-that-sells.md b/src/content/blog/2026-07-17-step-by-step-creating-your-first-digital-product-that-sells.md
+index 75e8554..f187235 100644
+--- a/src/content/blog/2026-07-17-step-by-step-creating-your-first-digital-product-that-sells.md
++++ b/src/content/blog/2026-07-17-step-by-step-creating-your-first-digital-product-that-sells.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "Step by Step: Creating Your First Digital Product That Sells"
++slug: "creating-your-first-digital-product"
+ description: "A step-by-step guide to creating your first digital product that actually sells, starting with finding your niche and audience."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-17-the-best-traffic-sources-for-passive-online-income-free-paid.md b/src/content/blog/2026-07-17-the-best-traffic-sources-for-passive-online-income-free-paid.md
+index 7fea39a..6de94be 100644
+--- a/src/content/blog/2026-07-17-the-best-traffic-sources-for-passive-online-income-free-paid.md
++++ b/src/content/blog/2026-07-17-the-best-traffic-sources-for-passive-online-income-free-paid.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "The Best Traffic Sources for Passive Online Income (Free & Paid)"
++slug: "best-traffic-sources-passive-income"
+ description: "The best free and paid traffic sources for building passive online income, including SEO, social media, and paid advertising."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-18-Best Platforms to Sell Digital Products in 2026.md b/src/content/blog/2026-07-18-Best Platforms to Sell Digital Products in 2026.md
+index 198db0f..6b3bf00 100644
+--- a/src/content/blog/2026-07-18-Best Platforms to Sell Digital Products in 2026.md	
++++ b/src/content/blog/2026-07-18-Best Platforms to Sell Digital Products in 2026.md	
+@@ -1,5 +1,6 @@
+ ---
+ title: "Best Platforms to Sell Digital Products in 2026"
++slug: "best-platforms-sell-digital-products"
+ description: "Comparing Gumroad, Etsy, and Payhip to help you choose the best platform to sell digital products in 2026."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-18-digital-products-vs-physical-products-pros-cons-and-profit.md b/src/content/blog/2026-07-18-digital-products-vs-physical-products-pros-cons-and-profit.md
+index 22c4500..eb0270c 100644
+--- a/src/content/blog/2026-07-18-digital-products-vs-physical-products-pros-cons-and-profit.md
++++ b/src/content/blog/2026-07-18-digital-products-vs-physical-products-pros-cons-and-profit.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "Digital Products vs Physical Products: Pros, Cons, and Profit"
++slug: "digital-vs-physical-products"
+ description: "Digital products vs physical products: comparing profit margins, scalability, and overhead to help you choose the right business model."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-18-how-to-create-high-converting-product-pages-that-sell.md b/src/content/blog/2026-07-18-how-to-create-high-converting-product-pages-that-sell.md
+index 540a7b7..19b15f4 100644
+--- a/src/content/blog/2026-07-18-how-to-create-high-converting-product-pages-that-sell.md
++++ b/src/content/blog/2026-07-18-how-to-create-high-converting-product-pages-that-sell.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "How to Create High-Converting Product Pages That Sell"
++slug: "high-converting-product-pages"
+ description: "Learn how to build high-converting product pages that turn visitors into buyers, starting with a benefit-focused headline."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-19-Find Winning Products Without Paid Tools.md b/src/content/blog/2026-07-19-Find Winning Products Without Paid Tools.md
+index d2951ce..b80116a 100644
+--- a/src/content/blog/2026-07-19-Find Winning Products Without Paid Tools.md	
++++ b/src/content/blog/2026-07-19-Find Winning Products Without Paid Tools.md	
+@@ -1,5 +1,6 @@
+ ---
+ title: "Find Winning Products Without Paid Tools"
++slug: "find-winning-products-free-tools"
+ description: "How to find winning products for your dropshipping or e-commerce store without spending money on paid research tools."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-19-how-to-price-digital-products-for-maximum-profit.md b/src/content/blog/2026-07-19-how-to-price-digital-products-for-maximum-profit.md
+index de90a9b..7d7ef69 100644
+--- a/src/content/blog/2026-07-19-how-to-price-digital-products-for-maximum-profit.md
++++ b/src/content/blog/2026-07-19-how-to-price-digital-products-for-maximum-profit.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "How to Price Digital Products for Maximum Profit"
++slug: "pricing-digital-products"
+ description: "How to price digital products for maximum profit by balancing value, psychology, and strategy instead of guesswork."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-19-how-to-start-dropshipping-with-0-inventory.md b/src/content/blog/2026-07-19-how-to-start-dropshipping-with-0-inventory.md
+index 5d09706..3667dab 100644
+--- a/src/content/blog/2026-07-19-how-to-start-dropshipping-with-0-inventory.md
++++ b/src/content/blog/2026-07-19-how-to-start-dropshipping-with-0-inventory.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "How to Start Dropshipping With $0 Inventory"
++slug: "start-dropshipping-0-inventory"
+ description: "A step-by-step guide to starting a dropshipping business with $0 in inventory, from choosing products to launching your store."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-20-8-costly-dropshipping-mistakes-&-how to-fix-them.md b/src/content/blog/2026-07-20-8-costly-dropshipping-mistakes-&-how to-fix-them.md
+index ba5cfef..6de4ad5 100644
+--- a/src/content/blog/2026-07-20-8-costly-dropshipping-mistakes-&-how to-fix-them.md	
++++ b/src/content/blog/2026-07-20-8-costly-dropshipping-mistakes-&-how to-fix-them.md	
+@@ -1,5 +1,6 @@
+ ---
+ title: "8 Costly Dropshipping Mistakes & How to Fix Them"
++slug: "dropshipping-mistakes-to-avoid"
+ description: "8 costly dropshipping mistakes that silently kill your profit margins, and exactly how to fix each one."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-20-what-is-dropshipping.md b/src/content/blog/2026-07-20-what-is-dropshipping.md
+index f95fa3b..73290d6 100644
+--- a/src/content/blog/2026-07-20-what-is-dropshipping.md
++++ b/src/content/blog/2026-07-20-what-is-dropshipping.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "What Is Dropshipping?"
++slug: "what-is-dropshipping"
+ description: "What is dropshipping and how does it actually work? A clear breakdown of the retail model that lets you sell without holding inventory."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-20-why-digital-products-are-the-fastest-way-to-financial-freedom.md b/src/content/blog/2026-07-20-why-digital-products-are-the-fastest-way-to-financial-freedom.md
+index 1b67f02..1afffa6 100644
+--- a/src/content/blog/2026-07-20-why-digital-products-are-the-fastest-way-to-financial-freedom.md
++++ b/src/content/blog/2026-07-20-why-digital-products-are-the-fastest-way-to-financial-freedom.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "Why Digital Products Are the Fastest Way to Financial Freedom"
++slug: "digital-products-financial-freedom"
+ description: "Why digital products are one of the fastest paths to financial freedom, and how to start creating and selling them with almost nothing."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-21-free-vs-paid-learning-what-actually-gets-results.md b/src/content/blog/2026-07-21-free-vs-paid-learning-what-actually-gets-results.md
+index 0189700..c2a1c63 100644
+--- a/src/content/blog/2026-07-21-free-vs-paid-learning-what-actually-gets-results.md
++++ b/src/content/blog/2026-07-21-free-vs-paid-learning-what-actually-gets-results.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "Free vs Paid Learning: What Actually Gets Results"
++slug: "free-vs-paid-learning"
+ description: "Free vs paid learning: what the research actually shows about which type of online course gets you real results."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-21-high-income-digital-skills-you-can-learn-in-90-days.md b/src/content/blog/2026-07-21-high-income-digital-skills-you-can-learn-in-90-days.md
+index e4ef4ab..73f390b 100644
+--- a/src/content/blog/2026-07-21-high-income-digital-skills-you-can-learn-in-90-days.md
++++ b/src/content/blog/2026-07-21-high-income-digital-skills-you-can-learn-in-90-days.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "High-Income Digital Skills You Can Learn in 90 Days"
++slug: "high-income-skills-90-days"
+ description: "High-income digital skills you can realistically learn in 90 days, including social media marketing and their earning potential."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-21-how-personal-branding-helps-you-make-money-online.md b/src/content/blog/2026-07-21-how-personal-branding-helps-you-make-money-online.md
+index 0d7d1ab..80609bd 100644
+--- a/src/content/blog/2026-07-21-how-personal-branding-helps-you-make-money-online.md
++++ b/src/content/blog/2026-07-21-how-personal-branding-helps-you-make-money-online.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "How Personal Branding Helps You Make Money Online"
++slug: "personal-branding-make-money-online"
+ description: "How personal branding helps you make money online by building the trust that turns audiences into paying customers."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-22-7-online-income-systems-you-can-start-for-free.md b/src/content/blog/2026-07-22-7-online-income-systems-you-can-start-for-free.md
+index edee025..a389aee 100644
+--- a/src/content/blog/2026-07-22-7-online-income-systems-you-can-start-for-free.md
++++ b/src/content/blog/2026-07-22-7-online-income-systems-you-can-start-for-free.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "7 Online Income Systems You Can Start for Free"
++slug: "7-free-online-income-systems"
+ description: "7 proven online income systems you can start today with zero dollars, no capital required."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-22-how-to-overcome-fear-of-starting-an-online-business.md b/src/content/blog/2026-07-22-how-to-overcome-fear-of-starting-an-online-business.md
+index 0686ba1..0ebc079 100644
+--- a/src/content/blog/2026-07-22-how-to-overcome-fear-of-starting-an-online-business.md
++++ b/src/content/blog/2026-07-22-how-to-overcome-fear-of-starting-an-online-business.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "How to Overcome Fear of Starting an Online Business?"
++slug: "overcome-fear-starting-online-business"
+ description: "How to overcome the fear of starting an online business by understanding where that fear comes from and pushing past it."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-22-how-to-stay-consistent-when-results-are-slow.md b/src/content/blog/2026-07-22-how-to-stay-consistent-when-results-are-slow.md
+index a39ae6c..85eb365 100644
+--- a/src/content/blog/2026-07-22-how-to-stay-consistent-when-results-are-slow.md
++++ b/src/content/blog/2026-07-22-how-to-stay-consistent-when-results-are-slow.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "How to Stay Consistent When Results Are Slow"
++slug: "stay-consistent-slow-results"
+ description: "How to stay consistent with your online business when results feel painfully slow, and why that's exactly when breakthroughs happen."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-22-scaling-your-online-income-without-burning-out.md b/src/content/blog/2026-07-22-scaling-your-online-income-without-burning-out.md
+index 3608434..a6337e3 100644
+--- a/src/content/blog/2026-07-22-scaling-your-online-income-without-burning-out.md
++++ b/src/content/blog/2026-07-22-scaling-your-online-income-without-burning-out.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "Scaling Your Online Income Without Burning Out"
++slug: "scaling-income-without-burnout"
+ description: "How to scale your online income strategically without burning out, by building systems instead of just working more hours."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-23-Efficient Time Management with Low Resources.md b/src/content/blog/2026-07-23-Efficient Time Management with Low Resources.md
+index 59ccca8..fcd2004 100644
+--- a/src/content/blog/2026-07-23-Efficient Time Management with Low Resources.md	
++++ b/src/content/blog/2026-07-23-Efficient Time Management with Low Resources.md	
+@@ -1,5 +1,6 @@
+ ---
+ title: "Efficient Time Management with Low Resources"
++slug: "time-management-low-resources"
+ description: "Time management strategies for bootstrapped online entrepreneurs with limited time, money, or team support."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-23-online-entrepreneurs-financial-mindset.md b/src/content/blog/2026-07-23-online-entrepreneurs-financial-mindset.md
+index 0f7d8b1..cffbd8f 100644
+--- a/src/content/blog/2026-07-23-online-entrepreneurs-financial-mindset.md
++++ b/src/content/blog/2026-07-23-online-entrepreneurs-financial-mindset.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "Online Entrepreneurs Financial Mindset"
++slug: "entrepreneurs-financial-mindset"
+ description: "The financial mindset that separates online entrepreneurs who build real wealth from those who stay stuck."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-23-the-role-of-discipline-in-building-online-income.md b/src/content/blog/2026-07-23-the-role-of-discipline-in-building-online-income.md
+index c346455..8743839 100644
+--- a/src/content/blog/2026-07-23-the-role-of-discipline-in-building-online-income.md
++++ b/src/content/blog/2026-07-23-the-role-of-discipline-in-building-online-income.md
+@@ -1,5 +1,6 @@
+ ---
+ title: "The Role of Discipline in Building Online Income"
++slug: "discipline-in-online-income"
+ description: "Why discipline, not talent or the perfect niche, is what actually determines success in building online income."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/content/blog/2026-07-24-Why People Fail Online And How to Be the Exception.md b/src/content/blog/2026-07-24-Why People Fail Online And How to Be the Exception.md
+index 6dd735a..ef49ba5 100644
+--- a/src/content/blog/2026-07-24-Why People Fail Online And How to Be the Exception.md	
++++ b/src/content/blog/2026-07-24-Why People Fail Online And How to Be the Exception.md	
+@@ -1,5 +1,6 @@
+ ---
+ title: "Why People Fail Online And How to Be the Exception"
++slug: "why-people-fail-online"
+ description: "Why over 90% of online businesses fail, and the predictable, avoidable patterns that separate the exceptions who succeed."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+diff --git a/src/pages/blog/[...slug].astro b/src/pages/blog/[...slug].astro
+index 0754ea7..2cde06c 100644
+--- a/src/pages/blog/[...slug].astro
++++ b/src/pages/blog/[...slug].astro
+@@ -5,7 +5,7 @@ import BlogPost from '../../layouts/BlogPost.astro';
+ export async function getStaticPaths() {
+ 	const posts = await getCollection('blog');
+ 	return posts.map((post) => ({
+-		params: { slug: post.id },
++		params: { slug: post.data.slug || post.id },
+ 		props: post,
+ 	}));
+ }
+diff --git a/src/pages/blog/index.astro b/src/pages/blog/index.astro
+index 6e995f0..30ed0a8 100644
+--- a/src/pages/blog/index.astro
++++ b/src/pages/blog/index.astro
+@@ -103,7 +103,7 @@ const posts = (await getCollection('blog')).sort(
+ 					{
+ 						posts.map((post) => (
+ 							<li>
+-								<a href={`/blog/${post.id}/`}>
++								<a href={`/blog/${post.data.slug || post.id}/`}>
+ 									{post.data.coverImage && (
+ 										<Image width={720} height={360} src={post.data.coverImage.src} alt={post.data.coverImage.alt} />
+ 									)}

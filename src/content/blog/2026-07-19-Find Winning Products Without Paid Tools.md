@@ -1,5 +1,6 @@
 ---
 title: "Find Winning Products Without Paid Tools"
+slug: "find-winning-products-free-tools"
 description: "How to find winning products for your dropshipping or e-commerce store without spending money on paid research tools."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"

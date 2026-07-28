@@ -1,5 +1,6 @@
 ---
 title: "High-Income Digital Skills You Can Learn in 90 Days"
+slug: "high-income-skills-90-days"
 description: "High-income digital skills you can realistically learn in 90 days, including social media marketing and their earning potential."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"

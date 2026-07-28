@@ -1,5 +1,6 @@
 ---
 title: "How Personal Branding Helps You Make Money Online"
+slug: "personal-branding-make-money-online"
 description: "How personal branding helps you make money online by building the trust that turns audiences into paying customers."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"

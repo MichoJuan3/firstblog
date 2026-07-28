@@ -1,5 +1,6 @@
 ---
 title: "Online Entrepreneurs Financial Mindset"
+slug: "entrepreneurs-financial-mindset"
 description: "The financial mindset that separates online entrepreneurs who build real wealth from those who stay stuck."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"

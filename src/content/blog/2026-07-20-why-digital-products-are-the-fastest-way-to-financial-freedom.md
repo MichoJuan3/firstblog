@@ -1,5 +1,6 @@
 ---
 title: "Why Digital Products Are the Fastest Way to Financial Freedom"
+slug: "digital-products-financial-freedom"
 description: "Why digital products are one of the fastest paths to financial freedom, and how to start creating and selling them with almost nothing."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"

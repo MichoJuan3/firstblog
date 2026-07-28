@@ -1,5 +1,6 @@
 ---
 title: "How Automation Tools Help You Earn While You Sleep"
+slug: "automation-tools-earn-while-you-sleep"
 description: "Discover how automation tools and AI let you earn passive income while you sleep, plus the most popular automated income streams to set up."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"

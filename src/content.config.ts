@@ -12,6 +12,7 @@ const blog = defineCollection({
       title: z
         .string()
         .max(70, { message: 'Le titre ne doit pas dépasser 70 caractères pour le SEO.' }),
+      slug: z.string().optional(),
       description: z
         .string()
         .max(160, { message: 'La description ne doit pas dépasser 160 caractères pour le SEO.' }),

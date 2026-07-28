@@ -1,5 +1,6 @@
 ---
 title: "How to Overcome Fear of Starting an Online Business?"
+slug: "overcome-fear-starting-online-business"
 description: "How to overcome the fear of starting an online business by understanding where that fear comes from and pushing past it."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"

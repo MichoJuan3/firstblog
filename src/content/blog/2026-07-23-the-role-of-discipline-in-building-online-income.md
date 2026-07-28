@@ -1,5 +1,6 @@
 ---
 title: "The Role of Discipline in Building Online Income"
+slug: "discipline-in-online-income"
 description: "Why discipline, not talent or the perfect niche, is what actually determines success in building online income."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"

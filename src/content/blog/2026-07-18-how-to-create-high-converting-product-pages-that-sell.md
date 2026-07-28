@@ -1,5 +1,6 @@
 ---
 title: "How to Create High-Converting Product Pages That Sell"
+slug: "high-converting-product-pages"
 description: "Learn how to build high-converting product pages that turn visitors into buyers, starting with a benefit-focused headline."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"

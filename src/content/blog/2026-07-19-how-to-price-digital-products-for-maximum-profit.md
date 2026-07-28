@@ -64,7 +64,7 @@ Once you've nailed the basics, these tactics can take your profitability to the 
 
 **Bundling** works exceptionally well for digital products. Package complementary offerings together at a discount compared to buying individually. Customers feel like they're getting a deal, and you're increasing average order value. Everyone wins.
 
-**Payment plans** remove the biggest barrier for high-ticket products. A $1,200 course feels more accessible as "three payments of $400," and you can even charge a small premium for the convenience. Many creators charge $400 Ã— 3 ($1,200 total) for payment plans versus $997 paid in full.
+**Payment plans** remove the biggest barrier for high-ticket products. A $1,200 course feels more accessible as "three payments of $400," and you can even charge a small premium for the convenience. Many creators charge $400 × 3 ($1,200 total) for payment plans versus $997 paid in full.
 
 **Strategic urgency** accelerates decision-making when used authentically. Limited-time bonuses, launch pricing, or seasonal promotions create legitimate reasons to buy now rather than later. The key word is authentic—fake scarcity damages trust and reputation.
 

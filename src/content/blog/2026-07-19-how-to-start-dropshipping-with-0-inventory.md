@@ -18,21 +18,21 @@ Dropshipping is a business model where you sell products without holding any inv
 
 ## Understanding the Dropshipping Model
 
-In dropshipping, you act as the middleman between suppliers and customers. You market and sell products through your online store, but never physically handle the inventory ÃƒÂ¢Ã¢"šÂ¬Ã¢â‚¬Â the supplier manages storage, packaging, and shipping. Your role is entirely focused on choosing the right products, building a store customers trust, and driving traffic that converts into sales.
+In dropshipping, you act as the middleman between suppliers and customers. You market and sell products through your online store, but never physically handle the inventory — the supplier manages storage, packaging, and shipping. Your role is entirely focused on choosing the right products, building a store customers trust, and driving traffic that converts into sales.
 
 ## Step-by-Step Launch Process
 
-**1. Choose Your Niche.** Focus on a specific product category or target audience rather than trying to sell everything. Successful niches often have passionate buyers, solve specific problems, or tap into growing trends. Research competition levels and profit margins before committing ÃƒÂ¢Ã¢"šÂ¬Ã¢â‚¬Â a niche with zero competition sometimes means zero demand, so look for a market that's active but not oversaturated.
+**1. Choose Your Niche.** Focus on a specific product category or target audience rather than trying to sell everything. Successful niches often have passionate buyers, solve specific problems, or tap into growing trends. Research competition levels and profit margins before committing — a niche with zero competition sometimes means zero demand, so look for a market that's active but not oversaturated.
 
-**2. Find Reliable Suppliers.** Popular platforms include AliExpress, Oberlo, Spocket, and SaleHoo. Look for suppliers with strong ratings, reasonable shipping times, and consistent quality. Order samples yourself when possible to verify quality before selling to customers ÃƒÂ¢Ã¢"šÂ¬Ã¢â‚¬Â nothing damages a new store's reputation faster than shipping a product you've never actually seen.
+**2. Find Reliable Suppliers.** Popular platforms include AliExpress, Oberlo, Spocket, and SaleHoo. Look for suppliers with strong ratings, reasonable shipping times, and consistent quality. Order samples yourself when possible to verify quality before selling to customers — nothing damages a new store's reputation faster than shipping a product you've never actually seen.
 
-**3. Set Up Your Online Store.** Platforms like Shopify, WooCommerce, or BigCommerce make it easy to create a professional store without coding experience. Many offer free trials or low-cost starter plans. Focus on clean design, clear product descriptions, trust signals (like reviews and secure checkout badges), and an easy checkout flow ÃƒÂ¢Ã¢"šÂ¬Ã¢â‚¬Â cart abandonment is one of the biggest silent killers of new stores.
+**3. Set Up Your Online Store.** Platforms like Shopify, WooCommerce, or BigCommerce make it easy to create a professional store without coding experience. Many offer free trials or low-cost starter plans. Focus on clean design, clear product descriptions, trust signals (like reviews and secure checkout badges), and an easy checkout flow — cart abandonment is one of the biggest silent killers of new stores.
 
 **4. Source and List Products.** Import products from your chosen suppliers into your store. Write original, compelling descriptions rather than copying the supplier's default text, use high-quality images, and price competitively while maintaining healthy profit margins, typically in the 20% to 50% range depending on the niche and price point.
 
 **5. Market Your Store.** Use organic social media, content marketing, influencer partnerships, or paid advertising on platforms like Facebook, Instagram, or Google. Start with low-cost strategies to validate demand before committing significant ad spend, then scale whatever channel proves it converts.
 
-**6. Set Up Order Fulfillment Workflows.** Once sales start coming in, you'll want a system ÃƒÂ¢Ã¢"šÂ¬Ã¢â‚¬Â whether manual or through an app like DSers or AutoDS ÃƒÂ¢Ã¢"šÂ¬Ã¢â‚¬Â that automatically forwards customer orders to your supplier, so you're not copying and pasting order details by hand as volume grows.
+**6. Set Up Order Fulfillment Workflows.** Once sales start coming in, you'll want a system — whether manual or through an app like DSers or AutoDS — that automatically forwards customer orders to your supplier, so you're not copying and pasting order details by hand as volume grows.
 
 **7. Build a Customer Service Process.** Decide in advance how you'll handle common issues: delayed shipments, wrong items, and refund requests. Having templated responses ready before problems arise saves enormous time and keeps customers from feeling ignored during the inevitable shipping delays that come with overseas suppliers.
 
@@ -58,4 +58,4 @@ The key challenges in dropshipping are finding winning products, managing custom
 
 ## The Bottom Line
 
-Starting a dropshipping store with zero inventory is genuinely achievable on a small budget, but the low barrier to entry also means low barrier to competition. The stores that succeed long-term are the ones that treat this like a real business ÃƒÂ¢Ã¢"šÂ¬Ã¢â‚¬Â with a defined niche, vetted suppliers, and a customer experience worth returning to ÃƒÂ¢Ã¢"šÂ¬Ã¢â‚¬Â rather than a quick side hustle thrown together overnight.
+Starting a dropshipping store with zero inventory is genuinely achievable on a small budget, but the low barrier to entry also means low barrier to competition. The stores that succeed long-term are the ones that treat this like a real business — with a defined niche, vetted suppliers, and a customer experience worth returning to — rather than a quick side hustle thrown together overnight.

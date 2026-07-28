@@ -16,7 +16,7 @@ coverImage:
 
 Dropshipping is a retail business model where you sell products without holding any inventory. Here's how it works: when a customer orders from your online store, you purchase the item from a third-party supplier who then ships it directly to the customer. You never physically handle the product — you're essentially the middleman connecting customers with suppliers.
 
-**The basic flow:** A customer buys a product from your store for $50 â†’ you purchase it from your supplier for $30 â†’ the supplier ships directly to the customer â†’ you keep the $20 difference as profit.
+**The basic flow:** A customer buys a product from your store for $50 → you purchase it from your supplier for $30 → the supplier ships directly to the customer → you keep the $20 difference as profit.
 
 The appeal is obvious: low startup costs, no warehouse needed, minimal risk, and you can run it from anywhere with an internet connection.
 

@@ -1,10 +1,12 @@
 ---
 title: "Selling Without inventory"
-description: "Description de l'article"
+description: "Learn how print-on-demand lets you sell products without holding inventory, from how it works to launching your first design."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"
 tags:
-  - "General"
+  - "Print on Demand"
+  - "Selling Without Inventory"
+  - "E-commerce"
 draft: false
 coverImage:
   src: "./Selling Without Inventory_compressed.webp"

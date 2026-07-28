@@ -1,10 +1,12 @@
 ---
 title: "Common Mistakes Beginners Make When Trying to Make Money Online"
-description: "Description de l'article"
+description: "Discover the most common mistakes beginners make when trying to make money online, from chasing quick riches to ignoring email marketing, and how to avoid them."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"
 tags:
-  - "General"
+  - "Make Money Online"
+  - "Passive Income"
+  - "Beginner Mistakes"
 draft: false
 coverImage:
   src: "./Common Mistakes Beginners Make_compressed.webp"

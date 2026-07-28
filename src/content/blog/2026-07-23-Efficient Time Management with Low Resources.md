@@ -1,10 +1,12 @@
 ---
 title: "Efficient Time Management with Low Resources"
-description: "Description de l'article"
+description: "Time management strategies for bootstrapped online entrepreneurs with limited time, money, or team support."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"
 tags:
-  - "General"
+  - "Time Management"
+  - "Bootstrapping"
+  - "Productivity"
 draft: false
 coverImage:
   src: "./Efficient Time Management with Low Resources_compressed.webp"

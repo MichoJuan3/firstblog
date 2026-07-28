@@ -1,10 +1,12 @@
 ---
 title: "How Digital Marketing Creates Financial Freedom in 2026"
-description: "Description de l'article"
+description: "How digital marketing creates real financial freedom in 2026, from low barriers to entry to high-income skills like SEO and content creation."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"
 tags:
-  - "General"
+  - "Digital Marketing"
+  - "Financial Freedom"
+  - "Online Business"
 draft: false
 coverImage:
   src: "./How Digital Marketing Creates Financial Freedom_compressed.webp"

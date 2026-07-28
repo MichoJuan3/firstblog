@@ -1,10 +1,12 @@
 ---
 title: "Best Platforms to Sell Digital Products in 2026"
-description: "Description de l'article"
+description: "Comparing Gumroad, Etsy, and Payhip to help you choose the best platform to sell digital products in 2026."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"
 tags:
-  - "General"
+  - "Digital Products"
+  - "Payhip"
+  - "Online Selling"
 draft: false
 coverImage:
   src: "./Best Platforms to Sell Digital Products in 2026_compressed.webp"

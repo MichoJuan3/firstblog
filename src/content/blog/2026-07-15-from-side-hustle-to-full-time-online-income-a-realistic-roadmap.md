@@ -1,10 +1,12 @@
 ---
 title: "From Side Hustle to Full-Time Online Income: A Realistic Roadmap"
-description: "Description de l'article"
+description: "A realistic, step-by-step roadmap for turning your side hustle into a full-time online income without quitting your job too soon."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"
 tags:
-  - "General"
+  - "Side Hustle"
+  - "Online Income"
+  - "Entrepreneurship"
 draft: false
 coverImage:
   src: "./From Side Hustle to Full-Time Online Income_compressed.webp"

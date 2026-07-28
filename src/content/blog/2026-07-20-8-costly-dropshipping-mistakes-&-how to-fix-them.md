@@ -1,10 +1,12 @@
 ---
 title: "8 Costly Dropshipping Mistakes & How to Fix Them"
-description: "Description de l'article"
+description: "8 costly dropshipping mistakes that silently kill your profit margins, and exactly how to fix each one."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"
 tags:
-  - "General"
+  - "Dropshipping"
+  - "Beginner Mistakes"
+  - "E-commerce"
 draft: false
 coverImage:
   src: "./8-costly-dropshipping-mistakes-&-how-to-fix-them_compressed.webp"

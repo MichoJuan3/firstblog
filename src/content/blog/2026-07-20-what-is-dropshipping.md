@@ -1,10 +1,12 @@
 ---
 title: "What Is Dropshipping?"
-description: "Description de l'article"
+description: "What is dropshipping and how does it actually work? A clear breakdown of the retail model that lets you sell without holding inventory."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"
 tags:
-  - "General"
+  - "Dropshipping"
+  - "E-commerce"
+  - "Online Business"
 draft: false
 coverImage:
   src: "./What Is Dropshipping_compressed.webp"

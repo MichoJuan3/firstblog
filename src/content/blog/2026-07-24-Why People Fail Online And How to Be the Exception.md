@@ -1,10 +1,12 @@
 ---
 title: "Why People Fail Online And How to Be the Exception"
-description: "Description de l'article"
+description: "Why over 90% of online businesses fail, and the predictable, avoidable patterns that separate the exceptions who succeed."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"
 tags:
-  - "General"
+  - "Online Business Failure"
+  - "Entrepreneurship Mindset"
+  - "Make Money Online"
 draft: false
 coverImage:
   src: "./Why People Fail Online And How to Be the Exception_compressed.webp"

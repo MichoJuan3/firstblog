@@ -1,10 +1,12 @@
 ---
 title: "7 Online Income Systems You Can Start for Free"
-description: "Description de l'article"
+description: "7 proven online income systems you can start today with zero dollars, no capital required."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"
 tags:
-  - "General"
+  - "Online Income"
+  - "Passive Income"
+  - "Make Money Online"
 draft: false
 coverImage:
   src: "./7 Online Income Systems You Can Start for Free_compressed.webp"

@@ -1,10 +1,12 @@
 ---
 title: "The Best Traffic Sources for Passive Online Income (Free & Paid)"
-description: "Description de l'article"
+description: "The best free and paid traffic sources for building passive online income, including SEO, social media, and paid advertising."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"
 tags:
-  - "General"
+  - "Traffic Generation"
+  - "Passive Income"
+  - "SEO"
 draft: false
 coverImage:
   src: "./The Best Traffic Sources for Passive Online Income_compressed.webp"

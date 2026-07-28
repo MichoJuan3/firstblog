@@ -1,10 +1,12 @@
 ---
 title: "How to Stay Consistent When Results Are Slow"
-description: "Description de l'article"
+description: "How to stay consistent with your online business when results feel painfully slow, and why that's exactly when breakthroughs happen."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"
 tags:
-  - "General"
+  - "Consistency"
+  - "Entrepreneurship Mindset"
+  - "Online Business"
 draft: false
 coverImage:
   src: "./stay-consistent-slow-results.webp"

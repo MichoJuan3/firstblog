@@ -1,0 +1,570 @@
+diff --git a/src/content/blog/2026-07-14-affiliate-marketing-vs-digital-products-which-makes-more-money.md b/src/content/blog/2026-07-14-affiliate-marketing-vs-digital-products-which-makes-more-money.md
+index d3382a7..faf1e79 100644
+--- a/src/content/blog/2026-07-14-affiliate-marketing-vs-digital-products-which-makes-more-money.md
++++ b/src/content/blog/2026-07-14-affiliate-marketing-vs-digital-products-which-makes-more-money.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "Affiliate Marketing vs Digital Products Which Makes More Money?"
+-description: "Description de l'article"
++description: "Affiliate marketing vs digital products: a real income comparison to help you decide which online business model actually makes more money for beginners."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Affiliate Marketing"
++  - "Digital Products"
++  - "Make Money Online"
+ draft: false
+ coverImage:
+   src: "./Affiliate Marketing vs Digital Products Which Makes More Money_compressed.webp"
+diff --git a/src/content/blog/2026-07-15-common-mistakes-beginners-make-when-trying-to-make-money-online.md b/src/content/blog/2026-07-15-common-mistakes-beginners-make-when-trying-to-make-money-online.md
+index 3bef8cd..ce6ec17 100644
+--- a/src/content/blog/2026-07-15-common-mistakes-beginners-make-when-trying-to-make-money-online.md
++++ b/src/content/blog/2026-07-15-common-mistakes-beginners-make-when-trying-to-make-money-online.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "Common Mistakes Beginners Make When Trying to Make Money Online"
+-description: "Description de l'article"
++description: "Discover the most common mistakes beginners make when trying to make money online, from chasing quick riches to ignoring email marketing, and how to avoid them."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Make Money Online"
++  - "Passive Income"
++  - "Beginner Mistakes"
+ draft: false
+ coverImage:
+   src: "./Common Mistakes Beginners Make_compressed.webp"
+diff --git a/src/content/blog/2026-07-15-from-side-hustle-to-full-time-online-income-a-realistic-roadmap.md b/src/content/blog/2026-07-15-from-side-hustle-to-full-time-online-income-a-realistic-roadmap.md
+index b94762f..265424f 100644
+--- a/src/content/blog/2026-07-15-from-side-hustle-to-full-time-online-income-a-realistic-roadmap.md
++++ b/src/content/blog/2026-07-15-from-side-hustle-to-full-time-online-income-a-realistic-roadmap.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "From Side Hustle to Full-Time Online Income: A Realistic Roadmap"
+-description: "Description de l'article"
++description: "A realistic, step-by-step roadmap for turning your side hustle into a full-time online income without quitting your job too soon."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Side Hustle"
++  - "Online Income"
++  - "Entrepreneurship"
+ draft: false
+ coverImage:
+   src: "./From Side Hustle to Full-Time Online Income_compressed.webp"
+diff --git a/src/content/blog/2026-07-15-how-automation-tools-help-you-earn-while-you-sleep.md b/src/content/blog/2026-07-15-how-automation-tools-help-you-earn-while-you-sleep.md
+index 02024a7..7810444 100644
+--- a/src/content/blog/2026-07-15-how-automation-tools-help-you-earn-while-you-sleep.md
++++ b/src/content/blog/2026-07-15-how-automation-tools-help-you-earn-while-you-sleep.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "How Automation Tools Help You Earn While You Sleep"
+-description: "Description de l'article"
++description: "Discover how automation tools and AI let you earn passive income while you sleep, plus the most popular automated income streams to set up."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Automation"
++  - "Passive Income"
++  - "AI Tools"
+ draft: false
+ coverImage:
+   src: "./How Automation Tools Help You Earn While You Sleep_compressed.webp"
+diff --git a/src/content/blog/2026-07-16-how-digital-marketing-creates-financial-freedom-in-2026.md b/src/content/blog/2026-07-16-how-digital-marketing-creates-financial-freedom-in-2026.md
+index 2466b80..ff0ad2e 100644
+--- a/src/content/blog/2026-07-16-how-digital-marketing-creates-financial-freedom-in-2026.md
++++ b/src/content/blog/2026-07-16-how-digital-marketing-creates-financial-freedom-in-2026.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "How Digital Marketing Creates Financial Freedom in 2026"
+-description: "Description de l'article"
++description: "How digital marketing creates real financial freedom in 2026, from low barriers to entry to high-income skills like SEO and content creation."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Digital Marketing"
++  - "Financial Freedom"
++  - "Online Business"
+ draft: false
+ coverImage:
+   src: "./How Digital Marketing Creates Financial Freedom_compressed.webp"
+diff --git a/src/content/blog/2026-07-16-how-to-build-an-email-list-that-makes-money-on-autopilot.md b/src/content/blog/2026-07-16-how-to-build-an-email-list-that-makes-money-on-autopilot.md
+index 0bb4d0f..0cf0c29 100644
+--- a/src/content/blog/2026-07-16-how-to-build-an-email-list-that-makes-money-on-autopilot.md
++++ b/src/content/blog/2026-07-16-how-to-build-an-email-list-that-makes-money-on-autopilot.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "How to Build an Email List That Makes Money on Autopilot"
+-description: "Description de l'article"
++description: "A complete guide to building an email list that generates money on autopilot, starting with an irresistible lead magnet."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Email Marketing"
++  - "Passive Income"
++  - "Lead Generation"
+ draft: false
+ coverImage:
+   src: "./How to Build an Email List That Makes Money on Autopilot_compressed.webp"
+diff --git a/src/content/blog/2026-07-16-how-to-turn-content-into-daily-income-a-complete-guide.md b/src/content/blog/2026-07-16-how-to-turn-content-into-daily-income-a-complete-guide.md
+index a86a923..54f5141 100644
+--- a/src/content/blog/2026-07-16-how-to-turn-content-into-daily-income-a-complete-guide.md
++++ b/src/content/blog/2026-07-16-how-to-turn-content-into-daily-income-a-complete-guide.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "How to Turn Content Into Daily Income: A Complete Guide"
+-description: "Description de l'article"
++description: "Turn blogs, Quora, and Pinterest content into a reliable source of daily income with these practical monetization strategies."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Content Monetization"
++  - "Blogging"
++  - "Online Income"
+ draft: false
+ coverImage:
+   src: "./How to Turn Content Into Daily Income_compressed.webp"
+diff --git a/src/content/blog/2026-07-17-selling-without-inventory.md b/src/content/blog/2026-07-17-selling-without-inventory.md
+index 89f721a..2060461 100644
+--- a/src/content/blog/2026-07-17-selling-without-inventory.md
++++ b/src/content/blog/2026-07-17-selling-without-inventory.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "Selling Without inventory"
+-description: "Description de l'article"
++description: "Learn how print-on-demand lets you sell products without holding inventory, from how it works to launching your first design."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Print on Demand"
++  - "Selling Without Inventory"
++  - "E-commerce"
+ draft: false
+ coverImage:
+   src: "./Selling Without Inventory_compressed.webp"
+diff --git a/src/content/blog/2026-07-17-step-by-step-creating-your-first-digital-product-that-sells.md b/src/content/blog/2026-07-17-step-by-step-creating-your-first-digital-product-that-sells.md
+index ead2682..75e8554 100644
+--- a/src/content/blog/2026-07-17-step-by-step-creating-your-first-digital-product-that-sells.md
++++ b/src/content/blog/2026-07-17-step-by-step-creating-your-first-digital-product-that-sells.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "Step by Step: Creating Your First Digital Product That Sells"
+-description: "Description de l'article"
++description: "A step-by-step guide to creating your first digital product that actually sells, starting with finding your niche and audience."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Digital Products"
++  - "Online Business"
++  - "Passive Income"
+ draft: false
+ coverImage:
+   src: "./Step by Step Creating Your First Digital Product That Sells_compressed.webp"
+diff --git a/src/content/blog/2026-07-17-the-best-traffic-sources-for-passive-online-income-free-paid.md b/src/content/blog/2026-07-17-the-best-traffic-sources-for-passive-online-income-free-paid.md
+index 08ba408..7fea39a 100644
+--- a/src/content/blog/2026-07-17-the-best-traffic-sources-for-passive-online-income-free-paid.md
++++ b/src/content/blog/2026-07-17-the-best-traffic-sources-for-passive-online-income-free-paid.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "The Best Traffic Sources for Passive Online Income (Free & Paid)"
+-description: "Description de l'article"
++description: "The best free and paid traffic sources for building passive online income, including SEO, social media, and paid advertising."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Traffic Generation"
++  - "Passive Income"
++  - "SEO"
+ draft: false
+ coverImage:
+   src: "./The Best Traffic Sources for Passive Online Income_compressed.webp"
+diff --git a/src/content/blog/2026-07-18-Best Platforms to Sell Digital Products in 2026.md b/src/content/blog/2026-07-18-Best Platforms to Sell Digital Products in 2026.md
+index b518fcf..198db0f 100644
+--- a/src/content/blog/2026-07-18-Best Platforms to Sell Digital Products in 2026.md	
++++ b/src/content/blog/2026-07-18-Best Platforms to Sell Digital Products in 2026.md	
+@@ -1,10 +1,12 @@
+ ---
+ title: "Best Platforms to Sell Digital Products in 2026"
+-description: "Description de l'article"
++description: "Comparing Gumroad, Etsy, and Payhip to help you choose the best platform to sell digital products in 2026."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Digital Products"
++  - "Payhip"
++  - "Online Selling"
+ draft: false
+ coverImage:
+   src: "./Best Platforms to Sell Digital Products in 2026_compressed.webp"
+diff --git a/src/content/blog/2026-07-18-digital-products-vs-physical-products-pros-cons-and-profit.md b/src/content/blog/2026-07-18-digital-products-vs-physical-products-pros-cons-and-profit.md
+index ce75f1f..22c4500 100644
+--- a/src/content/blog/2026-07-18-digital-products-vs-physical-products-pros-cons-and-profit.md
++++ b/src/content/blog/2026-07-18-digital-products-vs-physical-products-pros-cons-and-profit.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "Digital Products vs Physical Products: Pros, Cons, and Profit"
+-description: "Description de l'article"
++description: "Digital products vs physical products: comparing profit margins, scalability, and overhead to help you choose the right business model."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Digital Products"
++  - "E-commerce"
++  - "Online Business"
+ draft: false
+ coverImage:
+   src: "./Digital Products vs Physical Products Pros Cons and Profit_compressed.webp"
+diff --git a/src/content/blog/2026-07-18-how-to-create-high-converting-product-pages-that-sell.md b/src/content/blog/2026-07-18-how-to-create-high-converting-product-pages-that-sell.md
+index 4bfd4a6..540a7b7 100644
+--- a/src/content/blog/2026-07-18-how-to-create-high-converting-product-pages-that-sell.md
++++ b/src/content/blog/2026-07-18-how-to-create-high-converting-product-pages-that-sell.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "How to Create High-Converting Product Pages That Sell"
+-description: "Description de l'article"
++description: "Learn how to build high-converting product pages that turn visitors into buyers, starting with a benefit-focused headline."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Product Pages"
++  - "Conversion Optimization"
++  - "E-commerce"
+ draft: false
+ coverImage:
+   src: "./How to Create High-Converting Product Pages That Sell_compressed.webp"
+diff --git a/src/content/blog/2026-07-19-Find Winning Products Without Paid Tools.md b/src/content/blog/2026-07-19-Find Winning Products Without Paid Tools.md
+index 34d1044..d2951ce 100644
+--- a/src/content/blog/2026-07-19-Find Winning Products Without Paid Tools.md	
++++ b/src/content/blog/2026-07-19-Find Winning Products Without Paid Tools.md	
+@@ -1,10 +1,12 @@
+ ---
+ title: "Find Winning Products Without Paid Tools"
+-description: "Description de l'article"
++description: "How to find winning products for your dropshipping or e-commerce store without spending money on paid research tools."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Dropshipping"
++  - "Product Research"
++  - "E-commerce"
+ draft: false
+ coverImage:
+   src: "./Find Winning Products Without Paid Tools_compressed.webp"
+diff --git a/src/content/blog/2026-07-19-how-to-price-digital-products-for-maximum-profit.md b/src/content/blog/2026-07-19-how-to-price-digital-products-for-maximum-profit.md
+index 3f8f4f7..de90a9b 100644
+--- a/src/content/blog/2026-07-19-how-to-price-digital-products-for-maximum-profit.md
++++ b/src/content/blog/2026-07-19-how-to-price-digital-products-for-maximum-profit.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "How to Price Digital Products for Maximum Profit"
+-description: "Description de l'article"
++description: "How to price digital products for maximum profit by balancing value, psychology, and strategy instead of guesswork."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Digital Products"
++  - "Pricing Strategy"
++  - "Online Business"
+ draft: false
+ coverImage:
+   src: "./How to Price Digital Products for Maximum Profit_compressed.webp"
+diff --git a/src/content/blog/2026-07-19-how-to-start-dropshipping-with-0-inventory.md b/src/content/blog/2026-07-19-how-to-start-dropshipping-with-0-inventory.md
+index dfa5dc2..5d09706 100644
+--- a/src/content/blog/2026-07-19-how-to-start-dropshipping-with-0-inventory.md
++++ b/src/content/blog/2026-07-19-how-to-start-dropshipping-with-0-inventory.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "How to Start Dropshipping With $0 Inventory"
+-description: "Description de l'article"
++description: "A step-by-step guide to starting a dropshipping business with $0 in inventory, from choosing products to launching your store."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Dropshipping"
++  - "E-commerce"
++  - "Online Business"
+ draft: false
+ coverImage:
+   src: "./How to Start Dropshipping With $0 Inventory_compressed.webp"
+diff --git a/src/content/blog/2026-07-20-8-costly-dropshipping-mistakes-&-how to-fix-them.md b/src/content/blog/2026-07-20-8-costly-dropshipping-mistakes-&-how to-fix-them.md
+index 713bcdc..ba5cfef 100644
+--- a/src/content/blog/2026-07-20-8-costly-dropshipping-mistakes-&-how to-fix-them.md	
++++ b/src/content/blog/2026-07-20-8-costly-dropshipping-mistakes-&-how to-fix-them.md	
+@@ -1,10 +1,12 @@
+ ---
+ title: "8 Costly Dropshipping Mistakes & How to Fix Them"
+-description: "Description de l'article"
++description: "8 costly dropshipping mistakes that silently kill your profit margins, and exactly how to fix each one."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Dropshipping"
++  - "Beginner Mistakes"
++  - "E-commerce"
+ draft: false
+ coverImage:
+   src: "./8-costly-dropshipping-mistakes-&-how-to-fix-them_compressed.webp"
+diff --git a/src/content/blog/2026-07-20-what-is-dropshipping.md b/src/content/blog/2026-07-20-what-is-dropshipping.md
+index d456af2..f95fa3b 100644
+--- a/src/content/blog/2026-07-20-what-is-dropshipping.md
++++ b/src/content/blog/2026-07-20-what-is-dropshipping.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "What Is Dropshipping?"
+-description: "Description de l'article"
++description: "What is dropshipping and how does it actually work? A clear breakdown of the retail model that lets you sell without holding inventory."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Dropshipping"
++  - "E-commerce"
++  - "Online Business"
+ draft: false
+ coverImage:
+   src: "./What Is Dropshipping_compressed.webp"
+diff --git a/src/content/blog/2026-07-20-why-digital-products-are-the-fastest-way-to-financial-freedom.md b/src/content/blog/2026-07-20-why-digital-products-are-the-fastest-way-to-financial-freedom.md
+index 106ea4b..1b67f02 100644
+--- a/src/content/blog/2026-07-20-why-digital-products-are-the-fastest-way-to-financial-freedom.md
++++ b/src/content/blog/2026-07-20-why-digital-products-are-the-fastest-way-to-financial-freedom.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "Why Digital Products Are the Fastest Way to Financial Freedom"
+-description: "Description de l'article"
++description: "Why digital products are one of the fastest paths to financial freedom, and how to start creating and selling them with almost nothing."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Digital Products"
++  - "Financial Freedom"
++  - "Passive Income"
+ draft: false
+ coverImage:
+   src: "./Why Digital Products Are the Fastest Way to Financial Freedom_compressed.webp"
+diff --git a/src/content/blog/2026-07-21-free-vs-paid-learning-what-actually-gets-results.md b/src/content/blog/2026-07-21-free-vs-paid-learning-what-actually-gets-results.md
+index a3d5b1e..0189700 100644
+--- a/src/content/blog/2026-07-21-free-vs-paid-learning-what-actually-gets-results.md
++++ b/src/content/blog/2026-07-21-free-vs-paid-learning-what-actually-gets-results.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "Free vs Paid Learning: What Actually Gets Results"
+-description: "Description de l'article"
++description: "Free vs paid learning: what the research actually shows about which type of online course gets you real results."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Online Learning"
++  - "Skill Building"
++  - "Digital Skills"
+ draft: false
+ coverImage:
+   src: "./Free vs Paid Learning What Actually Gets Results_compressed.webp"
+diff --git a/src/content/blog/2026-07-21-high-income-digital-skills-you-can-learn-in-90-days.md b/src/content/blog/2026-07-21-high-income-digital-skills-you-can-learn-in-90-days.md
+index 7a0a71a..e4ef4ab 100644
+--- a/src/content/blog/2026-07-21-high-income-digital-skills-you-can-learn-in-90-days.md
++++ b/src/content/blog/2026-07-21-high-income-digital-skills-you-can-learn-in-90-days.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "High-Income Digital Skills You Can Learn in 90 Days"
+-description: "Description de l'article"
++description: "High-income digital skills you can realistically learn in 90 days, including social media marketing and their earning potential."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Digital Skills"
++  - "High-Income Skills"
++  - "Freelancing"
+ draft: false
+ coverImage:
+   src: "./High-Income Digital Skills You Can Learn in 90 Days_compressed.webp"
+diff --git a/src/content/blog/2026-07-21-how-personal-branding-helps-you-make-money-online.md b/src/content/blog/2026-07-21-how-personal-branding-helps-you-make-money-online.md
+index 32597ff..0d7d1ab 100644
+--- a/src/content/blog/2026-07-21-how-personal-branding-helps-you-make-money-online.md
++++ b/src/content/blog/2026-07-21-how-personal-branding-helps-you-make-money-online.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "How Personal Branding Helps You Make Money Online"
+-description: "Description de l'article"
++description: "How personal branding helps you make money online by building the trust that turns audiences into paying customers."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Personal Branding"
++  - "Make Money Online"
++  - "Online Business"
+ draft: false
+ coverImage:
+   src: "./How Personal Branding Helps You Make Money Online_compressed.webp"
+diff --git a/src/content/blog/2026-07-22-7-online-income-systems-you-can-start-for-free.md b/src/content/blog/2026-07-22-7-online-income-systems-you-can-start-for-free.md
+index 9561a03..edee025 100644
+--- a/src/content/blog/2026-07-22-7-online-income-systems-you-can-start-for-free.md
++++ b/src/content/blog/2026-07-22-7-online-income-systems-you-can-start-for-free.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "7 Online Income Systems You Can Start for Free"
+-description: "Description de l'article"
++description: "7 proven online income systems you can start today with zero dollars, no capital required."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Online Income"
++  - "Passive Income"
++  - "Make Money Online"
+ draft: false
+ coverImage:
+   src: "./7 Online Income Systems You Can Start for Free_compressed.webp"
+diff --git a/src/content/blog/2026-07-22-how-to-overcome-fear-of-starting-an-online-business.md b/src/content/blog/2026-07-22-how-to-overcome-fear-of-starting-an-online-business.md
+index dfc78e3..0686ba1 100644
+--- a/src/content/blog/2026-07-22-how-to-overcome-fear-of-starting-an-online-business.md
++++ b/src/content/blog/2026-07-22-how-to-overcome-fear-of-starting-an-online-business.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "How to Overcome Fear of Starting an Online Business?"
+-description: "Description de l'article"
++description: "How to overcome the fear of starting an online business by understanding where that fear comes from and pushing past it."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Entrepreneurship Mindset"
++  - "Online Business"
++  - "Overcoming Fear"
+ draft: false
+ coverImage:
+   src: "./overcome-fear-online-business.webp"
+diff --git a/src/content/blog/2026-07-22-how-to-stay-consistent-when-results-are-slow.md b/src/content/blog/2026-07-22-how-to-stay-consistent-when-results-are-slow.md
+index 4dfa05e..a39ae6c 100644
+--- a/src/content/blog/2026-07-22-how-to-stay-consistent-when-results-are-slow.md
++++ b/src/content/blog/2026-07-22-how-to-stay-consistent-when-results-are-slow.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "How to Stay Consistent When Results Are Slow"
+-description: "Description de l'article"
++description: "How to stay consistent with your online business when results feel painfully slow, and why that's exactly when breakthroughs happen."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Consistency"
++  - "Entrepreneurship Mindset"
++  - "Online Business"
+ draft: false
+ coverImage:
+   src: "./stay-consistent-slow-results.webp"
+diff --git a/src/content/blog/2026-07-22-scaling-your-online-income-without-burning-out.md b/src/content/blog/2026-07-22-scaling-your-online-income-without-burning-out.md
+index b252d5a..3608434 100644
+--- a/src/content/blog/2026-07-22-scaling-your-online-income-without-burning-out.md
++++ b/src/content/blog/2026-07-22-scaling-your-online-income-without-burning-out.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "Scaling Your Online Income Without Burning Out"
+-description: "Description de l'article"
++description: "How to scale your online income strategically without burning out, by building systems instead of just working more hours."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Scaling Online Income"
++  - "Burnout Prevention"
++  - "Online Business"
+ draft: false
+ coverImage:
+   src: "./Scaling Your Online Income Without Burning Out_compressed.webp"
+diff --git a/src/content/blog/2026-07-23-Efficient Time Management with Low Resources.md b/src/content/blog/2026-07-23-Efficient Time Management with Low Resources.md
+index 237cdbd..59ccca8 100644
+--- a/src/content/blog/2026-07-23-Efficient Time Management with Low Resources.md	
++++ b/src/content/blog/2026-07-23-Efficient Time Management with Low Resources.md	
+@@ -1,10 +1,12 @@
+ ---
+ title: "Efficient Time Management with Low Resources"
+-description: "Description de l'article"
++description: "Time management strategies for bootstrapped online entrepreneurs with limited time, money, or team support."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Time Management"
++  - "Bootstrapping"
++  - "Productivity"
+ draft: false
+ coverImage:
+   src: "./Efficient Time Management with Low Resources_compressed.webp"
+diff --git a/src/content/blog/2026-07-23-online-entrepreneurs-financial-mindset.md b/src/content/blog/2026-07-23-online-entrepreneurs-financial-mindset.md
+index b9e204f..0f7d8b1 100644
+--- a/src/content/blog/2026-07-23-online-entrepreneurs-financial-mindset.md
++++ b/src/content/blog/2026-07-23-online-entrepreneurs-financial-mindset.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "Online Entrepreneurs Financial Mindset"
+-description: "Description de l'article"
++description: "The financial mindset that separates online entrepreneurs who build real wealth from those who stay stuck."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Financial Mindset"
++  - "Entrepreneurship"
++  - "Online Income"
+ draft: false
+ coverImage:
+   src: "./Online Entrepreneurs Financial Mindset_compressed.webp"
+diff --git a/src/content/blog/2026-07-23-the-role-of-discipline-in-building-online-income.md b/src/content/blog/2026-07-23-the-role-of-discipline-in-building-online-income.md
+index 64e29fa..c346455 100644
+--- a/src/content/blog/2026-07-23-the-role-of-discipline-in-building-online-income.md
++++ b/src/content/blog/2026-07-23-the-role-of-discipline-in-building-online-income.md
+@@ -1,10 +1,12 @@
+ ---
+ title: "The Role of Discipline in Building Online Income"
+-description: "Description de l'article"
++description: "Why discipline, not talent or the perfect niche, is what actually determines success in building online income."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Discipline"
++  - "Entrepreneurship Mindset"
++  - "Online Income"
+ draft: false
+ coverImage:
+   src: "./Discipline-in-Building-Online-Income.jpg"
+diff --git a/src/content/blog/2026-07-24-Why People Fail Online And How to Be the Exception.md b/src/content/blog/2026-07-24-Why People Fail Online And How to Be the Exception.md
+index 1385563..6dd735a 100644
+--- a/src/content/blog/2026-07-24-Why People Fail Online And How to Be the Exception.md	
++++ b/src/content/blog/2026-07-24-Why People Fail Online And How to Be the Exception.md	
+@@ -1,10 +1,12 @@
+ ---
+ title: "Why People Fail Online And How to Be the Exception"
+-description: "Description de l'article"
++description: "Why over 90% of online businesses fail, and the predictable, avoidable patterns that separate the exceptions who succeed."
+ pubDate: 2026-07-15
+ author: "Jean Paul Michel"
+ tags:
+-  - "General"
++  - "Online Business Failure"
++  - "Entrepreneurship Mindset"
++  - "Make Money Online"
+ draft: false
+ coverImage:
+   src: "./Why People Fail Online And How to Be the Exception_compressed.webp"

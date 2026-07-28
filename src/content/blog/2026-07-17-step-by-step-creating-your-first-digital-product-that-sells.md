@@ -1,10 +1,12 @@
 ---
 title: "Step by Step: Creating Your First Digital Product That Sells"
-description: "Description de l'article"
+description: "A step-by-step guide to creating your first digital product that actually sells, starting with finding your niche and audience."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"
 tags:
-  - "General"
+  - "Digital Products"
+  - "Online Business"
+  - "Passive Income"
 draft: false
 coverImage:
   src: "./Step by Step Creating Your First Digital Product That Sells_compressed.webp"

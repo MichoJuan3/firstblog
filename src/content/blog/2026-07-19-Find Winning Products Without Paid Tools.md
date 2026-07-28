@@ -1,10 +1,12 @@
 ---
 title: "Find Winning Products Without Paid Tools"
-description: "Description de l'article"
+description: "How to find winning products for your dropshipping or e-commerce store without spending money on paid research tools."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"
 tags:
-  - "General"
+  - "Dropshipping"
+  - "Product Research"
+  - "E-commerce"
 draft: false
 coverImage:
   src: "./Find Winning Products Without Paid Tools_compressed.webp"

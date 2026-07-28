@@ -1,10 +1,12 @@
 ---
 title: "Free vs Paid Learning: What Actually Gets Results"
-description: "Description de l'article"
+description: "Free vs paid learning: what the research actually shows about which type of online course gets you real results."
 pubDate: 2026-07-15
 author: "Jean Paul Michel"
 tags:
-  - "General"
+  - "Online Learning"
+  - "Skill Building"
+  - "Digital Skills"
 draft: false
 coverImage:
   src: "./Free vs Paid Learning What Actually Gets Results_compressed.webp"

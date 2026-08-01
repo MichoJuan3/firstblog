@@ -10,7 +10,7 @@ tags:
   - "Online Income"
 draft: false
 coverImage:
-  src: "./Online Entrepreneurs Financial Mindset_compressed.webp"
+  src: "./Online_Entrepreneurs_Financial_Mindset_compressed.webp"
   alt: "Online Entrepreneurs Financial Mindset"
 ---
 
@@ -186,7 +186,7 @@ It's about **fundamentally rewiring** how you perceive:
 
 It's about building assets instead of trading hours. Embracing feedback instead of fearing failure. Creating genuine value instead of chasing trends.
 
-These mental frameworks don't guarantee success**execution still matters enormously**. But without the right mindset, even the best strategies usually fail.
+These mental frameworks don't guarantee success—**execution still matters enormously**. But without the right mindset, even the best strategies usually fail.
 
 ## The Good News
 

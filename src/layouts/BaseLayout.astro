@@ -6,7 +6,7 @@ import Footer from '../components/Footer.astro';
 const { title, description } = Astro.props;
 ---
 
-<html lang="fr">
+<html lang="en">
   <head>
     <BaseHead title={title} description={description} />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1006823992160276"
@@ -19,7 +19,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
     <Header />
     <main>
-      <slot /> <!-- Le contenu de vos pages s'insérera ici -->
+      <slot /> <!-- Page content will be rendered here -->
     </main>
     <Footer />
   </body>

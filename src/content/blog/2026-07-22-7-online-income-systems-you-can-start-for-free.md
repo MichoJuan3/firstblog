@@ -32,7 +32,7 @@ Once you package your skills or knowledge into a downloadable asset—such as a 
 * **Automated Delivery:** Customers receive their download instantly upon payment via automated checkout systems like Stripe or Wise.
 * **Profit Margins:** Typically 85% to 95%+ after platform processing fees.
 
->  **Real-World Example:** Want to see how a complete digital income asset is structured and monetized from scratch? Check out our step-by-step guide: [**Earnings Unleashed: Complete Guide for Premium Side Hustle Creators**](https://digital.suvancci.com/l/sofxv) to learn how to build, launch, and monetize high-margin digital products effectively.
+>  **Real-World Example:** Want to see how a complete digital income asset is structured and monetized from scratch? Check out our step-by-step guide: [**Earnings Unleashed: Complete Guide for Premium Side Hustle Creators**](https://jpmdigitas.gumroad.com/l/ibzkn) to learn how to build, launch, and monetize high-margin digital products effectively.
 
 ---
 

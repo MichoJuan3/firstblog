@@ -1,4 +1,4 @@
----
+﻿---
 title: "Selling Without inventory"
 slug: "selling-without-inventory"
 description: "Learn how print-on-demand lets you sell products without holding inventory, from how it works to launching your first design."
@@ -38,7 +38,7 @@ The typical POD workflow follows these steps: You create a design and upload it 
 
 **Printful** offers high-quality products, global fulfillment centers, and integrations with major e-commerce platforms. It provides white-label services and branded packaging options, making it ideal for building a professional brand.
 
-**Printify** connects you with a network of print providers, allowing you to compare prices and choose the best option for each product. Its competitive pricing structure appeals to budget-conscious entrepreneurs.
+[**Printify**](https://try.printify.com/vye1nsw7k1w4) connects you with a network of print providers, allowing you to compare prices and choose the best option for each product. Its competitive pricing structure appeals to budget-conscious entrepreneurs.
 
 **Gelato** specializes in local production with facilities in over 30 countries, reducing shipping times and costs while supporting sustainability through reduced carbon footprints.
 

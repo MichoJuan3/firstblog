@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blog.techwemate.com/sitemap-index.xml
+Sitemap: https://techwemate.com/sitemap-index.xml

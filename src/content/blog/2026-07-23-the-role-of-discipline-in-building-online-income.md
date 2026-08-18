@@ -15,7 +15,6 @@ coverImage:
   alt: "The role of discipline in building online income"
 ---
 
-# The Role of Discipline in Building Online Income
 
 *Why consistent habits can matter more than motivation when building an online business*
 

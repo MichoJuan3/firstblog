@@ -1,6 +1,7 @@
 ---
 title: "The Role of Discipline in Building Online Income"
 description: "Why discipline matters when building sustainable online income and how consistent habits can support long-term progress."
+slug: "discipline-in-online-income"
 pubDate: 2026-07-15
 updatedDate: 2026-08-16
 author: "Jean Paul Michel"

@@ -14,8 +14,6 @@ coverImage:
   alt: "How to Use Pinterest to Drive Traffic to Your Online Store"
 ---
 
-# How to Use Pinterest to Drive Traffic to Your Online Store
-
 Pinterest gets underestimated by many online sellers who assume it functions like other social platforms. It does not. Understanding that difference is what makes it one of the more effective, and underused, traffic sources for visually driven products.
 
 ## Information

@@ -1,1 +1,9 @@
-{"public":{},"src":{"content":{"blog":{}},"assets":{}}}
+{
+  "public": {},
+  "src": {
+    "assets": {},
+    "content": {
+      "blog": {}
+    }
+  }
+}

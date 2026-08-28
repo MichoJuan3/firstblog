@@ -19,8 +19,7 @@ HostGator currently organizes its shared hosting lineup into four core plans: Ha
 
 This article breaks down each plan in detail, explains who each one is best suited for, and walks through what to actually look at when comparing hosting providers so the decision does not come down to guesswork.
 
-<a href="https://hostgator.pvxt.net/KBY6Wv" target="_blank" rel="nofollow sponsored"><img src="hostgator-60-off-banner_compressed.jpeg" alt="HostGator up to 60 percent off website hosting and 4.99 dollars on select domains" width="336" height="280" /></a>
-
+[![HostGator up to 60 percent off website hosting and 4.99 dollars on select domains](./hostgator-60-off-banner_compressed.jpeg)](https://hostgator.pvxt.net/KBY6Wv)
 ## Explanation
 
 Shared hosting, which is what these four HostGator plans fall under, means your website lives on a server alongside other websites, sharing the server's resources like CPU and memory. This keeps costs low, which is why shared hosting is almost always the entry point for new websites.

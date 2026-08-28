@@ -2,6 +2,9 @@
 title: "Setting Up an Amazon Affiliate Website"
 description: Learn how to build a profitable Amazon affiliate website from scratch, from picking a niche to choosing the right hosting and theme.
 pubDate: 2026-08-13
+coverImage:
+  src: ./Setting-Up-an-Amazon-Affiliate-Website_compressed.webp
+  alt: Setting up an Amazon affiliate website
 tags:
   - affiliate marketing
   - amazon associates
@@ -64,6 +67,7 @@ This plan lets you install two WordPress sites on the same server  useful if you
 
 Once your website is live and you've published a handful of quality articles, you're ready to move on to actually applying for your Amazon Associates account. Check out our full walkthrough on [setting up your Amazon Associates account](/blog/setting-up-your-amazon-associates-account) to complete the process and start earning commissions.
 
+[![Envato Elements](./envato-banner-600x600.webp)](https://1.envato.market/c/7615596/3929672/4662)
 
 ---
 

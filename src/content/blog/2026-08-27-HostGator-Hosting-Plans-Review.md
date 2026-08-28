@@ -6,7 +6,7 @@ pubDate: 2026-08-27
 author: "TechWeMate"
 tags: ["web hosting", "HostGator", "affiliate marketing", "online income"]
 draft: false
-coverImage: "hostgator hosting plans review cover.webp"
+coverImage: "hostgator-hosting-plans-review_compressed.webp"
 ---
 
 ## Information

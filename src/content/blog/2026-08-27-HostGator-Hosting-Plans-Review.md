@@ -1,12 +1,14 @@
 ---
-title: "HostGator Hosting Plans Review: Which Plan Is Right for Your Website in 2026"
+title: "HostGator Hosting Plans Review 2026: Which Plan Fits You"
 slug: "hostgator-hosting-plans-review-2026"
-description: "A complete breakdown of HostGator's Hatchling, Baby, Business, and Pro hosting plans, including pricing, features, and which option fits different website needs."
+description: "A breakdown of HostGator's Hatchling, Baby, Business, and Pro hosting plans, including features and which option fits different website needs."
 pubDate: 2026-08-27
 author: "TechWeMate"
 tags: ["web hosting", "HostGator", "affiliate marketing", "online income"]
 draft: false
-coverImage: "hostgator-hosting-plans-review_compressed.webp"
+coverImage:
+  src: "./hostgator-hosting-plans-review_compressed.webp"
+  alt: "HostGator hosting plans comparison showing Hatchling, Baby, Business, and Pro tiers"
 ---
 
 ## Information

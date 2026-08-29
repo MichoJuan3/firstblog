@@ -68,8 +68,9 @@ This plan lets you install two WordPress sites on the same server  useful if you
 
 Once your website is live and you've published a handful of quality articles, you're ready to move on to actually applying for your Amazon Associates account. Check out our full walkthrough on [setting up your Amazon Associates account](/blog/setting-up-your-amazon-associates-account) to complete the process and start earning commissions.
 
-[![Envato Elements](./envato-banner-600x600.webp)](https://1.envato.market/c/7615596/3929672/4662)
+
 
 ---
 
 *This post contains affiliate links. We may earn a commission at no extra cost to you if you make a purchase through them.*
+

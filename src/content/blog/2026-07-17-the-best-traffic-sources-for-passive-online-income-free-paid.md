@@ -1,4 +1,5 @@
 ---
+affiliate: true
 title: "The Best Traffic Sources for Passive Online Income (Free & Paid)"
 slug: "best-traffic-sources-passive-income"
 description: "The best free and paid traffic sources for building passive online income, including SEO, social media, and paid advertising."
@@ -319,3 +320,5 @@ Consider these factors when selecting your traffic strategy:
 The best passive income strategy often combines multiple traffic sources. Start with one free and one paid source, master them, then expand. Remember that "passive" income still requires upfront work—the passivity comes after you've built the systems.
 
 Track your metrics religiously: cost per click, conversion rate, customer lifetime value, and ROI. Let data guide your decisions, not emotions or trends. The traffic source that works best is the one that profitably brings you customers, regardless of what's currently trendy.
+
+

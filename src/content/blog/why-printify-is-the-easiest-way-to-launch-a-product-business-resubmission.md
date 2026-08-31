@@ -1,4 +1,5 @@
 ---
+affiliate: true
 title: "Why Printify Is the Easiest Way to Launch a Product Business"
 slug: "why-printify-is-the-easiest-way-to-launch-a-product-business"
 description: "An in depth look at how Printify's print on demand model lets anyone launch a product business with zero inventory and no upfront cost."
@@ -93,4 +94,6 @@ For anyone weighing whether to start a product based business, Printify removes 
 For beginners specifically, that tradeoff is usually worth it. Being able to test a product idea in an afternoon, with no financial risk if it doesn't sell, is exactly the kind of low stakes starting point that makes it realistic to actually launch, rather than spend months planning a business that never gets off the ground. The real work still lies ahead. Picking a niche, creating designs that resonate, and driving traffic to the store still matter, but Printify clears away the operational and financial obstacles that used to make even getting started feel out of reach.
 
 If you've been sitting on a product idea, waiting for the "right time" or enough capital to feel comfortable taking the risk, print on demand through a platform like Printify is about as close to a risk free way to test it as exists in ecommerce today.
+
+
 

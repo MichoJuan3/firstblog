@@ -1,4 +1,5 @@
-﻿---
+---
+affiliate: true
 title: "Setting Up an Amazon Affiliate Website"
 description: Learn how to build a profitable Amazon affiliate website from scratch, from picking a niche to choosing the right hosting and theme.
 pubDate: 2026-08-13
@@ -48,7 +49,7 @@ In the **"Choose your new web address"** field, enter the domain name you'd like
 
 ### Website Builder and Hosting
 
-With your niche and domain name in place, it's time to actually build the site. The easiest way to do this is with a content management system, and WordPress remains the most popular choice by far. You'll also need a hosting service to host your website â€” Hostgator offers great hosting at a reasonable price, with a one-click WordPress installation option baked in.
+With your niche and domain name in place, it's time to actually build the site. The easiest way to do this is with a content management system, and WordPress remains the most popular choice by far. You'll also need a hosting service to host your website — Hostgator offers great hosting at a reasonable price, with a one-click WordPress installation option baked in.
 
 You won't need to juggle separate accounts for domain and hosting. Just head to Hostgator and click on **"WordPress Hosting."** You'll see three packages available; we recommend starting with the **"Standard"** plan.
 
@@ -70,5 +71,7 @@ Once your website is live and you've published a handful of quality articles, yo
 ---
 
 *This post contains affiliate links. We may earn a commission at no extra cost to you if you make a purchase through them.*
+
+
 
 

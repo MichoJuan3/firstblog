@@ -93,3 +93,4 @@ The ultimate goal isn't to build an online income that requires you to work 80 h
 That only happens when you design your business that way from the start. It requires making intentional choices about what you build, how you build it, and what you're willing to say no to along the way.
 
 Scaling your online income without burning out isn't about working less or lowering your ambitions. It's about working strategically, building sustainably, and remembering that you're a human being, not a productivity machine. Your business should serve your life, not consume it.
+

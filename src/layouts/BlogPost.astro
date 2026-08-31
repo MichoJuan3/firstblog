@@ -8,7 +8,7 @@ import { Image } from 'astro:assets';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, coverImage, affiliate } = Astro.props;
+const { title, description, pubDate, updatedDate, coverImage } = Astro.props;
 ---
 
 <html lang="en">
@@ -106,15 +106,9 @@ Last updated on <FormattedDate date={updatedDate} />
 <hr />
 </div>
 
-{
-affiliate && (
 <div class="affiliate-disclosure">
 <strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you purchase through our links, we may earn a commission at no additional cost to you. Our recommendations are based on our own research and analysis.
-</div>
-)
-}
-
-<slot />
+</div>`r`n`r`n<slot />
 </div>
 </article>
 </main>
@@ -122,3 +116,4 @@ affiliate && (
 <Footer />
 </body>
 </html>
+

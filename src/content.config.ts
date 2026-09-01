@@ -21,6 +21,7 @@ const blog = defineCollection({
       author: z.string().default('Jean Paul Michel'),
       tags: z.array(z.string()).default(['Général']),
       draft: z.boolean().default(false),
+      facebookEmbed: z.boolean().default(false),
 
       // Image de couverture
       coverImage: z

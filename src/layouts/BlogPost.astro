@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import { Image } from 'astro:assets';
+import FacebookEmbed from '../components/FacebookEmbed.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
@@ -111,6 +112,8 @@ Last updated on <FormattedDate date={updatedDate} />
 </div>
 
 <slot />
+
+<FacebookEmbed />
 </div>
 </article>
 </main>
@@ -118,5 +121,10 @@ Last updated on <FormattedDate date={updatedDate} />
 <Footer />
 </body>
 </html>
+
+
+
+
+
 
 

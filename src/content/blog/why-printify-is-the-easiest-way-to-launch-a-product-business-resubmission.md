@@ -18,7 +18,7 @@ coverImage:
 
 If you've ever wanted to sell your own branded products, such as t shirts, mugs, hoodies, or phone cases, without the headache of buying inventory, storing boxes, or shipping orders yourself, [Printify](https://try.printify.com/vye1nsw7k1w4) is one of the most accessible ways to make that happen.
 
-> **Affiliate Disclosure:** This article contains affiliate links. If you purchase Printify services through our links, we may earn a commission at no additional cost to you. Our recommendations are based on our own research and analysis.
+> **Affiliate Disclosure:** This article contains affiliate links. If you purchase Printify services through our links, we may earn a commission at no additional cost to you. Our recommendations are based on our own research and analysis
 
 For years, starting a product based business meant taking on real financial risk before you ever made a single sale. You had to guess how much inventory to order, pay for it upfront, find somewhere to store it, and hope enough of it sold before you ran out of cash or storage space. Print on demand platforms like Printify have quietly rewritten that entire equation, and it's worth understanding exactly why that shift matters for anyone considering an ecommerce business today.
 

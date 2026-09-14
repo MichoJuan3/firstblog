@@ -15,8 +15,6 @@ coverImage:
 description: Struggling with HR as your business grows? Learn how to evaluate HR software, compare solution types, and choose the right fit for your team.
 ---
 
----
-
 ## Introduction
 
 Managing people is one of the hardest parts of running a small business. Between onboarding new hires, tracking time off, staying compliant with labor laws, and keeping employee records organized, HR tasks can quietly consume hours every week. For many small business owners, this work is still handled through spreadsheets, email threads, and paper files, a setup that becomes harder to sustain as the team grows.

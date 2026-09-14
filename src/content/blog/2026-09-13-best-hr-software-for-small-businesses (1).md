@@ -15,11 +15,6 @@ coverImage:
 description: Struggling with HR as your business grows? Learn how to evaluate HR software, compare solution types, and choose the right fit for your team.
 ---
 
-# Best HR Software for Small Businesses 
-
-
-### How to Choose the Right Solution ?
-
 ---
 
 ## Introduction
@@ -30,7 +25,7 @@ This guide breaks down the real problem behind HR management for small businesse
 
 ---
 
-## The Problem: Why HR Gets Harder as You Grow
+### The Problem: Why HR Gets Harder as You Grow
 
 In the early stages of a business, HR is often informal. The owner or a single employee handles hiring, payroll, and basic recordkeeping without any dedicated system. This works fine with two or three employees, but it starts to break down quickly.
 

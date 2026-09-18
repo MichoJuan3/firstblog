@@ -1,0 +1,853 @@
+---
+const ORDER_FORM_URL = "https://www.digistore24.com/product/734623";
+
+const benefits = [
+  "Write clearer and more effective AI prompts",
+  "Structure instructions for better AI responses",
+  "Improve and refine AI-generated answers",
+  "Apply practical prompting techniques to everyday tasks",
+  "Get more consistent and useful results from AI",
+];
+
+const audiences = [
+  "Freelancers and remote workers",
+  "Small business owners",
+  "Content creators and marketers",
+  "Students and professionals",
+  "Anyone who wants to work more effectively with AI",
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>AI Prompt Mastery | TechWeMate</title>
+
+    <meta
+      name="description"
+      content="Learn practical prompt techniques to write clearer instructions, improve AI responses, and get better results with AI."
+    />
+
+    <meta
+      name="keywords"
+      content="AI prompts, prompt engineering, ChatGPT prompts, artificial intelligence, AI productivity, prompt writing"
+    />
+
+    <link rel="canonical" href="https://www.techwemate.com/ai-prompt-mastery/" />
+
+    <style>
+      :global(*) {
+        box-sizing: border-box;
+      }
+
+      :global(html) {
+        scroll-behavior: smooth;
+      }
+
+      :global(body) {
+        margin: 0;
+        font-family:
+          "Montserrat",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Arial,
+          sans-serif;
+        color: #172033;
+        background: #ffffff;
+        line-height: 1.6;
+      }
+
+      .page {
+        overflow: hidden;
+      }
+
+      /* NAVIGATION */
+
+      .nav {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: rgba(5, 15, 30, 0.97);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(12px);
+      }
+
+      .nav-inner {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 18px 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+      .brand {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: 2px;
+      }
+
+      .brand span {
+        color: #08bdfc;
+      }
+
+      .nav-link {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+        opacity: 0.9;
+      }
+
+      .nav-link:hover {
+        color: #08bdfc;
+      }
+
+      /* HERO */
+
+      .hero {
+        background:
+          radial-gradient(circle at 75% 25%, rgba(0, 191, 255, 0.15), transparent 30%),
+          linear-gradient(135deg, #030914 0%, #07172b 55%, #04101f 100%);
+        color: #ffffff;
+        padding: 90px 24px 100px;
+      }
+
+      .hero-inner {
+        max-width: 1180px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1.15fr 0.85fr;
+        align-items: center;
+        gap: 70px;
+      }
+
+      .eyebrow {
+        display: inline-block;
+        margin-bottom: 18px;
+        color: #08bdfc;
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+
+      .hero h1 {
+        margin: 0;
+        max-width: 800px;
+        font-size: clamp(44px, 6vw, 76px);
+        line-height: 1.02;
+        letter-spacing: -2px;
+        font-weight: 800;
+      }
+
+      .hero h1 span {
+        color: #08bdfc;
+      }
+
+      .hero-subtitle {
+        max-width: 700px;
+        margin: 26px 0 0;
+        font-size: clamp(18px, 2vw, 23px);
+        line-height: 1.55;
+        color: #d8e5f1;
+      }
+
+      .hero-actions {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-top: 35px;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 54px;
+        padding: 0 28px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 800;
+        transition:
+          transform 0.2s ease,
+          box-shadow 0.2s ease;
+      }
+
+      .btn-primary {
+        color: #03101d;
+        background: #08bdfc;
+        box-shadow: 0 10px 30px rgba(8, 189, 252, 0.25);
+      }
+
+      .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 14px 35px rgba(8, 189, 252, 0.35);
+      }
+
+      .btn-secondary {
+        color: #ffffff;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+      }
+
+      .btn-secondary:hover {
+        transform: translateY(-2px);
+        border-color: #08bdfc;
+      }
+
+      .price-note {
+        margin-top: 18px;
+        color: #aebfd0;
+        font-size: 13px;
+      }
+
+      /* HERO VISUAL */
+
+      .hero-card {
+        position: relative;
+        min-height: 430px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .ai-panel {
+        width: min(390px, 100%);
+        padding: 34px;
+        border: 1px solid rgba(8, 189, 252, 0.28);
+        border-radius: 18px;
+        background: linear-gradient(
+          145deg,
+          rgba(17, 39, 64, 0.95),
+          rgba(4, 15, 29, 0.98)
+        );
+        box-shadow:
+          0 25px 70px rgba(0, 0, 0, 0.45),
+          0 0 60px rgba(8, 189, 252, 0.08);
+      }
+
+      .ai-icon {
+        width: 90px;
+        height: 90px;
+        margin: 0 auto 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #08bdfc;
+        border-radius: 18px;
+        color: #08bdfc;
+        font-size: 34px;
+        font-weight: 800;
+        box-shadow: 0 0 35px rgba(8, 189, 252, 0.15);
+      }
+
+      .ai-panel h2 {
+        margin: 0;
+        text-align: center;
+        font-size: 26px;
+      }
+
+      .ai-panel p {
+        margin: 12px 0 0;
+        text-align: center;
+        color: #aebfd0;
+        font-size: 14px;
+      }
+
+      .prompt-line {
+        margin-top: 25px;
+        padding: 14px 16px;
+        border-radius: 8px;
+        background: #020913;
+        border-left: 3px solid #08bdfc;
+        color: #d9e9f5;
+        font-size: 13px;
+      }
+
+      /* SECTIONS */
+
+      .section {
+        padding: 90px 24px;
+      }
+
+      .section-inner {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+
+      .section-dark {
+        background: #07172b;
+        color: #ffffff;
+      }
+
+      .section-light {
+        background: #f6f9fc;
+      }
+
+      .section-label {
+        margin-bottom: 12px;
+        color: #078fc0;
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+
+      .section h2 {
+        margin: 0 0 20px;
+        font-size: clamp(30px, 4vw, 46px);
+        line-height: 1.15;
+        letter-spacing: -1px;
+      }
+
+      .section-intro {
+        max-width: 760px;
+        margin: 0 0 35px;
+        color: #59687a;
+        font-size: 18px;
+      }
+
+      .section-dark .section-intro {
+        color: #c6d4e0;
+      }
+
+      /* PROBLEM */
+
+      .problem-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 22px;
+        margin-top: 40px;
+      }
+
+      .problem-card {
+        padding: 28px;
+        border: 1px solid #dce5ed;
+        border-radius: 12px;
+        background: #ffffff;
+      }
+
+      .problem-card strong {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 18px;
+      }
+
+      .problem-card p {
+        margin: 0;
+        color: #687687;
+        font-size: 15px;
+      }
+
+      /* BENEFITS */
+
+      .benefit-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+        margin-top: 35px;
+      }
+
+      .benefit {
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+        padding: 20px;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .check {
+        flex: 0 0 auto;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: #08bdfc;
+        color: #03101d;
+        font-size: 14px;
+        font-weight: 900;
+      }
+
+      .benefit span:last-child {
+        color: #e2edf5;
+      }
+
+      /* CONTENT */
+
+      .content-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 22px;
+        margin-top: 35px;
+      }
+
+      .content-card {
+        padding: 30px;
+        border: 1px solid #dce5ed;
+        border-radius: 12px;
+        background: #ffffff;
+      }
+
+      .content-number {
+        color: #08a9e3;
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 1px;
+      }
+
+      .content-card h3 {
+        margin: 8px 0 8px;
+        font-size: 20px;
+      }
+
+      .content-card p {
+        margin: 0;
+        color: #657487;
+        font-size: 15px;
+      }
+
+      /* AUDIENCE */
+
+      .audience-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+        margin-top: 30px;
+      }
+
+      .audience-item {
+        padding: 18px 20px;
+        border-left: 3px solid #08bdfc;
+        background: #f6f9fc;
+        font-weight: 600;
+      }
+
+      /* CTA */
+
+      .cta {
+        padding: 100px 24px;
+        text-align: center;
+        background:
+          radial-gradient(circle at center, rgba(8, 189, 252, 0.13), transparent 35%),
+          #030914;
+        color: #ffffff;
+      }
+
+      .cta-inner {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .cta h2 {
+        margin: 0;
+        font-size: clamp(34px, 5vw, 56px);
+        line-height: 1.1;
+      }
+
+      .cta p {
+        max-width: 650px;
+        margin: 22px auto 30px;
+        color: #c5d4e1;
+        font-size: 18px;
+      }
+
+      .cta-price {
+        margin-bottom: 22px;
+        font-size: 15px;
+        color: #aebfd0;
+      }
+
+      /* FOOTER */
+
+      .footer {
+        padding: 35px 24px;
+        background: #020812;
+        color: #8fa2b5;
+        text-align: center;
+        font-size: 13px;
+      }
+
+      .footer-brand {
+        margin-bottom: 8px;
+        color: #ffffff;
+        font-weight: 800;
+        letter-spacing: 2px;
+      }
+
+      .footer a {
+        color: #08bdfc;
+        text-decoration: none;
+      }
+
+      .disclosure {
+        max-width: 800px;
+        margin: 12px auto 0;
+        color: #73869a;
+        font-size: 12px;
+      }
+
+      /* MOBILE */
+
+      @media (max-width: 850px) {
+        .hero {
+          padding: 70px 20px 80px;
+        }
+
+        .hero-inner {
+          grid-template-columns: 1fr;
+          gap: 50px;
+        }
+
+        .hero-card {
+          min-height: auto;
+        }
+
+        .problem-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .benefit-list,
+        .content-grid,
+        .audience-list {
+          grid-template-columns: 1fr;
+        }
+
+        .section {
+          padding: 70px 20px;
+        }
+      }
+
+      @media (max-width: 560px) {
+        .nav-inner {
+          padding: 15px 18px;
+        }
+
+        .nav-link {
+          display: none;
+        }
+
+        .hero h1 {
+          font-size: 46px;
+        }
+
+        .hero-actions {
+          flex-direction: column;
+          align-items: stretch;
+        }
+
+        .btn {
+          width: 100%;
+        }
+
+        .ai-panel {
+          padding: 28px 22px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="page">
+
+      <!-- NAVIGATION -->
+      <nav class="nav">
+        <div class="nav-inner">
+          <a class="brand" href="https://www.techwemate.com/">
+            TECH<span>WEMATE</span>
+          </a>
+
+          <a class="nav-link" href="https://www.techwemate.com/">
+            Visit TechWeMate
+          </a>
+        </div>
+      </nav>
+
+      <!-- HERO -->
+      <header class="hero">
+        <div class="hero-inner">
+
+          <div>
+            <div class="eyebrow">TECHWEMATE DIGITAL GUIDE</div>
+
+           <h1>
+  AI Prompt <span>Mastery</span>
+</h1>
+
+            <p class="hero-subtitle">
+              The Practical Guide to Getting Better Results with AI
+            </p>
+
+            <p class="hero-subtitle" style="font-size: 16px;">
+              Learn how to write clearer prompts, structure your instructions,
+              improve AI responses, and apply practical prompting techniques
+              to everyday tasks.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                class="btn btn-primary"
+                href={ORDER_FORM_URL}
+              >
+                Get Instant Access
+              </a>
+
+              <a class="btn btn-secondary" href="#inside">
+                See What's Inside
+              </a>
+            </div>
+
+            <div class="price-note">
+              Instant digital access • PDF ebook
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="ai-panel">
+              <div class="ai-icon">AI</div>
+
+              <h2>Better Prompts.</h2>
+              <p>Better instructions. Better results.</p>
+
+              <div class="prompt-line">
+                Clear instructions → focused AI response → more useful results
+              </div>
+
+              <div class="prompt-line">
+                Learn practical techniques you can apply immediately.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </header>
+
+      <!-- PROBLEM -->
+      <section class="section section-light">
+        <div class="section-inner">
+
+          <div class="section-label">The Problem</div>
+
+          <h2>
+            AI can be powerful — but your results depend on how you communicate with it.
+          </h2>
+
+          <p class="section-intro">
+            A vague instruction can produce a vague answer. Clearer prompts
+            give you a better structure for communicating what you actually
+            want from an AI system.
+          </p>
+
+          <div class="problem-grid">
+
+            <div class="problem-card">
+              <strong>Unclear prompts</strong>
+              <p>
+                You ask AI something, but the response does not match what
+                you were looking for.
+              </p>
+            </div>
+
+            <div class="problem-card">
+              <strong>Inconsistent results</strong>
+              <p>
+                Similar requests can produce very different results when the
+                instructions are not structured clearly.
+              </p>
+            </div>
+
+            <div class="problem-card">
+              <strong>Too much trial and error</strong>
+              <p>
+                Instead of repeatedly rewriting your request, learn practical
+                ways to improve your prompts.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- BENEFITS -->
+      <section class="section section-dark">
+        <div class="section-inner">
+
+          <div class="section-label">What You'll Learn</div>
+
+          <h2>
+            Practical prompting techniques you can use immediately.
+          </h2>
+
+          <p class="section-intro">
+            AI Prompt Mastery focuses on practical ways to communicate with AI
+            more effectively and get more useful responses.
+          </p>
+
+          <div class="benefit-list">
+            {
+              benefits.map((benefit) => (
+                <div class="benefit">
+                  <span class="check">✓</span>
+                  <span>{benefit}</span>
+                </div>
+              ))
+            }
+          </div>
+
+        </div>
+      </section>
+
+      <!-- INSIDE -->
+      <section class="section" id="inside">
+        <div class="section-inner">
+
+          <div class="section-label">Inside The Guide</div>
+
+          <h2>
+            A practical introduction to better AI prompting.
+          </h2>
+
+          <p class="section-intro">
+            The guide is designed to help you understand how to create better
+            instructions and apply prompting techniques to real-world tasks.
+          </p>
+
+          <div class="content-grid">
+
+            <div class="content-card">
+              <div class="content-number">01</div>
+              <h3>Writing Better Prompts</h3>
+              <p>
+                Learn how clearer wording and better instructions can improve
+                the quality of AI-generated responses.
+              </p>
+            </div>
+
+            <div class="content-card">
+              <div class="content-number">02</div>
+              <h3>Structuring Instructions</h3>
+              <p>
+                Understand how to organize your requests so AI has clearer
+                direction about the task you want completed.
+              </p>
+            </div>
+
+            <div class="content-card">
+              <div class="content-number">03</div>
+              <h3>Improving AI Responses</h3>
+              <p>
+                Learn practical approaches for refining and improving the
+                responses you receive from AI.
+              </p>
+            </div>
+
+            <div class="content-card">
+              <div class="content-number">04</div>
+              <h3>Practical AI Applications</h3>
+              <p>
+                Apply prompting techniques to everyday tasks where better
+                instructions can help you work more effectively.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- AUDIENCE -->
+      <section class="section section-light">
+        <div class="section-inner">
+
+          <div class="section-label">Who It's For</div>
+
+          <h2>
+            Built for people who want to work more effectively with AI.
+          </h2>
+
+          <p class="section-intro">
+            You do not need to be an AI expert to start improving the way you
+            communicate with AI tools.
+          </p>
+
+          <div class="audience-list">
+            {
+              audiences.map((audience) => (
+                <div class="audience-item">
+                  ✓ {audience}
+                </div>
+              ))
+            }
+          </div>
+
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta">
+        <div class="cta-inner">
+
+          <div class="section-label">Start Learning</div>
+
+          <h2>
+            Get better results from AI by improving the way you prompt.
+          </h2>
+
+          <p>
+            Get instant access to AI Prompt Mastery and start applying
+            practical prompting techniques to your everyday work.
+          </p>
+
+          <div class="cta-price">
+            One-time purchase • Digital PDF ebook
+          </div>
+
+          <a
+            class="btn btn-primary"
+            href={ORDER_FORM_URL}
+          >
+            Get Instant Access
+          </a>
+
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="footer-brand">TECHWEMATE</div>
+
+        <div>
+          Learn · Build · Grow
+        </div>
+
+        <div style="margin-top: 8px;">
+          <a href="https://www.techwemate.com/">
+            www.techwemate.com
+          </a>
+        </div>
+
+        <div class="disclosure">
+          TechWeMate may earn commissions from certain products and services
+          promoted on this website. Recommendations are based on research and
+          are disclosed where applicable.
+        </div>
+
+        <div style="margin-top: 15px;">
+          © {new Date().getFullYear()} TechWeMate. All rights reserved.
+        </div>
+      </footer>
+
+    </div>
+  </body>
+</html>

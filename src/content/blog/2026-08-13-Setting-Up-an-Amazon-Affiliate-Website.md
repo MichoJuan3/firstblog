@@ -1,15 +1,18 @@
 ---
 affiliate: true
 title: "Setting Up an Amazon Affiliate Website"
-description: Learn how to build a profitable Amazon affiliate website from scratch, from picking a niche to choosing the right hosting and theme.
+slug: "setting-up-an-amazon-affiliate-website"
+description: "Learn how to build a profitable Amazon affiliate website from scratch, from picking a niche to choosing the right hosting and theme."
 pubDate: 2026-08-13
-draft: true
+draft: false
 tags:
   - affiliate marketing
   - amazon associates
   - monetization
+coverImage:
+  src: ./Setting-Up-an-Amazon-Affiliate-Website_compressed.webp
+  alt: "Setting Up an Amazon Affiliate Website"
 ---
-
 
 
 Becoming an Amazon affiliate is one of the best strategies to work on when you want to make money online. As an Amazon affiliate, you'll earn money by simply advertising Amazon's products. There are several ways to do it, such as promoting through blogs and social media profiles, and all of them can be successful when done right.

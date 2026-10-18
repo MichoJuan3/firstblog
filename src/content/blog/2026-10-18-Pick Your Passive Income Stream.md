@@ -21,6 +21,8 @@ Every week, someone online promises you a money machine that runs while you slee
 
 This article is about choosing well. I run a technology and online business content platform, TechWeMate, and I have tested several income models in practice, including affiliate content, digital products, and e-commerce. I will share what the numbers actually look like in the early months, because the early months are where most people quit. By the end, you will have a simple framework to pick one stream, commit to it, and measure it properly.
 
+This article is a short companion to my book, [Pick Your Passive Income Stream](https://shop.contenprodigital.com/b/VGCsR), a PDF guide that scores three passive income business models on the same framework and shows the systems that help each one run without you.
+
 ## What Passive Income Really Means
 
 Let us start by removing the myth. Passive income is not effortless income. It is income that is decoupled from your hours after a front loaded investment of time, money, or both. You build the asset first. The asset then earns repeatedly.
@@ -146,5 +148,7 @@ At the end of ninety days, you will not be rich. But you will have a working ass
 There is no perfect passive income stream. There is only the stream that fits your budget, your skills, and your patience, and that you stay with long enough to see compounding begin. Affiliate content rewards persistence. Digital products reward audience building. E-commerce rewards daily testing. Each one works, and each one fails when abandoned too early.
 
 Pick one. Write down why. Track it from the first day. Give it a full ninety days before judging it, and then improve it based on what the data tells you. The people who earn while they sleep are rarely luckier than you. They simply chose a stream, stayed with it through the quiet months, and let the results accumulate.
+
+If you want to go deeper, the full guide is available here: [Get the book, Pick Your Passive Income Stream](https://shop.contenprodigital.com/b/VGCsR).
 
 Your move: which stream will you pick?

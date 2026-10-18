@@ -14,11 +14,8 @@ draft: false
 coverImage:
   src: ./Pick Your Passive Income Stream_compressed.webp
   alt: A workspace illustrating passive income opportunities through digital products, affiliate marketing, and online business.
-description: '"Compare affiliate content, digital products, online stores, and more, then use a five question framework to choose the passive income stream that fits you."'
+description: Compare affiliate content, digital products, online stores, and more, then use a five question framework to choose the passive income stream that fits you.
 ---
-
-
-# Pick Your Passive Income Stream
 
 Every week, someone online promises you a money machine that runs while you sleep. A course, a template, a secret niche, a ten minute setup. If you have spent any time reading about online business, you have seen the pitch. What you rarely see is the honest conversation about how to choose. There are dozens of ways to build passive income, and the wrong choice for your situation can cost you months of effort with nothing to show for it.
 

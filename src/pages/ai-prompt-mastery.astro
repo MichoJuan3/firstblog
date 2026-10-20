@@ -1,4 +1,4 @@
----
+﻿---
 const ORDER_FORM_URL = "https://www.digistore24.com/product/734623";
 
 const benefits = [
@@ -21,6 +21,10 @@ const audiences = [
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Monetag: Good tag (In-Page Push, zone 11676453) -->
+    <script is:inline>
+      (function(s){s.dataset.zone='11676453',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')));
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -610,7 +614,7 @@ const audiences = [
             </div>
 
             <div class="price-note">
-              Instant digital access • PDF ebook
+              Instant digital access â€¢ PDF ebook
             </div>
           </div>
 
@@ -622,7 +626,7 @@ const audiences = [
               <p>Better instructions. Better results.</p>
 
               <div class="prompt-line">
-                Clear instructions → focused AI response → more useful results
+                Clear instructions â†’ focused AI response â†’ more useful results
               </div>
 
               <div class="prompt-line">
@@ -641,7 +645,7 @@ const audiences = [
           <div class="section-label">The Problem</div>
 
           <h2>
-            AI can be powerful — but your results depend on how you communicate with it.
+            AI can be powerful â€” but your results depend on how you communicate with it.
           </h2>
 
           <p class="section-intro">
@@ -699,7 +703,7 @@ const audiences = [
             {
               benefits.map((benefit) => (
                 <div class="benefit">
-                  <span class="check">✓</span>
+                  <span class="check">âœ“</span>
                   <span>{benefit}</span>
                 </div>
               ))
@@ -785,7 +789,7 @@ const audiences = [
             {
               audiences.map((audience) => (
                 <div class="audience-item">
-                  ✓ {audience}
+                  âœ“ {audience}
                 </div>
               ))
             }
@@ -810,7 +814,7 @@ const audiences = [
           </p>
 
           <div class="cta-price">
-            One-time purchase • Digital PDF ebook
+            One-time purchase â€¢ Digital PDF ebook
           </div>
 
           <a
@@ -828,7 +832,7 @@ const audiences = [
         <div class="footer-brand">TECHWEMATE</div>
 
         <div>
-          Learn · Build · Grow
+          Learn Â· Build Â· Grow
         </div>
 
         <div style="margin-top: 8px;">
@@ -844,7 +848,7 @@ const audiences = [
         </div>
 
         <div style="margin-top: 15px;">
-          © {new Date().getFullYear()} TechWeMate. All rights reserved.
+          Â© {new Date().getFullYear()} TechWeMate. All rights reserved.
         </div>
       </footer>
 

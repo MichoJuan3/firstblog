@@ -9,8 +9,6 @@ export default defineConfig({
   site: 'https://techwemate.com',
   integrations: [mdx(), sitemap()],
   redirects: {
-    '/go/superfiliate': 'https://superfiliate.com/votre-lien-affilie',
-    '/go/outil-2': 'https://partnerstack.com/g/votre-lien-unique',
     '/blog/2026-07-14-affiliate-marketing-vs-digital-products-which-makes-more-money/': '/blog/affiliate-marketing-vs-digital-products/',
     '/blog/2026-07-15-common-mistakes-beginners-make-when-trying-to-make-money-online/': '/blog/common-mistakes-making-money-online/',
     '/blog/2026-07-15-from-side-hustle-to-full-time-online-income-a-realistic-roadmap/': '/blog/side-hustle-to-full-time-income/',

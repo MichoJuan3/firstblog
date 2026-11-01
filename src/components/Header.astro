@@ -1,49 +1,93 @@
+
 ---
 import { SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
 ---
 
-<header>
-	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
-		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog">Blog</HeaderLink>
-			
-<HeaderLink href="/digital-finance/">Digital Finance</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
-		</div>
-	</nav>
-</header>
-<style>
-	header {
-		margin: 0;
-		padding: 0 1em;
-		background: white;
-		box-shadow: 0 2px 8px rgba(var(--black), 5%);
-	}
-	h2 {
-		margin: 0;
-		font-size: 1em;
-	}
+<header class="site-header">
+  <nav class="site-nav" aria-label="Main navigation">
+    <h2 class="site-brand">
+      <a href="/">{SITE_TITLE}</a>
+    </h2>
 
-	h2 a,
-	h2 a.active {
-		text-decoration: none;
-	}
-	nav {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-	}
-	nav a {
-		padding: 1em 0.5em;
-		color: var(--black);
-		border-bottom: 4px solid transparent;
-		text-decoration: none;
-	}
-	nav a.active {
-		text-decoration: none;
-		border-bottom-color: var(--accent);
-	}
+    <div class="internal-links">
+      <HeaderLink href="/">Home</HeaderLink>
+      <HeaderLink href="/blog">Blog</HeaderLink>
+      <HeaderLink href="/digital-finance/">Digital Finance</HeaderLink>
+      <HeaderLink href="/about">About</HeaderLink>
+    </div>
+  </nav>
+</header>
+
+<style>
+  .site-header {
+    background: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    box-shadow: 0 2px 12px rgba(15, 23, 42, 0.04);
+  }
+
+  .site-nav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .site-brand {
+    margin: 0;
+    font-size: 23px;
+    font-weight: 800;
+    letter-spacing: -0.7px;
+  }
+
+  .site-brand a {
+    color: #0f172a;
+    text-decoration: none;
+  }
+
+  .internal-links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .internal-links :global(a) {
+    color: #334155;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 0;
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s ease;
+  }
+
+  .internal-links :global(a:hover) {
+    color: #2563eb;
+  }
+
+  .internal-links :global(a.active) {
+    color: #2563eb;
+    border-bottom-color: #2563eb;
+  }
+
+  @media (max-width: 700px) {
+    .site-nav {
+      flex-direction: column;
+      padding: 16px;
+      gap: 12px;
+    }
+
+    .internal-links {
+      justify-content: center;
+      gap: 16px;
+    }
+
+    .internal-links :global(a) {
+      font-size: 14px;
+    }
+  }
 </style>

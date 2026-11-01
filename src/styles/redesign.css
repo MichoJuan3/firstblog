@@ -173,8 +173,7 @@
 .tw-card-content {
   overflow-wrap: anywhere;
 }
-/* Improve text contrast on promotional cards */
-.tw-home .tw-promo h2,
-.tw-home .tw-promo h3 {
+/* Fix AI Prompt Mastery title contrast */
+.tw-home .product-content h2 {
   color: #ffffff;
 }

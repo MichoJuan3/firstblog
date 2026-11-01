@@ -1,38 +1,68 @@
+
 ---
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import '../styles/redesign.css';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 6);
 ---
 
 <!doctype html>
 <html lang="en">
-    <head>
-        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    </head>
-    <body>
-        <Header />
-        <main>
-            <h1>Welcome to Blog Techwemate</h1>
-            <img
-    src="/images/multiple-income-streams.jpg"
-    alt="Multiple income streams"
-    fetchpriority="high"
-    style="width: 100%; border-radius: 8px; margin: 1.5rem 0;"
-/>
-            <p>
-                Your practical guide to building real income online — no hype, no shortcuts.
-            </p>
-            <p>
-                Here you'll find honest, step-by-step content on affiliate marketing, digital
-                products, dropshipping, and the tools and mindset it takes to build a sustainable
-                online income, whether you're just starting out or scaling what you already have.
-            </p>
-            <p>
-                New articles are published regularly. Browse the <a href="/blog">blog</a>, save
-                what's useful, and start building.
-            </p>
-        </main>
-        <Footer />
-    </body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+
+  <body>
+    <Header />
+
+    <main class="tw-home">
+      <section class="tw-hero">
+        <h1>Build Your Digital Income, Smarter.</h1>
+        <p>
+          Practical guides to affiliate marketing, digital products,
+          dropshipping, and building a sustainable online business.
+        </p>
+        <a class="tw-button" href="/blog/">Explore the Blog</a>
+      </section>
+
+      <section class="tw-section">
+        <h2>Latest Articles</h2>
+
+        <div class="tw-article-grid">
+          {posts.map((post) => (
+            <article class="tw-article-card">
+              {post.data.coverImage && (
+                <a href={`/blog/${post.data.slug || post.id}/`}>
+                  <Image
+                    src={post.data.coverImage.src}
+                    alt={post.data.coverImage.alt}
+                    width={600}
+                    height={338}
+                  />
+                </a>
+              )}
+
+              <div class="tw-card-content">
+                <h3>
+                  <a href={`/blog/${post.data.slug || post.id}/`}>
+                    {post.data.title}
+                  </a>
+                </h3>
+                <p>{post.data.description}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    </main>
+
+    <Footer />
+  </body>
 </html>

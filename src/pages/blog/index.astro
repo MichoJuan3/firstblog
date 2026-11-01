@@ -1,3 +1,4 @@
+
 ---
 import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
@@ -6,144 +7,133 @@ import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import Header from '../../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+import '../../styles/redesign.css';
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			main {
-				width: 960px;
-			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			ul li {
-				width: calc(50% - 1rem);
-			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-			ul li:first-child {
-				width: 100%;
-				margin-bottom: 1rem;
-				text-align: center;
-			}
-			ul li:first-child img {
-				width: 100%;
-			}
-			ul li:first-child .title {
-				font-size: 2.369rem;
-			}
-			ul li img {
-				margin-bottom: 0.5rem;
-				border-radius: 12px;
-			}
-			ul li a {
-				display: block;
-			}
-			.title {
-				margin: 0;
-				color: rgb(var(--black));
-				line-height: 1;
-			}
-			.date {
-				margin: 0;
-				color: rgb(var(--gray));
-			}
-			ul li a:hover h4,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
-			}
-			ul a:hover img {
-				box-shadow: var(--box-shadow);
-			}
-			@media (max-width: 720px) {
-				ul {
-					gap: 0.5em;
-				}
-				ul li {
-					width: 100%;
-					text-align: center;
-				}
-				ul li:first-child {
-					margin-bottom: 0;
-				}
-				ul li:first-child .title {
-					font-size: 1.563em;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<Header />
-		<main>
-			<section>
-				<ul>
-					<li class="product-card">
-  <div class="product-content">
-    <div class="product-label">TECHWEMATE DIGITAL GUIDE</div>
+  <head>
+    <BaseHead
+      title={`Blog | ${SITE_TITLE}`}
+      description={SITE_DESCRIPTION}
+    />
+  </head>
 
-    <h2>AI Prompt Mastery</h2>
+  <body>
+    <Header />
 
-    <p class="product-description">
-      The Practical Guide to Getting Better Results with AI.
-      Learn how to write clearer prompts, structure instructions,
-      improve AI responses, and apply practical prompting techniques
-      to everyday tasks.
-    </p>
+    <main class="tw-home">
+      <section class="tw-blog-intro">
+        <p class="tw-eyebrow">TECHWEMATE BLOG</p>
+        <h1>Ideas, Tools & Guides for Digital Growth</h1>
+        <p>
+          Explore practical strategies for affiliate marketing,
+          digital products, dropshipping, and online business.
+        </p>
+      </section>
 
-    <div class="product-actions">
-      <a
-        href="https://website.beacons.ai/techwemate"
-        class="product-button"
-      >
-        Get Instant Access
-      </a>
+      <section class="tw-section" aria-label="Featured digital guide">
+        <div class="product-content">
+          <div class="product-label">TECHWEMATE DIGITAL GUIDE</div>
 
-      <a
-        href="/ai-prompt-mastery"
-        class="product-link"
-      >
-        See What's Inside →
-      </a>
-    </div>
+          <h2>AI Prompt Mastery</h2>
 
-    <span class="product-note">
-      Instant digital access · PDF ebook · $19.97
-    </span>
-  </div>
-</li>
-					{
-						posts.map((post) => (
-							<li>
-								<a href={`/blog/${post.data.slug || post.id}/`}>
-									{post.data.coverImage && (
-										<Image width={720} height={360} src={post.data.coverImage.src} alt={post.data.coverImage.alt} />
-									)}
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-								</a>
-							</li>
-						))
-					}
-				</ul>
-			</section>
-		</main>
-		<Footer />
-	</body>
+          <p class="product-description">
+            The Practical Guide to Getting Better Results with AI.
+            Learn how to write clearer prompts, structure instructions,
+            improve AI responses, and apply practical prompting techniques
+            to everyday tasks.
+          </p>
+
+          <div class="product-actions">
+            <a
+              href="https://website.beacons.ai/techwemate"
+              class="product-button"
+            >
+              Get Instant Access
+            </a>
+
+            <a href="/ai-prompt-mastery" class="product-link">
+              See What's Inside →
+            </a>
+          </div>
+
+          <span class="product-note">
+            Instant digital access · PDF ebook · $19.97
+          </span>
+        </div>
+      </section>
+
+      <section class="tw-section">
+        <h2>All Articles</h2>
+
+        <div class="tw-article-grid">
+          {posts.map((post) => (
+            <article class="tw-article-card">
+              <a href={`/blog/${post.data.slug || post.id}/`}>
+                {post.data.coverImage && (
+                  <Image
+                    src={post.data.coverImage.src}
+                    alt={post.data.coverImage.alt}
+                    width={720}
+                    height={405}
+                  />
+                )}
+              </a>
+
+              <div class="tw-card-content">
+                <h3>
+                  <a href={`/blog/${post.data.slug || post.id}/`}>
+                    {post.data.title}
+                  </a>
+                </h3>
+
+                <p>{post.data.description}</p>
+
+                <p class="tw-article-date">
+                  <FormattedDate date={post.data.pubDate} />
+                </p>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    </main>
+
+    <Footer />
+  </body>
 </html>
+
+<style>
+  .tw-blog-intro {
+    padding: 48px 0 12px;
+    max-width: 850px;
+  }
+
+  .tw-eyebrow {
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+  }
+
+  .tw-blog-intro h1 {
+    font-size: clamp(36px, 5vw, 56px);
+    line-height: 1.15;
+    color: #0f172a;
+  }
+
+  .tw-blog-intro > p:last-child {
+    color: #64748b;
+    font-size: 18px;
+  }
+
+  .tw-article-date {
+    font-size: 13px;
+    color: #64748b;
+    margin-top: 18px;
+  }
+</style>

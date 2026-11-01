@@ -1,0 +1,179 @@
+
+/* TechWeMate — Modern Blog Redesign */
+
+:root {
+  --tw-primary: #2563eb;
+  --tw-primary-dark: #1d4ed8;
+  --tw-surface: #ffffff;
+  --tw-background: #f8fafc;
+  --tw-heading: #0f172a;
+  --tw-muted: #64748b;
+  --tw-border: #e2e8f0;
+}
+
+.tw-home {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.tw-hero {
+  padding: 72px 40px;
+  background: linear-gradient(135deg, #eff6ff, #f8fafc);
+  border: 1px solid var(--tw-border);
+  border-radius: 24px;
+  text-align: center;
+}
+
+.tw-hero h1 {
+  font-size: clamp(36px, 5vw, 64px);
+  line-height: 1.1;
+  color: var(--tw-heading);
+  margin-bottom: 24px;
+}
+
+.tw-hero p {
+  max-width: 720px;
+  margin: 0 auto 28px;
+  color: var(--tw-muted);
+  font-size: 18px;
+}
+
+.tw-button {
+  display: inline-block;
+  padding: 14px 28px;
+  background: var(--tw-primary);
+  color: #ffffff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.tw-button:hover {
+  background: var(--tw-primary-dark);
+  color: #ffffff;
+}
+
+.tw-section {
+  margin-top: 64px;
+}
+
+.tw-section h2 {
+  font-size: 32px;
+  color: var(--tw-heading);
+  margin-bottom: 28px;
+}
+
+.tw-article-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.tw-article-card {
+  overflow: hidden;
+  border: 1px solid var(--tw-border);
+  border-radius: 16px;
+  background: var(--tw-surface);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tw-article-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.1);
+}
+
+.tw-article-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.tw-card-content {
+  padding: 24px;
+}
+
+.tw-card-content h3 {
+  font-size: 21px;
+  line-height: 1.35;
+  color: var(--tw-heading);
+}
+
+.tw-card-content p {
+  font-size: 16px;
+  color: var(--tw-muted);
+}
+
+@media (max-width: 800px) {
+  .tw-article-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .tw-home {
+    padding: 24px 16px;
+  }
+
+  .tw-hero {
+    padding: 48px 20px;
+  }
+
+  .tw-article-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Improved article cards */
+
+.tw-card-content h3 {
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 14px;
+}
+
+.tw-card-content h3 a {
+  color: #0f172a;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.tw-card-content h3 a:hover {
+  color: #2563eb;
+}
+
+.tw-card-content p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #64748b;
+}
+
+.tw-article-card {
+  box-shadow: 0 4px 18px rgba(15, 23, 42, 0.04);
+}
+/* Prevent horizontal overflow */
+.tw-home {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 0;
+}
+
+.tw-article-grid {
+  width: 100%;
+  min-width: 0;
+}
+
+.tw-article-card {
+  min-width: 0;
+}
+
+.tw-card-content {
+  overflow-wrap: anywhere;
+}
+/* Fix AI Prompt Mastery title contrast */
+.tw-home .product-content h2 {
+  color: #ffffff;
+}

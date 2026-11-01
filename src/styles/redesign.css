@@ -173,3 +173,8 @@
 .tw-card-content {
   overflow-wrap: anywhere;
 }
+/* Improve text contrast on promotional cards */
+.tw-home .tw-promo h2,
+.tw-home .tw-promo h3 {
+  color: #ffffff;
+}

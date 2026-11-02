@@ -127,3 +127,7 @@ No, you can start as an individual or sole proprietor. As your automated sales i
 
 Building a sustainable online income system isn't about finding a shortcut; it's about setting up digital assets that deliver value continuously. Start with one core system—like a digital e-book or targeted affiliate content—master it, and then stack additional revenue streams on top.
 
+## Further Reading
+
+- [Pick Your Passive Income Stream](/blog/pick-your-passive-income-stream/)
+- [Step by Step: Creating Your First Digital Product That Sells](/blog/creating-your-first-digital-product/)

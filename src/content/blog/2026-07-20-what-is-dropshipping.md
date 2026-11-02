@@ -1,4 +1,4 @@
----
+﻿---
 title: "What Is Dropshipping?"
 slug: "what-is-dropshipping"
 description: "What is dropshipping and how does it actually work? A clear breakdown of the retail model that lets you sell without holding inventory."
@@ -14,7 +14,7 @@ coverImage:
   alt: "What Is Dropshipping?"
 ---
 
-Dropshipping is a retail business model where you sell products without holding any inventory. Here's how it works: when a customer orders from your online store, you purchase the item from a third-party supplier who then ships it directly to the customer. You never physically handle the product — you're essentially the middleman connecting customers with suppliers.
+Dropshipping is a retail business model where you [sell products without holding any inventory](/blog/start-dropshipping-0-inventory/). Here's how it works: when a customer orders from your online store, you purchase the item from a third-party supplier who then ships it directly to the customer. You never physically handle the product — you're essentially the middleman connecting customers with suppliers.
 
 **The basic flow:** A customer buys a product from your store for $50 → you purchase it from your supplier for $30 → the supplier ships directly to the customer → you keep the $20 difference as profit.
 

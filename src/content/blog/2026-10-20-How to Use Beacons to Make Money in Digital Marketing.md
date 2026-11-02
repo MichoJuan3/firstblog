@@ -202,3 +202,7 @@ Beacons is not a magic wand, but it is a very practical tool for anyone serious 
 The key is consistency: create good content, send people to your page, offer something of value, and improve every week. Start small, but start today.
 
 If you are ready to build your page, you can begin here: <https://beacons.ai/signup?c=techwemate>
+
+## Further Reading
+
+- [Affiliate Marketing vs Digital Products Which Makes More Money?](/blog/affiliate-marketing-vs-digital-products/)

@@ -57,3 +57,8 @@ Physical product margins vary widely by category, typically ranging from 20-50% 
 **Choose Physical Products If:** You enjoy hands-on creation and tangible results, have access to manufacturing or production capabilities, want to leverage retail and wholesale channels, have capital for inventory investment, or can build strong brand identity through physical design and packaging.
 
 **Hybrid Approach:** Many successful businesses combine both models—for example, a fitness brand might sell workout equipment (physical) alongside training programs (digital), or an artist might sell prints (physical) and online courses (digital). This diversification can provide stable revenue streams while maximizing profit potential across different customer preferences.
+
+## Further Reading
+
+- [How to Price Digital Products for Maximum Profit](/blog/pricing-digital-products/)
+- [How Digital Products Can Support a Path to Financial Freedom](/blog/how-digital-products-support-financial-freedom/)

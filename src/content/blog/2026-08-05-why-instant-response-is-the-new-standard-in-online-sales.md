@@ -132,3 +132,7 @@ This article expands on Episode 1 of **ContentProDigital**, the podcast for crea
 🎧 [**Listen to ContentProDigital on Amazon Music**](https://music.amazon.com/podcasts/57c949c7-6d38-4a19-8a70-d04c704bc768/contentprodigital-business-monetization-tech) — follow the show to get new episodes as soon as they drop, or listen hands-free with Alexa on iOS, Android, or any Echo device.
 
 🎧 [**Listen to ContentProDigital on Spotify**](https://open.spotify.com/show/0341G152od1CwrzT0Ibj4r)
+
+## Further Reading
+
+- [Step by Step: Creating Your First Digital Product That Sells](/blog/creating-your-first-digital-product/)

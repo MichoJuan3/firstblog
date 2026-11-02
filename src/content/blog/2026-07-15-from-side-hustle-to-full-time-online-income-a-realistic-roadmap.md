@@ -25,6 +25,7 @@ The biggest mistake people make is quitting their job too early. Your day job is
 **Validate your income stream for at least 6 to 12 months.** One good month doesn't mean you're ready. You need to see consistent revenue, understand your income fluctuations, and identify whether you have truly recurring income or one off spikes. Track everything: revenue, expenses, time invested, and profit margins.
 
 **Build your financial runway.** The standard advice is 6 months of expenses saved, but I'd push for 12 months if possible. Online income can be volatile, especially in the beginning. You'll also need startup capital for tools, advertising, and unexpected expenses. Don't forget to factor in health insurance, retirement contributions, and taxes, which are often higher when you're self employed.
+For a deeper look at managing money and building financial resilience, read our guide on [financial mindset for online entrepreneurs](/blog/entrepreneurs-financial-mindset/).
 
 **Test your systems under pressure.** Can you handle customer service issues while sick? What happens if your primary traffic source disappears? Do you have backup plans? The time to discover weak points in your business is while you still have a paycheck, not after.
 

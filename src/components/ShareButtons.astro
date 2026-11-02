@@ -1,0 +1,17 @@
+﻿---
+const url = Astro.url.href;
+const shareUrl = encodeURIComponent(url);
+const shareTitle = encodeURIComponent(Astro.props.title);
+---
+<nav class="share-links" aria-label="Share this article">
+  <span>Share this article:</span>
+  <a href={`https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`} target="_blank" rel="noopener noreferrer">Facebook</a>
+  <a href={`https://twitter.com/intent/tweet?url=${shareUrl}&text=${shareTitle}`} target="_blank" rel="noopener noreferrer">X</a>
+  <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}`} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+</nav>
+<style>
+.share-links { display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin:1.5rem 0; }
+.share-links span { font-weight:700; }
+.share-links a { padding:8px 14px; border:1px solid #d8e1eb; border-radius:8px; text-decoration:none; font-weight:600; }
+.share-links a:hover { background:#eaf3ff; }
+</style>

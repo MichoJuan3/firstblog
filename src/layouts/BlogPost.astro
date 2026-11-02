@@ -1,4 +1,4 @@
----
+﻿---
 import type { CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
@@ -6,6 +6,8 @@ import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import { Image } from 'astro:assets';
 import FacebookEmbed from '../components/FacebookEmbed.astro';
+import ShareButtons from '../components/ShareButtons.astro';
+import AuthorBio from '../components/AuthorBio.astro';
 
 type Props = CollectionEntry<'blog'>['data'] & {
   relatedPosts?: {
@@ -143,6 +145,7 @@ Last updated on <FormattedDate date={updatedDate} />
 <hr />
 </div>
 
+<ShareButtons title={title} />
 <div class="affiliate-disclosure">
 <strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you purchase through our links, we may earn a commission at no additional cost to you. Our recommendations are based on our own research and analysis.
 </div>
@@ -161,6 +164,7 @@ Last updated on <FormattedDate date={updatedDate} />
   </section>
 )}
 
+<AuthorBio />
 <FacebookEmbed />
 </div>
 </article>
@@ -169,6 +173,7 @@ Last updated on <FormattedDate date={updatedDate} />
 <Footer />
 </body>
 </html>
+
 
 
 

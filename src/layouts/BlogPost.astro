@@ -7,14 +7,50 @@ import Header from '../components/Header.astro';
 import { Image } from 'astro:assets';
 import FacebookEmbed from '../components/FacebookEmbed.astro';
 
-type Props = CollectionEntry<'blog'>['data'];
+type Props = CollectionEntry<'blog'>['data'] & {
+  relatedPosts?: {
+    title: string;
+    url: string;
+    score: number;
+  }[];
+};
 
-const { title, description, pubDate, updatedDate, coverImage } = Astro.props;
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  coverImage,
+  relatedPosts = [],
+  author,
+} = Astro.props;
 ---
 
 <html lang="en">
 <head>
-<BaseHead title={title} description={description} />
+<BaseHead title={title} description={description} image={coverImage?.src?.src} />
+
+<script
+  type="application/ld+json"
+  set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: title,
+    description,
+    mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).href,
+    datePublished: new Date(pubDate).toISOString(),
+    dateModified: new Date(updatedDate ?? pubDate).toISOString(),
+    ...(author ? { author: { "@type": "Person", name: author } } : {}),
+    ...(coverImage?.src?.src
+      ? { image: new URL(coverImage.src.src, Astro.site).href }
+      : {}),
+    publisher: {
+      "@type": "Organization",
+      name: "TechWeMate",
+      url: "https://techwemate.com"
+    }
+  })}
+/>
 <style>
 main {
 width: calc(100% - 2em);
@@ -112,6 +148,18 @@ Last updated on <FormattedDate date={updatedDate} />
 </div>
 
 <slot />
+{relatedPosts.length > 0 && (
+  <section class="related-articles" aria-labelledby="related-title">
+    <h2 id="related-title">Related Articles</h2>
+    <ul>
+      {relatedPosts.map((post) => (
+        <li>
+          <a href={post.url}>{post.title}</a>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}
 
 <FacebookEmbed />
 </div>

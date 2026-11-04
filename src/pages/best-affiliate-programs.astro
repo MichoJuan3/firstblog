@@ -1,0 +1,132 @@
+
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const programs = [
+  {
+    name: 'Printify',
+    category: 'Print on Demand',
+    description: 'Promote a platform that helps entrepreneurs create and sell custom products without holding inventory.',
+    url: 'https://try.printify.com/',
+  },
+  {
+    name: 'Upwork',
+    category: 'Freelance Marketplace',
+    description: 'Help businesses discover freelance professionals for projects and ongoing work.',
+    url: 'https://www.upwork.com/',
+  },
+  {
+    name: 'Deel',
+    category: 'Global HR & Payroll',
+    description: 'Explore tools for international hiring, contractor management, and global workforce operations.',
+    url: 'https://www.deel.com/',
+  },
+];
+
+---
+
+<html lang="en">
+  <head>
+    <BaseHead
+      title="Best Affiliate Programs | TechWeMate"
+      description="Explore affiliate programs and digital platforms for content creators, marketers, and online entrepreneurs."
+    />
+  </head>
+  <body>
+    <Header />
+    <main class="affiliate-page">
+      <h1>Best Affiliate Programs to Explore</h1>
+      <p class="intro">
+        Discover platforms and affiliate opportunities for creators,
+        marketers, freelancers, and online entrepreneurs.
+      </p>
+
+      <div class="disclosure">
+        Affiliate disclosure: Some links on this page may earn
+        TechWeMate a commission at no additional cost to you.
+      </div>
+
+      <div class="program-grid">
+        {programs.map((program) => (
+          <article class="program-card">
+            <span class="category">{program.category}</span>
+            <h2>{program.name}</h2>
+            <p>{program.description}</p>
+            <a href={program.url} target="_blank" rel="noopener noreferrer sponsored">
+              Explore Program →
+            </a>
+          </article>
+        ))}
+      </div>
+
+      <p class="note">
+        Program eligibility, commissions, and availability may change.
+        Always review the official terms before applying.
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  .affiliate-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 64px 24px;
+  }
+  h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+  .intro {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    max-width: 760px;
+    color: #526071;
+  }
+  .disclosure {
+    padding: 16px 20px;
+    margin: 32px 0;
+    border-radius: 10px;
+    background: #f1f5f9;
+    color: #334155;
+  }
+  .program-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+  }
+  .program-card {
+    padding: 28px;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    background: #fff;
+  }
+  .category {
+    font-size: .8rem;
+    font-weight: 700;
+    color: #2563eb;
+  }
+  .program-card h2 {
+    margin: 14px 0;
+    font-size: 1.5rem;
+  }
+  .program-card p {
+    line-height: 1.7;
+    color: #475569;
+  }
+  .program-card a {
+    display: inline-block;
+    margin-top: 16px;
+    color: #1d4ed8;
+    font-weight: 700;
+  }
+  .note {
+    margin-top: 36px;
+    color: #64748b;
+    font-size: .9rem;
+  }
+</style>

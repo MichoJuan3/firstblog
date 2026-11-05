@@ -1,4 +1,5 @@
----
+﻿---
+import CookieConsent from '../components/CookieConsent.astro';
 const ORDER_FORM_URL = "https://website.beacons.ai/techwemate";
 
 const benefits = [
@@ -21,22 +22,7 @@ const audiences = [
 <!doctype html>
 <html lang="en">
   <head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1006823992160276" crossorigin="anonymous"></script>
-<!-- Google Tag Manager -->
-<script is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TWPHVPLG');</script>
-<!-- End Google Tag Manager -->
-<!-- Monetag: Magnificent tag (Vignette Banner, zone 11669033) -->
-<script is:inline>
-  (function(s){s.dataset.zone='11669033',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))
-</script>
-    <!-- Monetag: Good tag (In-Page Push, zone 11676453) -->
-    <script is:inline>
-      (function(s){s.dataset.zone='11676453',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')));
-    </script>
+<script is:inline>(function(){try{if(localStorage.getItem("techwemate-consent")!=="accepted")return;}catch(e){return;}function load(url,zone){const s=document.createElement("script");s.async=true;s.src=url;if(zone)s.dataset.zone=zone;document.head.appendChild(s);}window.dataLayer=window.dataLayer||[];window.dataLayer.push({"gtm.start":Date.now(),event:"gtm.js"});load("https://www.googletagmanager.com/gtm.js?id=GTM-TWPHVPLG");load("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1006823992160276");load("https://n6wxm.com/vignette.min.js","11669033");load("https://nap5k.com/tag.min.js","11676453");})();</script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -576,9 +562,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </head>
 
   <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWPHVPLG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    
 <div class="page">
 
       <!-- NAVIGATION -->
@@ -629,7 +613,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
 
             <div class="price-note">
-              Instant digital access • PDF ebook
+              Instant digital access â€¢ PDF ebook
             </div>
           </div>
 
@@ -641,7 +625,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <p>Better instructions. Better results.</p>
 
               <div class="prompt-line">
-                Clear instructions → focused AI response → more useful results
+                Clear instructions â†’ focused AI response â†’ more useful results
               </div>
 
               <div class="prompt-line">
@@ -660,7 +644,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="section-label">The Problem</div>
 
           <h2>
-            AI can be powerful — but your results depend on how you communicate with it.
+            AI can be powerful â€” but your results depend on how you communicate with it.
           </h2>
 
           <p class="section-intro">
@@ -718,7 +702,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             {
               benefits.map((benefit) => (
                 <div class="benefit">
-                  <span class="check">✓</span>
+                  <span class="check">âœ“</span>
                   <span>{benefit}</span>
                 </div>
               ))
@@ -804,7 +788,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             {
               audiences.map((audience) => (
                 <div class="audience-item">
-                  ✓ {audience}
+                  âœ“ {audience}
                 </div>
               ))
             }
@@ -829,7 +813,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </p>
 
           <div class="cta-price">
-            One-time purchase • Digital PDF ebook
+            One-time purchase â€¢ Digital PDF ebook
           </div>
 
           <a
@@ -847,7 +831,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="footer-brand">TECHWEMATE</div>
 
         <div>
-          Learn · Build · Grow
+          Learn Â· Build Â· Grow
         </div>
 
         <div style="margin-top: 8px;">
@@ -863,11 +847,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
 
         <div style="margin-top: 15px;">
-          © {new Date().getFullYear()} TechWeMate. All rights reserved.
+          Â© {new Date().getFullYear()} TechWeMate. All rights reserved.
         </div>
       </footer>
 
     </div>
-  </body>
+    <CookieConsent />
+</body>
 </html>
+
+
 

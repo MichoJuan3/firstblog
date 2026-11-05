@@ -1,0 +1,28 @@
+﻿<script is:inline>
+  (function () {
+    function loadImpact() {
+      if (window.impactPublisherLoaded) return;
+      window.impactPublisherLoaded = true;
+
+      window.ire_o = 'impactStat';
+      window.impactStat = window.impactStat || function () {
+        (window.impactStat.a = window.impactStat.a || []).push(arguments);
+      };
+
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://utt.impactcdn.com/P-A7615596-b335-440b-8274-4f8e8b0f24be1.js';
+      document.head.appendChild(script);
+
+      window.impactStat('trackImpression');
+    }
+
+    try {
+      if (localStorage.getItem('techwemate-consent') === 'accepted') {
+        loadImpact();
+      }
+    } catch (error) {
+      console.warn('Impact consent unavailable');
+    }
+  })();
+</script>

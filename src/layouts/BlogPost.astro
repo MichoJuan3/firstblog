@@ -1,6 +1,7 @@
 ﻿---
 import type { CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
+import CookieConsent from '../components/CookieConsent.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
@@ -171,8 +172,10 @@ Last updated on <FormattedDate date={updatedDate} />
 </main>
 
 <Footer />
+  <CookieConsent />
 </body>
 </html>
+
 
 
 

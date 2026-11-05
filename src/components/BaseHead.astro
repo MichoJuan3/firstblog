@@ -1,5 +1,6 @@
----
+﻿---
 import '../styles/global.css';
+import ImpactPublisherTag from './ImpactPublisherTag.astro';
 import { SITE_TITLE } from '../consts.ts';
 import { Font } from 'astro:assets';
 interface Props {
@@ -11,18 +12,8 @@ interface Props {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 ---
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1006823992160276"
-     crossorigin="anonymous"></script>
-<!-- Google Tag Manager -->
-<script is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TWPHVPLG');</script>
-<meta name="msvalidate.01" content="4B19D293E3626B8ACC7A17648354ABD2" />
-<meta name='impact-site-verification' content='b70ad17f-6087-4d16-9bbf-6ff709ffab09'>
-<meta name='impact-site-verification' content='5dd19409-ad16-49b9-a3e1-73329caa6982'>
-<!-- End Google Tag Manager -->
+
+
 <!-- Payhip -->
 <script type="text/javascript" src="https://payhip.com/payhip.js"></script>
 
@@ -63,19 +54,44 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
 
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MH982HE35Z"></script>
-<script is:inline>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-MH982HE35Z');
-</script>
 
 
 <!-- Monetag: Good tag (In-Page Push, zone 11676453) -->
 
 
 <!-- Monetag Vignette Banner temporarily disabled for testing -->
+
+
+<!-- Optional Google tracking: load only after consent -->
+<script is:inline>
+(function () {
+  if (localStorage.getItem('techwemate-consent') !== 'accepted') return;
+
+  function loadScript(url, attributes = {}) {
+    const s = document.createElement('script');
+    s.async = true;
+    s.src = url;
+    Object.entries(attributes).forEach(([k, v]) => s.setAttribute(k, v));
+    document.head.appendChild(s);
+  }
+
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { window.dataLayer.push(arguments); };
+  window.gtag('js', new Date());
+  window.gtag('config', 'G-MH982HE35Z');
+
+  loadScript('https://www.googletagmanager.com/gtag/js?id=G-MH982HE35Z');
+
+  window.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
+  loadScript('https://www.googletagmanager.com/gtm.js?id=GTM-TWPHVPLG');
+
+  loadScript(
+    'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1006823992160276',
+    { crossorigin: 'anonymous' }
+  );
+})();
+</script>
+<ImpactPublisherTag />
+
 

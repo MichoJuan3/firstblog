@@ -1,5 +1,7 @@
 {
-  "public": {},
+  "public": {
+    "images": {}
+  },
   "src": {
     "assets": {},
     "content": {

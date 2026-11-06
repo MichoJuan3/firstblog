@@ -13,8 +13,26 @@ type Props = CollectionEntry<'blog'>;
 
 const post = Astro.props;
 const { Content } = await render(post);
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+
+const getTags = (entry: CollectionEntry<'blog'>) =>
+  (entry.data.tags ?? []).map((tag) => tag.toLowerCase().trim());
+
+const currentTags = getTags(post);
+
+const relatedPosts = allPosts
+  .filter((entry) => entry.id !== post.id)
+  .map((entry) => ({
+    title: entry.data.title,
+    url: `/blog/${encodeURI(entry.data.slug || entry.id)}/`,
+    score: getTags(entry).filter((tag) => currentTags.includes(tag)).length,
+  }))
+  .filter((entry) => entry.score > 0)
+  .sort((a, b) => b.score - a.score || a.title.localeCompare(b.title))
+  .slice(0, 3);
 ---
 
-<BlogPost {...post.data}>
+<BlogPost {...post.data} relatedPosts={relatedPosts}>
 	<Content />
 </BlogPost>

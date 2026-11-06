@@ -1,0 +1,24 @@
+--- original/2026-07-20-8-costly-dropshipping-mistakes-&-how to-fix-them.md
++++ preview/2026-07-20-8-costly-dropshipping-mistakes-&-how to-fix-them.md
+@@ -78,7 +78,7 @@
+ 
+ By the time you see a product advertised everywhere, spot it in multiple Facebook groups, and notice five competitors selling it, the profit opportunity has already passed.
+ 
+-"Winning products" become losing products the moment everyone jumps on them. You end up competing purely on price, margins collapse, and the only way to stand out is spending more on ads than the product is worth.
++["Winning products"](/blog/find-winning-products-free-tools/) become losing products the moment everyone jumps on them. You end up competing purely on price, margins collapse, and the only way to stand out is spending more on ads than the product is worth.
+ 
+ **What to do instead:** Look for products in growing niches before they're saturated. Use trend forecasting rather than trend following. Find products with 3-5 competitors, not 300. Be willing to test products that don't have viral validation—sometimes the best opportunities are the ones everyone else is overlooking.
+ 
+
+
+--- original/2026-07-20-what-is-dropshipping.md
++++ preview/2026-07-20-what-is-dropshipping.md
+@@ -14,7 +14,7 @@
+   alt: "What Is Dropshipping?"
+ ---
+ 
+-Dropshipping is a retail business model where you sell products without holding any inventory. Here's how it works: when a customer orders from your online store, you purchase the item from a third-party supplier who then ships it directly to the customer. You never physically handle the product — you're essentially the middleman connecting customers with suppliers.
++Dropshipping is a retail business model where you [sell products without holding any inventory](/blog/start-dropshipping-0-inventory/). Here's how it works: when a customer orders from your online store, you purchase the item from a third-party supplier who then ships it directly to the customer. You never physically handle the product — you're essentially the middleman connecting customers with suppliers.
+ 
+ **The basic flow:** A customer buys a product from your store for $50 → you purchase it from your supplier for $30 → the supplier ships directly to the customer → you keep the $20 difference as profit.
+ 

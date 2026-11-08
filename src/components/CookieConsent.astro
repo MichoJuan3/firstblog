@@ -1,4 +1,4 @@
-﻿<div id="cookie-banner" hidden>
+<div id="cookie-banner" hidden>
   <p>
     We use optional cookies and tracking technologies
     for analytics, advertising, and affiliate attribution.
@@ -32,9 +32,16 @@
   }
 </style>
 
+
 <script is:inline>
-  const banner = document.getElementById('cookie-banner');
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+
   const savedConsent = localStorage.getItem('techwemate-consent');
+
+  const banner = document.getElementById('cookie-banner');
 
   if (!savedConsent) {
     banner.hidden = false;
@@ -42,12 +49,24 @@
 
   document.getElementById('cookie-accept').addEventListener('click', () => {
     localStorage.setItem('techwemate-consent', 'accepted');
+    gtag('consent', 'update', {
+      analytics_storage: 'granted',
+      ad_storage: 'granted',
+      ad_user_data: 'granted',
+      ad_personalization: 'granted'
+    });
     banner.hidden = true;
     window.location.reload();
   });
 
   document.getElementById('cookie-reject').addEventListener('click', () => {
     localStorage.setItem('techwemate-consent', 'rejected');
+    gtag('consent', 'update', {
+      analytics_storage: 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied'
+    });
     banner.hidden = true;
     window.location.reload();
   });

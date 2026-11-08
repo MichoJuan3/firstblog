@@ -1,4 +1,4 @@
-﻿---
+---
 import '../styles/global.css';
 import ImpactPublisherTag from './ImpactPublisherTag.astro';
 import { SITE_TITLE } from '../consts.ts';
@@ -66,7 +66,25 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 <!-- Optional Google tracking: load only after consent -->
 <script is:inline>
 (function () {
-  if (localStorage.getItem('techwemate-consent') !== 'accepted') return;
+  window.dataLayer = window.dataLayer || [];
+
+  window.gtag = function () {
+    window.dataLayer.push(arguments);
+  };
+
+  const accepted =
+    localStorage.getItem('techwemate-consent') === 'accepted';
+
+  window.gtag('consent', 'default', {
+    analytics_storage: accepted ? 'granted' : 'denied',
+    ad_storage: accepted ? 'granted' : 'denied',
+    ad_user_data: accepted ? 'granted' : 'denied',
+    ad_personalization: accepted ? 'granted' : 'denied',
+    functionality_storage: 'granted',
+    security_storage: 'granted'
+  });
+
+  if (!accepted) return;
 
   function loadScript(url, attributes = {}) {
     const s = document.createElement('script');
@@ -76,8 +94,6 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
     document.head.appendChild(s);
   }
 
-  window.dataLayer = window.dataLayer || [];
-  window.gtag = function () { window.dataLayer.push(arguments); };
   window.gtag('js', new Date());
   window.gtag('config', 'G-E4XG19JJN5');
 

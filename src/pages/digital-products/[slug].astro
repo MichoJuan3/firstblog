@@ -56,6 +56,18 @@ const { product } = Astro.props;
         </p>
       </section>
     </main>
+
+<script is:inline src="https://www.digistore24-scripts.com/service/digistore.js"></script>
+
+<script
+  is:inline
+  set:html={`digistorePromocode({
+    product_id: ${product.digistoreId},
+    adjust_domain: true
+  });`}
+/>
+
+
   </body>
 </html>
 

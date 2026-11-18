@@ -6,6 +6,7 @@ export interface DigitalProduct {
   category: string;
   price: string;
   checkoutUrl: string;
+  digistoreId?: number;
 }
 
 export const products: DigitalProduct[] = [
@@ -16,6 +17,7 @@ export const products: DigitalProduct[] = [
       "A practical 6-in-1 digital bundle designed to improve productivity, planning, and time management.",
     category: "Productivity",
     price: "$19.99",
-    checkoutUrl: "",
+    checkoutUrl: "https://www.digistore24.com/product/768414",
+    digistoreId: 768414,
   },
 ];

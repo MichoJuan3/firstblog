@@ -1,0 +1,134 @@
+
+---
+import { products } from "../../data/products";
+
+export function getStaticPaths() {
+  return products.map((product) => ({
+    params: { slug: product.slug },
+    props: { product },
+  }));
+}
+
+const { product } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{product.title} | TechWeMate</title>
+    <meta name="description" content={product.description} />
+  </head>
+
+  <body>
+    <main class="container">
+      <a href="/digital-products/" class="back">
+        ← All Digital Products
+      </a>
+
+      <div class="category">{product.category}</div>
+      <h1>{product.title}</h1>
+      <p class="description">{product.description}</p>
+
+      <div class="purchase">
+        <p class="price">{product.price}</p>
+
+        {
+          product.checkoutUrl ? (
+            <a class="button" href={product.checkoutUrl}>
+              Buy Now
+            </a>
+          ) : (
+            <p class="pending">Checkout coming soon</p>
+          )
+        }
+
+        <p class="secure">Secure checkout via Digistore24</p>
+      </div>
+
+      <section>
+        <h2>About This Digital Product</h2>
+        <p>{product.description}</p>
+        <p>
+          Digital delivery instructions will be provided
+          after a successful purchase.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
+
+<style>
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: #0b1220;
+    color: #f8fafc;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    max-width: 850px;
+    margin: 60px auto;
+    padding: 30px 24px;
+  }
+
+  .back {
+    color: #60a5fa;
+    text-decoration: none;
+  }
+
+  .category {
+    color: #93c5fd;
+    margin-top: 55px;
+  }
+
+  h1 {
+    font-size: clamp(32px, 5vw, 48px);
+  }
+
+  .description {
+    color: #cbd5e1;
+    font-size: 20px;
+    line-height: 1.7;
+  }
+
+  .purchase, section {
+    margin-top: 32px;
+    padding: 30px;
+    background: #172338;
+    border: 1px solid #334155;
+    border-radius: 16px;
+  }
+
+  .price {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 16px 34px;
+    background: #2563eb;
+    color: white;
+    border-radius: 9px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .pending {
+    color: #fbbf24;
+  }
+
+  .secure {
+    color: #94a3b8;
+    font-size: 14px;
+  }
+
+  section p {
+    color: #cbd5e1;
+    line-height: 1.7;
+  }
+</style>

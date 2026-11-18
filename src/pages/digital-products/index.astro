@@ -1,15 +1,7 @@
 
 ---
-const products = [
-  {
-    title: "The Entrepreneur's Time System",
-    description: "A practical 6-in-1 digital bundle to improve productivity, planning, and time management.",
-    category: "Productivity",
-    url: "/digital-products/entrepreneurs-time-system/",
-  },
-];
+import { products } from "../../data/products";
 ---
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -35,7 +27,7 @@ const products = [
             <span>{product.category}</span>
             <h2>{product.title}</h2>
             <p>{product.description}</p>
-            <a href={product.url}>Explore Product →</a>
+            <a href={`/digital-products/${product.slug}/`}>Explore Product →</a>
           </article>
         ))}
       </section>
